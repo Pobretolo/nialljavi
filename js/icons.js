@@ -139,6 +139,12 @@ const ICONS = {
       <path d="M12 17v4M9 21h6"/>
     </svg>`,
 
+  // Anillo — para la calificación de interés en "Tengo coche"
+  ring: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8">
+      <circle cx="12" cy="12" r="7.5"/>
+    </svg>`,
+
   // Pasaporte del París-Dakar — cunca de viño
   wineCup: () => `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">

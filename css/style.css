@@ -456,6 +456,21 @@ p { margin: 0 0 1em; }
   margin: 32px auto 0;
 }
 
+.rings-rating {
+  display: flex;
+  gap: 4px;
+  margin: 6px 0 12px;
+}
+
+.ring-icon {
+  display: inline-flex;
+  color: rgba(38, 46, 39, 0.18);
+}
+
+.ring-icon svg { width: 15px; height: 15px; }
+
+.ring-icon.filled { color: var(--gold); }
+
 .divider {
   width: 60px;
   height: 1px;

@@ -84,9 +84,10 @@ const UI_TEXT = {
 
   page_coche_title: { es: "¡Tengo coche!", en: "I have a car!" },
   page_coche_sub: {
-    es: "Si te apetece alquilar un coche y salir de la ciudad, estas son nuestras recomendaciones por Galicia y A Coruña.",
-    en: "If you fancy renting a car and heading out of the city, here are our recommendations around Galicia and A Coruña."
+    es: "Si te apetece alquilar un coche y salir de la ciudad, estas son nuestras recomendaciones por Galicia y A Coruña. Los anillos indican lo imprescindible que nos parece cada sitio si es tu primera vez en Galicia.",
+    en: "If you fancy renting a car and heading out of the city, here are our recommendations around Galicia and A Coruña. The rings show how essential each place feels if it's your first time in Galicia."
   },
+  coche_rating_label: { es: "Interés para tu primera vez en Galicia", en: "Interest for your first time in Galicia" },
   coche_distance: { es: "Distancia desde Santiago", en: "Distance from Santiago" },
 
   page_salir_title: { es: "¿Por dónde salir?", en: "Nightlife guide" },

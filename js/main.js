@@ -18,14 +18,21 @@ function renderTengoCoche() {
   const wrap = document.getElementById("tengo-coche-list");
   if (!wrap) return;
   const lang = getLang();
-  wrap.innerHTML = TENGO_COCHE_ITEMS.map((item) => `
+  wrap.innerHTML = TENGO_COCHE_ITEMS.map((item) => {
+    const rating = item.rating || 0;
+    const ringsHtml = Array.from({ length: 5 }).map((_, i) => `
+      <span class="ring-icon ${i < rating ? "filled" : ""}">${ICONS.ring()}</span>
+    `).join("");
+    return `
     <div class="card">
       ${item.image ? `<img src="${item.image}" alt="${item.title[lang]}" style="border-radius:4px;margin-bottom:16px;aspect-ratio:4/3;object-fit:cover;">` : ""}
       <h3>${item.title[lang]}</h3>
+      <div class="rings-rating" title="${UI_TEXT.coche_rating_label[lang]}: ${rating}/5">${ringsHtml}</div>
       <span class="tag" style="color:var(--rust);border-color:var(--rust)">${item.distance[lang]}</span>
       <p style="margin-top:12px;">${item.description[lang]}</p>
     </div>
-  `).join("");
+  `;
+  }).join("");
 }
 
 function renderComer() {
