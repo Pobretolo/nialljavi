@@ -156,6 +156,22 @@ p { margin: 0 0 1em; }
   flex-shrink: 0;
 }
 
+/* Hamburger button — hidden on desktop, shown only on mobile */
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--parchment);
+  cursor: pointer;
+  padding: 8px;
+  order: 3;
+}
+
+.nav-toggle svg { width: 24px; height: 24px; display: block; }
+.nav-toggle .icon-close { display: none; }
+.nav-toggle.open .icon-menu { display: none; }
+.nav-toggle.open .icon-close { display: block; }
+
 .lang-toggle button {
   background: transparent;
   border: none;
@@ -593,8 +609,37 @@ html[lang="es"] [data-i18n-lang="en"] { display: none; }
 
 @media (max-width: 640px) {
   .topnav-inner { flex-wrap: wrap; padding: 12px 16px; }
-  .nav-links { order: 3; width: 100%; justify-content: flex-start; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
-  .nav-links a { padding: 10px 12px; }
+
+  .nav-toggle { display: block; }
+
+  .nav-links {
+    display: none;
+    order: 4;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    background: var(--stone-dark);
+    border-top: 1px solid var(--line);
+    margin-top: 12px;
+    padding-top: 6px;
+    max-height: 65vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav-links.mobile-open { display: flex; }
+
+  .nav-links a {
+    padding: 15px 8px;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.92rem;
+    opacity: 0.85;
+  }
+
+  .nav-links a:last-child { border-bottom: none; }
+  .nav-links a:hover { background: rgba(242,234,212,0.05); }
+  .nav-links a.active { opacity: 1; }
+
   .hero { padding: 56px 18px 44px; }
   .section { padding: 48px 18px; }
   .container { padding: 0 18px; }

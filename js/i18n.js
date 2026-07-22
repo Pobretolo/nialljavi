@@ -182,4 +182,28 @@ function initLangToggle() {
   applyLang();
 }
 
-document.addEventListener("DOMContentLoaded", initLangToggle);
+function initNavToggle() {
+  const btn = document.getElementById("nav-toggle");
+  const links = document.getElementById("nav-links");
+  if (!btn || !links) return;
+
+  btn.addEventListener("click", () => {
+    const isOpen = links.classList.toggle("mobile-open");
+    btn.classList.toggle("open", isOpen);
+    btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  // Close the dropdown if the viewport is resized back to desktop width
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 640 && links.classList.contains("mobile-open")) {
+      links.classList.remove("mobile-open");
+      btn.classList.remove("open");
+      btn.setAttribute("aria-expanded", "false");
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  initLangToggle();
+  initNavToggle();
+});
