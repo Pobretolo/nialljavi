@@ -44,6 +44,36 @@ en cada uno. Si dejas `lat`/`lng` en `null`, ese reto seguirá funcionando
 pero aparecerá siempre al final de la lista (el juego no sabrá lo cerca
 que está de nadie hasta que le des sus coordenadas).
 
+## Cómo añadir fotos a los locales de "¿Por dónde salir?"
+
+No hemos podido incrustar fotos automáticas de Google en las tarjetas de
+los bares (son fotos con derechos de terceros, igual que ya hablamos con
+las fotos de los sitios del Foto Explorer). En su lugar, cada local tiene
+un campo `image` en `js/data.js`, vacío por defecto, listo para que subáis
+vosotros una foto propia si queréis. El proceso es idéntico al del Foto
+Explorer:
+
+1. Consigue una foto del local (una vuestra, o una que tengáis derecho a
+   usar — por ejemplo, si el propio bar os la cede).
+2. Súbela a [imgur.com](https://imgur.com) (no hace falta cuenta).
+3. Ábrela a pantalla completa, botón derecho sobre la imagen →
+   "Copiar dirección de la imagen" (Copy image address).
+4. El enlace debe empezar por `https://i.imgur.com/` y terminar en
+   `.jpeg`, `.jpg` o `.png` — el enlace normal `https://imgur.com/...` de
+   la página **no funciona** como imagen.
+5. Abre `js/data.js`, busca el local por su `name`, y pega ese enlace en
+   su campo `image`, por ejemplo:
+   ```js
+   name: "Casa das Crechas",
+   music: "celta",
+   tapa: false,
+   gay: false,
+   image: "https://i.imgur.com/XXXXX.jpeg",
+   ```
+6. Si dejas `image: ""` (vacío), la tarjeta se muestra igual de bien, solo
+   que sin foto — no hace falta rellenarlas todas de golpe, podéis ir
+   añadiéndolas poco a poco.
+
 - El programa de las **Fiestas del Apóstol** ya está relleno con el
   calendario oficial 2026 (22-31 de julio). Si hay cambios de última hora,
   revisa santiagoturismo.com y actualiza el bloque `FIESTAS_ITEMS`.

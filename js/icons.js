@@ -124,6 +124,21 @@ const ICONS = {
       <path d="M5 4h3.2l1.3 4.3-2 1.6a11 11 0 006.6 6.6l1.6-2 4.3 1.3V19a2 2 0 01-2.2 2A16 16 0 015 6.2 2 2 0 015 4z"/>
     </svg>`,
 
+  // Irlandés — trébol
+  shamrock: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 8c0-2.2-1.8-4-4-4S4 5.8 4 8s1.8 4 4 4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4c0 2.2 1.8 4 4 4s4-1.8 4-4-1.8-4-4-4c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4z"/>
+      <path d="M12 12v9"/>
+    </svg>`,
+
+  // Música en directo — micrófono
+  mic: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="9" y="2" width="6" height="11" rx="3"/>
+      <path d="M5 10a7 7 0 0014 0"/>
+      <path d="M12 17v4M9 21h6"/>
+    </svg>`,
+
   // Pasaporte del París-Dakar — cunca de viño
   wineCup: () => `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">

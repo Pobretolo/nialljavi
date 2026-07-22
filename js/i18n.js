@@ -97,6 +97,8 @@ const UI_TEXT = {
   salir_filter_music: { es: "Música", en: "Music" },
   salir_filter_tapa: { es: "Tapa con la bebida", en: "Tapa with your drink" },
   salir_filter_gay: { es: "Gay friendly", en: "Gay friendly" },
+  salir_filter_irish: { es: "Irlandés", en: "Irish" },
+  salir_filter_live: { es: "Música en directo", en: "Live music" },
   salir_filter_all: { es: "Todos", en: "All" },
   salir_music_celta: { es: "Celta / Folk", en: "Celtic / Folk" },
   salir_music_moderna: { es: "Moderna", en: "Modern" },
@@ -116,8 +118,8 @@ const UI_TEXT = {
 
   page_fiestas_title: { es: "Fiestas del Apóstol 2026", en: "Fiestas del Apóstol 2026" },
   page_fiestas_sub: {
-    es: "El programa oficial de las fiestas patronales de Santiago, del 22 al 31 de julio de 2026 — justo los días antes de la boda, incluyendo los Atardecer no Gaiás. La víspera, 31 de julio, es el cierre de fiestas. Esta lista se actualiza sola: las citas que ya han pasado desaparecen automáticamente.",
-    en: "The official program for Santiago's patron saint festivities, July 22–31, 2026 — right in the days before the wedding, including the Atardecer no Gaiás sunset concerts. July 31 is the closing night. This list updates itself: past dates disappear automatically."
+    es: "El programa oficial de las fiestas patronales de Santiago, del 22 al 31 de julio de 2026 — justo los días antes de la boda, incluyendo los Atardecer no Gaiás. La víspera, 31 de julio, es el cierre de fiestas. Cubrimos como máximo hasta el 5 de agosto, por si os quedáis unos días más después de la boda (no hemos encontrado otros grandes eventos confirmados en la ciudad para esas fechas). Esta lista se actualiza sola: las citas que ya han pasado desaparecen automáticamente.",
+    en: "The official program for Santiago's patron saint festivities, July 22–31, 2026 — right in the days before the wedding, including the Atardecer no Gaiás sunset concerts. July 31 is the closing night. We cover up to August 5 at most, in case you're staying a few extra days after the wedding (we didn't find other major confirmed events in the city for those dates). This list updates itself: past dates disappear automatically."
   },
   fiestas_wedding_eve: { es: "Víspera de la boda", en: "Night before the wedding" },
   fiestas_all_past: {

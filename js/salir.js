@@ -1,6 +1,6 @@
 /* Filtro de la guía nocturna */
 
-let salirFilters = { music: "all", tapa: false, gay: false };
+let salirFilters = { music: "all", tapa: false, gay: false, irish: false, liveMusic: false };
 
 function renderSalir() {
   const wrap = document.getElementById("salir-list");
@@ -11,6 +11,8 @@ function renderSalir() {
     if (salirFilters.music !== "all" && item.music !== salirFilters.music) return false;
     if (salirFilters.tapa && !item.tapa) return false;
     if (salirFilters.gay && !item.gay) return false;
+    if (salirFilters.irish && !item.irish) return false;
+    if (salirFilters.liveMusic && !item.liveMusic) return false;
     return true;
   });
 
@@ -24,11 +26,14 @@ function renderSalir() {
 
   wrap.innerHTML = filtered.map((item) => `
     <div class="card">
+      ${item.image ? `<img src="${item.image}" alt="${item.name}" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;margin-bottom:14px;">` : ""}
       <h3>${item.name}</h3>
       <div style="margin-bottom:12px;display:flex;flex-wrap:wrap;gap:8px;">
         <span class="tag icon-tag" style="color:var(--moss);border-color:var(--moss)">${musicIcon[item.music]()}${musicLabel[item.music][lang]}</span>
         ${item.tapa ? `<span class="tag icon-tag" style="color:var(--rust);border-color:var(--rust)">${ICONS.fork()}${UI_TEXT.salir_filter_tapa[lang]}</span>` : ""}
         ${item.gay ? `<span class="tag icon-tag" style="color:var(--gold);border-color:var(--gold)">${ICONS.rainbow()}${UI_TEXT.salir_filter_gay[lang]}</span>` : ""}
+        ${item.irish ? `<span class="tag icon-tag" style="color:var(--moss);border-color:var(--moss)">${ICONS.shamrock()}${UI_TEXT.salir_filter_irish[lang]}</span>` : ""}
+        ${item.liveMusic ? `<span class="tag icon-tag" style="color:var(--rust);border-color:var(--rust)">${ICONS.mic()}${UI_TEXT.salir_filter_live[lang]}</span>` : ""}
       </div>
       <p>${item.description[lang]}</p>
       ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
@@ -46,17 +51,21 @@ function setupSalirFilters() {
     });
   });
 
-  const tapaToggle = document.getElementById("filter-tapa");
-  const gayToggle = document.getElementById("filter-gay");
-  if (tapaToggle) tapaToggle.addEventListener("click", () => {
-    salirFilters.tapa = !salirFilters.tapa;
-    tapaToggle.classList.toggle("active", salirFilters.tapa);
-    renderSalir();
-  });
-  if (gayToggle) gayToggle.addEventListener("click", () => {
-    salirFilters.gay = !salirFilters.gay;
-    gayToggle.classList.toggle("active", salirFilters.gay);
-    renderSalir();
+  const toggles = [
+    ["filter-tapa", "tapa"],
+    ["filter-gay", "gay"],
+    ["filter-irish", "irish"],
+    ["filter-live", "liveMusic"],
+  ];
+
+  toggles.forEach(([id, key]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener("click", () => {
+      salirFilters[key] = !salirFilters[key];
+      el.classList.toggle("active", salirFilters[key]);
+      renderSalir();
+    });
   });
 }
 

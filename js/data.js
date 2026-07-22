@@ -614,11 +614,18 @@ const TENGO_COCHE_ITEMS = [
 
 /* --------------------------------------------------------------------------
    4. ¿POR DÓNDE SALIR?
-   Cada sitio tiene tres filtros:
-     - music:  "celta" | "moderna" | "tranquila"
-     - tapa:   true | false  (¿ponen tapa con la bebida?)
-     - gay:    true | false  (¿es un sitio gay friendly?)
+   Cada sitio tiene estos filtros (todos opcionales excepto music):
+     - music:      "celta" | "moderna" | "tranquila"
+     - tapa:       true | false  (¿ponen tapa con la bebida?)
+     - gay:        true | false  (¿es un sitio gay friendly?)
+     - irish:      true | false  (¿es un pub de estilo irlandés?)
+     - liveMusic:  true | false  (¿suele haber música en directo?)
    Verifica bien estos datos antes de publicarlos — son ejemplos de partida.
+
+   - image: OPCIONAL. Foto del local para la tarjeta. Usa el enlace DIRECTO
+            de imgur (https://i.imgur.com/XXXXX.jpeg), igual que en el Foto
+            Explorer — no el enlace de la página normal de imgur.com.
+            Si lo dejas vacío, la tarjeta se muestra igual, solo que sin foto.
    -------------------------------------------------------------------------- */
 
 const SALIR_ITEMS = [
@@ -627,32 +634,293 @@ const SALIR_ITEMS = [
     music: "celta",
     tapa: false,
     gay: false,
+    image: "",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Modus+Vivendi+Santiago+de+Compostela",
     description: {
       es: "Uno de los pubs con más solera de Santiago, ambiente de música celta y folk en un antiguo pajar de piedra.",
       en: "One of Santiago's most iconic pubs, Celtic and folk music vibe inside an old stone hay barn."
     }
   },
+,
   {
-    name: "Sustituye — Bar de ejemplo",
-    music: "moderna",
-    tapa: true,
+    name: "Casa das Crechas",
+    music: "celta",
+    tapa: false,
     gay: false,
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rúa+do+Franco+Santiago+de+Compostela",
+    image: "",
+    liveMusic: true,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+das+Crechas+Santiago+de+Compostela",
     description: {
-      es: "Sustituye por un bar real de la Rúa do Franco o Rúa da Raíña con tapa incluida.",
-      en: "Replace with a real bar on Rúa do Franco or Rúa da Raíña that includes a tapa."
+      es: "El bar de referencia en Santiago para m\u00fasica folk e irlandesa en directo. Sesiones espont\u00e1neas de gaita y viol\u00edn casi cualquier noche, cerca de Praza de Prater\u00edas.",
+      en: "Santiago's go-to spot for live folk and Irish music. Spontaneous bagpipe and fiddle sessions happen most nights, near Praza de Prater\u00edas."
     }
   },
   {
-    name: "Sustituye — Plan tranquilo",
+    name: "Pub Atl\u00e1ntico",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Atl%C3%A1ntico+Santiago+de+Compostela",
+    description: {
+      es: "Favorito entre estudiantes, con buena selecci\u00f3n de cervezas y c\u00f3cteles y ambiente animado.",
+      en: "A student favorite, with a good selection of beers and cocktails and a lively atmosphere."
+    }
+  },
+  {
+    name: "A Gramola",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Gramola+Santiago+de+Compostela",
+    description: {
+      es: "Bar de tem\u00e1tica retro con buen rollo nost\u00e1lgico, cerca de Praza de Cervantes.",
+      en: "A retro-themed bar with a great nostalgic vibe, near Praza de Cervantes."
+    }
+  },
+  {
+    name: "A Novena Porta",
+    music: "moderna",
+    tapa: true,
+    gay: false,
+    image: "",
+    irish: true,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Novena+Porta+Cardeal+Pay%C3%A1+Santiago+de+Compostela",
+    description: {
+      es: "Pub de estilo irland\u00e9s en Cardeal Pay\u00e1, con TV para deporte, buena selecci\u00f3n de cervezas de importaci\u00f3n y tapa sencilla (perritos calientes) con la consumici\u00f3n.",
+      en: "An Irish-style pub on Cardeal Pay\u00e1, with sports TVs, a good selection of imported beers, and a simple tapa (hot dogs) with your drink."
+    }
+  },
+  {
+    name: "Pub Momo",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    liveMusic: true,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Momo+Santiago+de+Compostela",
+    description: {
+      es: "Uno de los pubs m\u00e1s emblem\u00e1ticos de Santiago, abierto desde 1984, inspirado en la novela \"Momo\". Cuatro ambientes distintos y una preciosa terraza-jard\u00edn en verano, frente al Mercado de Abastos.",
+      en: "One of Santiago's most iconic pubs, open since 1984 and inspired by the novel \"Momo.\" Four distinct areas and a lovely garden terrace in summer, across from the Mercado de Abastos."
+    }
+  },
+  {
+    name: "O Boneco Bar",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    liveMusic: true,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Boneco+Bar+Santiago+de+Compostela",
+    description: {
+      es: "Bar peque\u00f1o y con encanto muy cerca de la Catedral, buena selecci\u00f3n de ginebras y m\u00fasica que va de los 80 a la actualidad. Ambiente muy variado.",
+      en: "A small, charming bar very close to the Cathedral, with a good gin selection and music ranging from the 80s to today. A nicely mixed crowd."
+    }
+  },
+  {
+    name: "Way Club",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Way+Club+R%C3%BAa+Nova+13+Santiago+de+Compostela",
+    description: {
+      es: "Discoteca universitaria en pleno casco hist\u00f3rico, en la R\u00faa Nova. Dos plantas, iluminaci\u00f3n integrada en la estructura del local y ambiente muy joven.",
+      en: "A university nightclub right in the old town, on R\u00faa Nova. Two floors, lighting built into the structure of the venue, and a very young crowd."
+    }
+  },
+  {
+    name: "Gabanna",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Gabanna+Discoteca+R%C3%BAa+da+Rep%C3%BAblica+Arxentina+Santiago+de+Compostela",
+    description: {
+      es: "Discoteca de referencia para universitarios, sobre todo m\u00fasica urbana. Entrada gratuita, en la zona de Rep\u00fablica de Arxentina.",
+      en: "A go-to nightclub for university students, mostly urban music. Free entry, in the Rep\u00fablica de Arxentina area."
+    }
+  },
+  {
+    name: "Maycar",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Discoteca+Maycar+R%C3%BAa+do+Doutor+Teixeiro+Santiago+de+Compostela",
+    description: {
+      es: "Discoteca m\u00edtica de Santiago abierta desde 1969, con identidad muy marcada: rock, reggae, metal y m\u00fasica de los 90. Atrae a un p\u00fablico algo mayor que otras discotecas.",
+      en: "An iconic Santiago nightclub open since 1969, with a strong identity: rock, reggae, metal and 90s music. Attracts a slightly older crowd than other clubs."
+    }
+  },
+  {
+    name: "Chocolate",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    liveMusic: true,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Chocolate+Santiago+de+Compostela",
+    description: {
+      es: "Pub cerca del Mercado de Abastos, acogedor y decorado de forma moderna. Los jueves suele haber conciertos en directo.",
+      en: "A cozy, modern-decorated pub near the Mercado de Abastos. Thursdays usually feature live concerts."
+    }
+  },
+  {
+    name: "La Quintana Pub",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Quintana+Pub+Praza+da+Quintana+Santiago+de+Compostela",
+    description: {
+      es: "Justo frente a la Catedral, en la Praza da Quintana. Tiene la terraza m\u00e1s grande de la ciudad, con vistas impresionantes. Ambiente moderno y juvenil.",
+      en: "Right in front of the Cathedral, on Praza da Quintana. Has the biggest terrace in the city, with striking views. A modern, youthful atmosphere."
+    }
+  },
+  {
+    name: "Albaroque",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Albaroque+R%C3%BAa+da+Acibecher%C3%ADa+12+Santiago+de+Compostela",
+    description: {
+      es: "Pub del casco hist\u00f3rico con m\u00fasica actual y ambiente de baile. Buen sitio para empezar la noche.",
+      en: "An old-town pub with current music and a dance-floor vibe. A good place to start the night."
+    }
+  },
+  {
+    name: "Bar Marte",
+    music: "tranquila",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Marte+Avenida+Rodrigo+del+Padr%C3%B3n+Santiago+de+Compostela",
+    description: {
+      es: "Bar m\u00edtico en la Avenida de Rodrigo del Padr\u00f3n, muy conocido por sus tapas de tortilla. Buena terraza para cenar tranquilo antes de salir.",
+      en: "An iconic bar on Avenida de Rodrigo del Padr\u00f3n, well known for its tortilla tapas. A nice terrace for a calm dinner before heading out."
+    }
+  },
+  {
+    name: "Caf\u00e9 Casino",
+    music: "tranquila",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Casino+Santiago+de+Compostela",
+    description: {
+      es: "Caf\u00e9 hist\u00f3rico de finales del siglo XIX, con ambiente literario y tranquilo. Ideal si busc\u00e1is algo con menos ruido.",
+      en: "A historic late-19th-century caf\u00e9 with a calm, literary atmosphere. Ideal if you're after something quieter."
+    }
+  },
+  {
+    name: "Para\u00edso Perdido",
+    music: "tranquila",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Perdido+R%C3%BAa+de+San+Paio+de+Antealtares+Santiago+de+Compostela",
+    description: {
+      es: "Bar con ambiente de cueva, decoraci\u00f3n vintage (m\u00e1quinas de coser antiguas, objetos de otra \u00e9poca) en una plaza tranquila detr\u00e1s de Cervantes. Perfecto para desconectar del bullicio.",
+      en: "A cave-like bar with vintage decor (old sewing machines, period pieces) on a quiet square behind Cervantes. Perfect for getting away from the bustle."
+    }
+  },
+  {
+    name: "O Filand\u00f3n",
+    music: "tranquila",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Vinoteca+O+Filand%C3%B3n+R%C3%BAa+da+Acibecher%C3%ADa+Santiago+de+Compostela",
+    description: {
+      es: "Vinoteca de piedra en la esquina de R\u00faa da Acibecher\u00eda con R\u00faa da Troia, con chimenea y carta de vinos muy amplia. Ambiente familiar y tranquilo.",
+      en: "A stone wine bar on the corner of R\u00faa da Acibecher\u00eda and R\u00faa da Troia, with a fireplace and a very extensive wine list. A cozy, calm atmosphere."
+    }
+  },
+  {
+    name: "O Bandullo do Lamb\u00f3n",
     music: "tranquila",
     tapa: true,
     gay: false,
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Santiago+de+Compostela+vinoteca",
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Bandullo+do+Lamb%C3%B3n+R%C3%BAa+da+Ra%C3%AD\u00f1a+Santiago+de+Compostela",
     description: {
-      es: "Sustituye por una terraza o vinoteca tranquila para charlar.",
-      en: "Replace with a quiet terrace or wine bar for chatting."
+      es: "Bar de cervezas artesanas gallegas e internacionales en la R\u00faa da Ra\u00ed\u00f1a, con tapa gratis (aceitunas, quesos) con cada bebida. Ambiente relajado.",
+      en: "A Galician and international craft beer bar on R\u00faa da Ra\u00ed\u00f1a, with a free tapa (olives, cheese) with every drink. A relaxed vibe."
+    }
+  },
+  {
+    name: "Damajuana",
+    music: "tranquila",
+    tapa: true,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Damajuana+R%C3%BAa+da+Acibecher%C3%ADa+5+Santiago+de+Compostela",
+    description: {
+      es: "Mezcla de vida nocturna y gastronom\u00eda en la R\u00faa da Acibecher\u00eda, con terraza y ambiente acogedor. Buenas tapas y raciones gallegas.",
+      en: "A mix of nightlife and dining on R\u00faa da Acibecher\u00eda, with a terrace and a cozy atmosphere. Good Galician tapas and shared plates."
+    }
+  },
+  {
+    name: "Tarasca",
+    music: "moderna",
+    tapa: false,
+    gay: true,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Tarasca+V%C3%ADa+Sacra+3+Santiago+de+Compostela",
+    description: {
+      es: "Uno de los locales de referencia del ambiente LGTBI+ en Santiago, m\u00fasica variada (de los 80 a la actualidad) y muy buen ambiente.",
+      en: "One of the go-to LGBTQI+ venues in Santiago, with varied music (80s to today) and a great atmosphere."
+    }
+  },
+  {
+    name: "O Curruncho",
+    music: "moderna",
+    tapa: false,
+    gay: true,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Curruncho+R%C3%BAa+da+Algalia+de+Abaixo+Santiago+de+Compostela",
+    description: {
+      es: "Frente a Tarasca; cuando ambos se juntan por la noche se conoce como \"Tarruncho\". Ambiente LGTBI+ acogedor que atrae tambi\u00e9n a p\u00fablico diverso.",
+      en: "Across from Tarasca; when both venues merge for the night it's known as \"Tarruncho.\" A welcoming LGBTQI+ vibe that also draws a diverse crowd."
+    }
+  },
+  {
+    name: "Bloom",
+    music: "moderna",
+    tapa: false,
+    gay: true,
+    image: "",
+    mapsUrl: "https://www.google.es/maps/place/Bloom+(Santiago+de+Compostela)/@42.8821522,-8.5418256,17z",
+    description: {
+      es: "Club LGBT con espect\u00e1culos de drag, dos plantas con ambientes musicales distintos. Se anima especialmente a partir de la 1am.",
+      en: "An LGBT club with drag shows, two floors with different musical vibes. Gets especially lively after 1am."
+    }
+  },
+  {
+    name: "TS - A Casa",
+    music: "tranquila",
+    tapa: false,
+    gay: true,
+    image: "",
+    mapsUrl: "https://www.google.es/maps/place/TS+-+A+Casa+(Santiago+de+Compostela)/@42.8817913,-8.5356725,17z",
+    description: {
+      es: "Bar vegetariano en el barrio de San Pedro (considerado el barrio gay friendly de la ciudad), ambiente colorido e inclusivo.",
+      en: "A vegetarian bar in the San Pedro neighborhood (considered the city's gay-friendly area), colorful and inclusive atmosphere."
+    }
+  },
+  {
+    name: "A Medusa Pub",
+    music: "tranquila",
+    tapa: false,
+    gay: true,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Medusa+Pub+Praza+de+Salvador+Parga+Santiago+de+Compostela",
+    description: {
+      es: "Pub de ambiente bohemio y muy LGTBI+ friendly, con juegos de mesa, opciones veganas, y conciertos ocasionales en el s\u00f3tano.",
+      en: "A bohemian, very LGBTQ+-friendly pub, with board games, vegan options, and occasional gigs in the basement."
     }
   }
   // Añade más sitios copiando un bloque como los de arriba.
@@ -669,6 +937,24 @@ const SALIR_ITEMS = [
    -------------------------------------------------------------------------- */
 
 const COMER_ITEMS = [
+  {
+    name: "Bar La Tita",
+    category: "tapas",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+La+Tita+R%C3%BAa+Nova+Santiago+de+Compostela",
+    description: {
+      es: "Clásico de la Rúa Nova: con cada caña te ponen una tapa de tortilla poco hecha, sea la hora que sea. Suele llenarse, así que llegad con hambre y paciencia.",
+      en: "A Rúa Nova classic: every beer comes with a soft, barely-set tortilla tapa, no matter the time of day. It fills up fast, so come hungry and patient."
+    }
+  },
+  {
+    name: "A Taberna do Bispo",
+    category: "tapas",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Taberna+do+Bispo+R%C3%BAa+do+Franco+Santiago+de+Compostela",
+    description: {
+      es: "En la Rúa do Franco, tapas gallegas con mucho marisco desde 2003. Ambiente animado y elegante a la vez.",
+      en: "On Rúa do Franco, Galician tapas with a strong seafood focus, open since 2003. A lively yet elegant atmosphere."
+    }
+  },
   {
     name: "Mercado de Abastos — puestos de marisco",
     category: "marisco",
@@ -844,7 +1130,10 @@ const FIESTAS_ITEMS = [
       en: "9 pm, Praza Central at the Cidade da Cultura, free entry. A concert by Lisdexia, the same night as the festival closing — a calmer option for anyone who'd rather take it easy the night before the wedding."
     }
   }
-  // Nota: si el programa sufre cambios de última hora, verifica en santiagoturismo.com
+  // Nota: no incluimos fechas después del 5 de agosto (límite pedido).
+  // El siguiente Atardecer no Gaiás tras la boda cae el 6 de agosto, ya
+  // fuera de esa ventana — si en el futuro queréis ampliar el rango,
+  // el ciclo sigue hasta el 14 de agosto (datos en cidadedacultura.gal).
 ];
 
 
