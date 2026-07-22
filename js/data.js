@@ -203,94 +203,94 @@ const PHOTO_CHALLENGES = [
   },
   {
     id: "reto-11",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 11 — sin rellenar", en: "Challenge 11 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/T0ONucP.jpeg",
+    title: { es: "Facultade de Xeograf\u00eda e Historia (Colexio de Fonseca)", en: "Facultade de Xeograf\u00eda e Historia (Colexio de Fonseca)" },
+    mapsQuery: "Colexio de Fonseca, Santiago de Compostela",
+    lat: 42.88,
+    lng: -8.5452,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 11.",
-      en: "Replace this text with the story/fun fact for challenge 11."
+      es: "La actual Facultade de Xeograf\u00eda e Historia tiene una peculiaridad que muchos estudiantes desconocen: no naci\u00f3 para ser una facultad.\n\nEl edificio es el antiguo Colexio de Fonseca, fundado en 1501 por el arzobispo Alonso III de Fonseca. De hecho, es el embri\u00f3n de la Universidad de Santiago. Durante siglos, si alguien dec\u00eda \"la Universidad\", se refer\u00eda b\u00e1sicamente a este edificio.\n\nAqu\u00ed empez\u00f3 la USC\n\nAntes de los campus de San Caetano, Sur o Norte, la universidad compostelana cab\u00eda pr\u00e1cticamente entre Fonseca, el Colegio de San Xerome y unas pocas dependencias m\u00e1s.\n\nPor eso, cuando entras en el claustro, est\u00e1s entrando en el lugar donde se formaron generaciones de juristas, te\u00f3logos, m\u00e9dicos y humanistas desde el Renacimiento.\n\nUn colegio para competir\n\nFonseca quer\u00eda que Santiago tuviese una instituci\u00f3n comparable a Salamanca o Alcal\u00e1. No era solo un proyecto educativo: era una declaraci\u00f3n de prestigio para Compostela.\n\nEn cierto modo, la Universidad fue otro instrumento para competir con otras grandes ciudades del reino.\n\nEl fantasma m\u00e1s famoso no est\u00e1 en la Catedral\n\nEn la capilla de Fonseca se conserva el sepulcro del propio Alonso de Fonseca.\n\nLa leyenda popular dec\u00eda que algunas noches el arzobispo abandonaba su tumba para recorrer el edificio y comprobar si los estudiantes estaban estudiando o perdiendo el tiempo. Es una de esas historias universitarias que han sobrevivido siglos.\n\nEl claustro es una joya silenciosa\n\nEl claustro renacentista es uno de los espacios m\u00e1s armoniosos de Santiago. A diferencia del barroco exuberante de San Marti\u00f1o Pinario, aqu\u00ed domina la proporci\u00f3n y el equilibrio.\n\nLa biblioteca que cambi\u00f3 Galicia\n\nDurante siglos, algunas de las colecciones bibliogr\u00e1ficas m\u00e1s importantes de Galicia estuvieron asociadas a Fonseca.\n\nLos estudiantes ven\u00edan de toda la regi\u00f3n porque aqu\u00ed pod\u00edan consultar obras imposibles de encontrar en otros lugares.\n\nEncima, es una sala espectacular. Si ten\u00e9is la suerte de encontrar la Facultad abierta, os recomiendo entrar a admirarla.\n\nNuestro siguiente objetivo est\u00e1 un poco m\u00e1s abajo en la calle.",
+      en: "The current Facultade de Xeograf\u00eda e Historia has a quirk many students don't know about: it wasn't built to be a university faculty.\n\nThe building is the old Colexio de Fonseca, founded in 1501 by archbishop Alonso III de Fonseca. In fact, it's the embryo of the University of Santiago. For centuries, if someone said \"the University,\" they basically meant this building.\n\nThis is where the USC began\n\nBefore the San Caetano, Sur or Norte campuses existed, Compostela's university fit almost entirely between Fonseca, the Colegio de San Xerome, and a few other small buildings.\n\nThat's why, when you walk into the cloister, you're stepping into the place where generations of jurists, theologians, doctors and humanists trained since the Renaissance.\n\nA college built to compete\n\nFonseca wanted Santiago to have an institution comparable to Salamanca or Alcal\u00e1. It wasn't just an educational project \u2014 it was a statement of prestige for Compostela.\n\nIn a way, the University was another tool used to compete with other great cities of the kingdom.\n\nThe most famous ghost in town isn't in the Cathedral\n\nIn the Fonseca chapel you'll find the tomb of Alonso de Fonseca himself.\n\nPopular legend said that on some nights the archbishop would leave his tomb to walk through the building and check whether students were studying or wasting their time. It's one of those university stories that has survived for centuries.\n\nThe cloister is a quiet gem\n\nThe Renaissance cloister is one of the most harmonious spaces in Santiago. Unlike the exuberant baroque of San Marti\u00f1o Pinario, here proportion and balance dominate.\n\nThe library that changed Galicia\n\nFor centuries, some of Galicia's most important book collections were linked to Fonseca.\n\nStudents came from all over the region because here they could consult works impossible to find anywhere else.\n\nOn top of that, it's a spectacular room. If you're lucky enough to find the Faculty open, I'd recommend stepping in to admire it.\n\nOur next stop is a bit further down the street."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/SYTfXHM.jpeg"
   },
   {
     id: "reto-12",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 12 — sin rellenar", en: "Challenge 12 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/y8sOPMI.jpeg",
+    title: { es: "Arco de Mazarelos", en: "Arco de Mazarelos" },
+    mapsQuery: "42.8781092,-8.5422634",
+    lat: 42.8781092,
+    lng: -8.5422634,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 12.",
-      en: "Replace this text with the story/fun fact for challenge 12."
+      es: "Arco de Mazarelos\n\nEs la \u00fanica puerta que se conserva de la muralla medieval compostelana. La muralla ten\u00eda unos dos kil\u00f3metros de per\u00edmetro y siete accesos principales, pero fue derribada en los siglos XVIII y XIX cuando dej\u00f3 de tener utilidad defensiva. Mazarelos sobrevivi\u00f3 casi por casualidad: parte del arco hab\u00eda quedado integrada en propiedades privadas y eso dificult\u00f3 su demolici\u00f3n.\n\nCada puerta ten\u00eda una funci\u00f3n econ\u00f3mica. Por Mazarelos entraban los vinos de O Ribeiro procedentes de Ourense y tambi\u00e9n los cereales llegados desde la Meseta por la V\u00eda de la Plata. El C\u00f3dice Calixtino ya menciona esta puerta como el acceso del vino a Compostela. As\u00ed que, si hoy cruzas el arco, est\u00e1s siguiendo el mismo camino que durante siglos recorrieron los arrieros con sus cubas.\n\nLa mayor\u00eda solo observa el arco, pero el detalle interesante est\u00e1 a la derecha (mirando hacia la ciudad). All\u00ed se conservan los cimientos del antiguo torre\u00f3n defensivo que proteg\u00eda la entrada. Es uno de los pocos restos visibles que permiten imaginar el grosor y la estructura de la muralla.\n\nA vuestro lado, en la Plaza da Universidade, ten\u00e9is la estatua de Eugenio Montero R\u00edos (1832-1914), compostelano, catedr\u00e1tico de Derecho, ministro y presidente del Gobierno durante unos meses en 1905. Tambi\u00e9n presidi\u00f3 la delegaci\u00f3n espa\u00f1ola que negoci\u00f3 el Tratado de Par\u00eds de 1898, tras la guerra con Estados Unidos.\n\nComo curiosidad, este no es el emplazamiento original de la estatua. Cuando se inaugur\u00f3 en 1916, la estatua estaba en el centro de la Praza do Obradoiro. La idea gener\u00f3 bastante pol\u00e9mica: muchos compostelanos consideraban que un monumento civil romp\u00eda la armon\u00eda de la plaza de la Catedral. En 1928 fue trasladada a Mazarelos, donde permanece desde entonces.\n\nPara la siguiente, ten\u00e9is dos alternativas. El itinerario m\u00e1s r\u00e1pido va a trav\u00e9s de la calle Cardeal Pay\u00e1 (mirando al arco, desde la plaza, est\u00e1 a vuestra derecha), en d\u00f3nde podr\u00e9is tomar algo en el Pub Irland\u00e9s A Novena Porta, si ven\u00eds de tarde, para luego continuar por el callej\u00f3n cuesta abajo que nace al final de la calle (R\u00faa de Tras Salom\u00e9) y que os llevar\u00e1 a la R\u00faa Nova. La otra opci\u00f3n es aprovechar y pasear la R\u00faa das Orfas, en lugar de bajar por el callej\u00f3n, y os saltar\u00e9is dos im\u00e1genes, aunque siempre podr\u00e9is visitarlas adentr\u00e1ndoos en la calle R\u00faa Nova, donde encontrar\u00e9is la siguiente imagen (el kiosko).",
+      en: "Arco de Mazarelos\n\nIt's the only surviving gate of Compostela's medieval city wall. The wall was about two kilometers around, with seven main gates, but it was torn down in the 18th and 19th centuries once it stopped serving any defensive purpose. Mazarelos survived almost by accident: part of the arch had ended up built into private properties, which made it harder to demolish.\n\nEach gate had an economic role. Wine from O Ribeiro, coming from Ourense, entered through Mazarelos, as did grain arriving from the Meseta along the V\u00eda de la Plata. The Codex Calixtinus already mentions this gate as the entry point for wine into Compostela. So if you walk through the arch today, you're following the same route that muleteers and their wine casks took for centuries.\n\nMost people just look at the arch, but the interesting detail is on the right (facing the city). There you can still see the foundations of the old defensive tower that protected the entrance. It's one of the few visible remains that let you picture the thickness and structure of the wall.\n\nRight next to you, in Praza da Universidade, stands the statue of Eugenio Montero R\u00edos (1832-1914), a Compostela native, law professor, minister, and briefly prime minister in 1905. He also led the Spanish delegation that negotiated the 1898 Treaty of Paris, after the war with the United States.\n\nAs a fun fact, this isn't the statue's original spot. When it was unveiled in 1916, it stood in the middle of Praza do Obradoiro. The idea caused quite a controversy: many locals felt a civic monument broke the harmony of the Cathedral square. In 1928 it was moved to Mazarelos, where it's remained ever since.\n\nFor the next stop, you have two options. The fastest route goes along Cardeal Pay\u00e1 street (facing the arch from the square, it's on your right), where you can grab something at the Irish pub A Novena Porta if you're coming through in the afternoon, then continue down the alley at the end of the street (R\u00faa de Tras Salom\u00e9), which will take you to R\u00faa Nova. The other option is to walk along R\u00faa das Orfas instead of going down the alley \u2014 that will skip two of the photos, though you can still visit them later by heading into R\u00faa Nova, where you'll find the next photo (the kiosk)."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/u6Mrbxt.jpeg"
   },
   {
     id: "reto-13",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 13 — sin rellenar", en: "Challenge 13 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/XgY565Y.jpeg",
+    title: { es: "Igrexa de Santa Mar\u00eda Salom\u00e9", en: "Igrexa de Santa Mar\u00eda Salom\u00e9" },
+    mapsQuery: "42.8783676,-8.5432254",
+    lat: 42.8783676,
+    lng: -8.5432254,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 13.",
-      en: "Replace this text with the story/fun fact for challenge 13."
+      es: "La Igrexa de Santa Mar\u00eda Salom\u00e9 es una de las iglesias m\u00e1s discretas de Santiago y, al mismo tiempo, una de las m\u00e1s singulares.\n\nSu principal singularidad es que est\u00e1 dedicada a Santa Mar\u00eda Salom\u00e9, considerada por la tradici\u00f3n cristiana la madre de los ap\u00f3stoles Santiago el Mayor y San Juan Evangelista.\n\nNo es un detalle menor: es la \u00fanica iglesia parroquial de Espa\u00f1a dedicada a ella. En una ciudad construida alrededor del culto al Ap\u00f3stol, resulta l\u00f3gico que tambi\u00e9n acabara teniendo un templo dedicado a su madre.\n\nEl detalle m\u00e1s fascinante est\u00e1 en la portada.\n\nA ambos lados de la puerta hay un grupo escult\u00f3rico de la Anunciaci\u00f3n. Si observas con atenci\u00f3n la figura de Mar\u00eda, ver\u00e1s que aparece embarazada, con el vientre claramente abultado.\n\nEs una representaci\u00f3n muy poco frecuente en el arte medieval.\n\nLa portada rom\u00e1nica del siglo XII se conserva extraordinariamente bien por una raz\u00f3n muy pr\u00e1ctica: el p\u00f3rtico del siglo XVI la protegi\u00f3 durante quinientos a\u00f1os de la lluvia compostelana. Por esa raz\u00f3n, si te acercas y te fijas con cuidado, podr\u00e1s ver todav\u00eda policrom\u00edas en la fachada.\n\nHay una curiosidad que encanta a los gu\u00edas.\n\nEn una de las esculturas del p\u00f3rtico, el desgaste de la piedra crea la ilusi\u00f3n de que uno de los \u00e1ngeles lleva gafas. Evidentemente no las lleva; es un efecto producido por la erosi\u00f3n y por antiguas restauraciones. Pero, una vez que alguien te lo se\u00f1ala, cuesta dejar de verlo.\n\nLa torre tiene un parentesco\n\nSi la espada\u00f1a te resulta familiar, no es casualidad. La torre barroca del siglo XVIII sigue un modelo que ya hab\u00eda tenido mucho \u00e9xito en Santiago, especialmente el de San Fiz de Solovio (que es la iglesia que ofrece culto en ingl\u00e9s que ya hemos visitado). Es un buen ejemplo de c\u00f3mo los arquitectos compostelanos reutilizaban soluciones que funcionaban bien tanto est\u00e9tica como t\u00e9cnicamente. Cuando est\u00e9s bajo el p\u00f3rtico, no mires solo al frente. Levanta la vista hacia la clave de la arquivolta: all\u00ed aparece la Virgen de la Leche, amamantando al Ni\u00f1o Jes\u00fas. Es una iconograf\u00eda muy humana, muy distinta de las im\u00e1genes solemnes y regias que predominar\u00e1n en siglos posteriores.\n\nSi quieres descansar, enfrente de la Iglesia est\u00e1 el Caf\u00e9 Mori (la puerta conserva el antiguo cartel del Rhin), caf\u00e9 de especialidad y ambiente tranquilo.\n\nAhora que estamos a mitad de camino, te propongo tambi\u00e9n que te fijes en las paredes alrededor de las puertas. Ver\u00e1s un mont\u00f3n de s\u00edmbolos tallados en piedra.\n\nNo est\u00e1n por azar, indican a qu\u00e9 instituci\u00f3n de la ciudad pertenec\u00eda cada casa.\n\nDurante siglos, gran parte de las casas de Santiago no pertenec\u00edan a particulares, sino a monasterios, conventos, cabildos o colegios universitarios. Para identificar la propiedad se colocaban escudos o marcas en las fachadas.\n\nLos m\u00e1s habituales son:\n\nCatedral de Santiago (Cabildo)\n\u2022 Escudo con la urna apost\u00f3lica.\n\u2022 Conchas de vieira.\n\u2022 Cruz de Santiago.\n\u2022 A veces las letras S.A. (Santiago Ap\u00f3stol).\nIndican propiedades administradas por el Cabildo catedralicio.\n\nSan Marti\u00f1o Pinario\n\u2022 Imagen o b\u00e1culo de San Benito.\n\u2022 Escudo benedictino.\n\u2022 Mitra y b\u00e1culo combinados.\nMuy frecuentes en el entorno de Acibecher\u00eda y San Marti\u00f1o.\n\nArzobispado\n\u2022 Escudos con sombrero episcopal o arzobispal.\n\u2022 Borlas colgantes a ambos lados.\n\u2022 Mitra, b\u00e1culo y cruz procesional.\nIdentificaban propiedades dependientes directamente del arzobispo.\n\nSan Paio de Antealtares\n\u2022 A menudo aparecen referencias a la orden benedictina femenina.\n\u2022 Escudos conventuales con cruces y elementos marianos.\n\nUniversidad\n\u2022 Escudo real con referencias a Fonseca.\n\u2022 A veces aparecen las armas de los Fonseca.\nSobre todo en edificios pr\u00f3ximos a Fonseca y la antigua universidad.\n\nHospital Real\n\u2022 Yugo y flechas de los Reyes Cat\u00f3licos.\n\u2022 \u00c1guila de San Juan.\n\u2022 Escudos reales de Castilla y Arag\u00f3n.\nRelacionados con propiedades del Hospital de los Reyes Cat\u00f3licos.\n\nOrden de Santiago\n\u2022 La famosa cruz roja en forma de espada.\n\nLa siguiente est\u00e1 REALMENTE cerca.",
+      en: "The Igrexa de Santa Mar\u00eda Salom\u00e9 is one of Santiago's most discreet churches, and at the same time one of its most singular.\n\nIts main quirk is that it's dedicated to Saint Mary Salome, considered by Christian tradition to be the mother of the apostles James the Greater and John the Evangelist.\n\nThat's no small detail: it's the only parish church in Spain dedicated to her. In a city built around the cult of the Apostle, it makes sense that it would eventually also have a church dedicated to his mother.\n\nThe most fascinating detail is on the doorway.\n\nOn either side of the door there's a sculptural group of the Annunciation. If you look closely at the figure of Mary, you'll notice she appears pregnant, with a clearly rounded belly.\n\nIt's a very unusual depiction in medieval art.\n\nThe 12th-century Romanesque doorway has survived remarkably well for a very practical reason: the 16th-century porch protected it for five hundred years from Compostela's rain. Because of that, if you look closely, you can still see traces of polychrome paint on the fa\u00e7ade.\n\nThere's a detail guides love.\n\nOn one of the porch's sculptures, the wear on the stone creates the illusion that one of the angels is wearing glasses. Obviously it isn't \u2014 it's an effect caused by erosion and old restorations. But once someone points it out to you, it's hard to unsee.\n\nThe tower has a family resemblance\n\nIf the bell-gable looks familiar, that's no coincidence. The 18th-century baroque tower follows a model that had already proven very successful in Santiago, especially at San Fiz de Solovio (the church with English-language worship we've already visited). It's a good example of how Compostela's architects reused solutions that worked well both aesthetically and technically. When you're under the porch, don't just look straight ahead \u2014 look up at the keystone of the archivolt: there you'll see the Virgin of the Milk, nursing the Christ child. It's a very human piece of iconography, very different from the solemn, regal images that would dominate later centuries.\n\nIf you feel like a break, across from the church is Caf\u00e9 Mori (the door still keeps the old \"Rhin\" sign), a specialty coffee shop with a calm atmosphere.\n\nNow that we're halfway through, I'd also suggest looking at the walls around the doorways. You'll see a bunch of symbols carved in stone.\n\nThey're not random \u2014 they indicate which institution in the city each house belonged to.\n\nFor centuries, many houses in Santiago didn't belong to private individuals, but to monasteries, convents, cathedral chapters or university colleges. Shields or marks were placed on the fa\u00e7ades to identify ownership.\n\nThe most common are:\n\nCathedral of Santiago (Cabildo)\n\u2022 A shield with the apostolic urn.\n\u2022 Scallop shells.\n\u2022 Cross of Santiago.\n\u2022 Sometimes the letters S.A. (Santiago Ap\u00f3stol).\nThese mark properties managed by the cathedral chapter.\n\nSan Marti\u00f1o Pinario\n\u2022 An image or staff of Saint Benedict.\n\u2022 A Benedictine coat of arms.\n\u2022 A combined miter and staff.\nVery common around Acibecher\u00eda and San Marti\u00f1o.\n\nArchbishopric\n\u2022 Shields with an episcopal or archiepiscopal hat.\n\u2022 Hanging tassels on both sides.\n\u2022 A miter, staff and processional cross.\nThese identified properties directly dependent on the archbishop.\n\nSan Paio de Antealtares\n\u2022 Often references to the female Benedictine order.\n\u2022 Convent shields with crosses and Marian elements.\n\nUniversity\n\u2022 A royal shield with references to Fonseca.\n\u2022 Sometimes the Fonseca family's coat of arms.\nMostly on buildings near Fonseca and the old university.\n\nHospital Real\n\u2022 The yoke and arrows of the Catholic Monarchs.\n\u2022 The eagle of Saint John.\n\u2022 Royal shields of Castile and Arag\u00f3n.\nLinked to properties of the Hospital de los Reyes Cat\u00f3licos.\n\nOrder of Santiago\n\u2022 The famous red cross shaped like a sword.\n\nThe next stop is REALLY close by."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/e91Cdvr.jpeg"
   },
   {
     id: "reto-14",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 14 — sin rellenar", en: "Challenge 14 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/NNHiRSn.jpeg",
+    title: { es: "Casas de R\u00faa Nova, 29 y 31", en: "R\u00faa Nova houses, no. 29 and 31" },
+    mapsQuery: "42.8784599,-8.5439919",
+    lat: 42.8784599,
+    lng: -8.5439919,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 14.",
-      en: "Replace this text with the story/fun fact for challenge 14."
+      es: "Estas dos casas, en los n\u00fameros 29 y 31 de la R\u00faa Nova, junto a la iglesia de Santa Mar\u00eda Salom\u00e9, est\u00e1n consideradas las viviendas civiles m\u00e1s antiguas conservadas de Santiago de Compostela. Datan del siglo XIII, por lo que son pr\u00e1cticamente contempor\u00e1neas de las \u00faltimas fases de construcci\u00f3n de la Catedral.\n\nPor desgracia, acaban de pasar por una restauraci\u00f3n que les ha quitado gran parte del encanto. Sin embargo, todav\u00eda quedan detalles que se pueden observar.\n\nLo curioso es que no fueron palacios ni residencias nobiliarias, sino viviendas urbanas relativamente modestas, vinculadas a la antigua rectoral de Santa Mar\u00eda Salom\u00e9. Eso las hace a\u00fan m\u00e1s valiosas: muestran c\u00f3mo era la arquitectura dom\u00e9stica de la Compostela medieval.\n\nCuando pensamos en Santiago imaginamos fachadas de piedra vista. Sin embargo, estas casas recuerdan una realidad distinta: muchas viviendas medievales estaban enfoscadas y encaladas, con la piedra oculta bajo capas de cal. La imagen gris del casco hist\u00f3rico es, en buena medida, fruto de restauraciones de los siglos XIX y XX.\n\nAunque hoy solo vemos la fachada, originalmente combinaban muros de mamposter\u00eda, entramados de madera y soportales. Eran edificios mucho m\u00e1s ligeros de lo que solemos imaginar, parecidos a muchas casas medievales conservadas en ciudades francesas o inglesas.\n\nSi te fijas, las ventanas son peque\u00f1as y est\u00e1n colocadas de forma irregular. No responden a un criterio est\u00e9tico moderno, sino a las necesidades de una vivienda medieval: conservar el calor, mantener la estabilidad del muro y aprovechar al m\u00e1ximo la luz.\n\nPara continuar, avanza por la R\u00faa Nova. En ella encontrar\u00e1s el Pazo dos Irlandeses (que el pobre lleva tantos a\u00f1os de abandono que no he querido incluirlo en esta lista, aunque es f\u00e1cil de ver, bastante impresionante, lo tendr\u00e9is a mano derecha al avanzar) y podr\u00e9is parar en La Tita a probar su famosa tortilla espa\u00f1ola, si no est\u00e1 lleno el local.",
+      en: "These two houses, at numbers 29 and 31 of R\u00faa Nova, next to the church of Santa Mar\u00eda Salom\u00e9, are considered the oldest surviving civil homes in Santiago de Compostela. They date back to the 13th century, making them practically contemporary with the final construction phases of the Cathedral.\n\nUnfortunately, they've just gone through a restoration that stripped away much of their charm. Still, some details can still be made out.\n\nThe curious thing is that they weren't palaces or noble residences, but relatively modest urban homes, linked to the old rectory of Santa Mar\u00eda Salom\u00e9. That makes them even more valuable: they show what everyday domestic architecture looked like in medieval Compostela.\n\nWhen we picture Santiago, we imagine exposed stone fa\u00e7ades. Yet these houses are a reminder of a different reality: many medieval homes were plastered and whitewashed, with the stone hidden under layers of lime. The old town's grey look today is, in large part, the result of 19th- and 20th-century restorations.\n\nAlthough today we only see the fa\u00e7ade, they originally combined masonry walls, timber framing and arcaded porches. They were much lighter buildings than we tend to imagine, similar to many medieval houses preserved in French or English cities.\n\nIf you look closely, the windows are small and irregularly placed. That's not a modern aesthetic choice, but the needs of a medieval home: keeping in heat, maintaining the wall's stability, and making the most of the light.\n\nTo continue, head along R\u00faa Nova. There you'll find the Pazo dos Irlandeses (which, after so many years of neglect, I didn't want to include in this list, though it's easy to spot and quite impressive \u2014 you'll have it on your right as you walk along), and you can stop at La Tita to try their famous Spanish tortilla, if it's not too full."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/9o99LON.jpeg"
   },
   {
     id: "reto-15",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 15 — sin rellenar", en: "Challenge 15 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/WlSmDRb.jpeg",
+    title: { es: "Kiosko do Toural", en: "Kiosko do Toural" },
+    mapsQuery: "42.8777141,-8.5444559",
+    lat: 42.8777141,
+    lng: -8.5444559,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 15.",
-      en: "Replace this text with the story/fun fact for challenge 15."
+      es: "Vaaaaale, no es el sitio m\u00e1s llamativo ni espectacular de la ciudad, pero es muy \u00fatil para orientarse.\n\nAdem\u00e1s, al lado podr\u00e9is ver un callej\u00f3n estrecho que visitaremos m\u00e1s adelante, por el otro extremo del mismo.\n\nAunque muchos lo llaman simplemente el quiosco de la R\u00faa Nova, en realidad es el Quiosco do Toural, porque se encuentra justo en el Cant\u00f3n do Toural, en la entrada de la calle.\n\nEs uno de los elementos urbanos m\u00e1s queridos de Santiago, no por su arquitectura \u2014aunque es un bonito ejemplo de quiosco modernista de hierro y cristal\u2014, sino por lo que represent\u00f3 para varias generaciones.\n\nAbierto desde 1910, durante m\u00e1s de un siglo fue mucho m\u00e1s que un punto de venta de prensa. Era un lugar donde se comentaban las noticias, se saludaba a los vecinos y comenzaba el d\u00eda. En una ciudad universitaria y administrativa como Santiago, era habitual ver a profesores, abogados, m\u00e9dicos o funcionarios comprando el peri\u00f3dico antes de entrar al trabajo.\n\nCerr\u00f3 por jubilaci\u00f3n hace unos a\u00f1os, y el ayuntamiento busca formas de conservarlo.\n\nPara seguir, bajad por la calle con los bonitos arcos. En esos arcos encontrar\u00e9is la tienda de golosinas Pecados de Compostela, muy llamativa, por si quer\u00e9is endulzar vuestro paseo.",
+      en: "Okaaay, it's not the most eye-catching or spectacular spot in the city, but it's very useful for getting your bearings.\n\nAlso, right next to it you'll see a narrow alley we'll visit later, from the other end.\n\nEven though many people just call it the R\u00faa Nova kiosk, it's actually the Quiosco do Toural, because it stands right at the Cant\u00f3n do Toural, at the entrance to the street.\n\nIt's one of the most beloved urban fixtures in Santiago \u2014 not so much for its architecture, though it is a lovely example of an iron-and-glass modernist kiosk, but for what it meant to several generations.\n\nOpen since 1910, for over a century it was much more than a place to buy the newspaper. It was a spot where people discussed the news, greeted their neighbors, and started the day. In a university and administrative city like Santiago, it was common to see professors, lawyers, doctors or civil servants buying the paper before heading to work.\n\nIt closed a few years ago when its owner retired, and the city council is looking for ways to preserve it.\n\nTo continue, head down the street with the pretty arches. Under those arches you'll find the Pecados de Compostela candy shop, quite eye-catching, in case you want to sweeten your walk."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/LNYMu4f.jpeg"
   },
   {
     id: "reto-16",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 16 — sin rellenar", en: "Challenge 16 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/ruZYTuH.jpeg",
+    title: { es: "Praza do Toural", en: "Praza do Toural" },
+    mapsQuery: "Praza do Toural, Santiago de Compostela",
+    lat: 42.8779,
+    lng: -8.5452,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 16.",
-      en: "Replace this text with the story/fun fact for challenge 16."
+      es: "El nombre procede de \"touro\" (toro). Aqu\u00ed se celebraba el mercado de ganado mayor, especialmente de bueyes y toros, antes de que la ciudad creciera. En la Edad Media este lugar estaba junto al l\u00edmite de la muralla y era perfecto para comerciar sin congestionar las calles del interior.\n\nLa fuente actual, inaugurada en 1822, no era un elemento ornamental. Era uno de los principales puntos de abastecimiento de agua para vecinos, comerciantes y animales. Antes de que existiera agua corriente, una plaza importante necesitaba una fuente importante.\n\nEl edificio que domina la plaza es el Pazo de Benda\u00f1a, obra de Clemente Fern\u00e1ndez Sarela en el siglo XVIII.\n\nPero casi nadie mira hacia arriba.\n\nEn lo alto de la fachada hay una figura de Atlas sosteniendo la b\u00f3veda celeste. Es un motivo casi \u00fanico en la arquitectura civil compostelana. Mientras la mayor\u00eda de los pazos rematan sus fachadas con escudos o pin\u00e1culos, aqu\u00ed un personaje de la mitolog\u00eda griega carga literalmente con el mundo. Hoy alberga la Fundaci\u00f3n y Museo Eugenio Granell.\n\nEn Santiago se dice que cuando una persona virgen y pura pase por debajo, Atlas dejar\u00e1 caer la bola del mundo. Ah\u00ed sigue el pobre.\n\nEn uno de los laterales encontrar\u00e1s una enorme galer\u00eda acristalada.\n\nLas galer\u00edas son t\u00edpicas de Galicia, pero esta tiene un valor especial porque muestra c\u00f3mo la arquitectura tradicional aprovechaba el efecto invernadero: en invierno acumulaba calor y en verano permit\u00eda ventilar la vivienda abriendo solo los peque\u00f1os respiraderos laterales. No era un adorno; era una soluci\u00f3n clim\u00e1tica muy ingeniosa.\n\nSi comparas las fachadas de la plaza, notar\u00e1s que pertenecen a \u00e9pocas distintas, pero mantienen una sorprendente armon\u00eda. No es casualidad: Santiago fue creciendo muy despacio y las nuevas construcciones se adaptaban a la escala de las antiguas. Por eso el Toural no parece una plaza dise\u00f1ada de una vez, sino una plaza que ha ido madurando durante siglos.\n\nLos compostelanos suelen decir que el Toural es el verdadero kil\u00f3metro cero de Santiago. No porque exista una placa, sino porque, si quedas con alguien en el casco hist\u00f3rico y no concret\u00e1is m\u00e1s, durante generaciones bastaba decir: \"v\u00e9monos no Toural\".\n\nPara seguir, dirig\u00edos cuesta abajo hasta el final del casco antiguo.",
+      en: "The name comes from \"touro\" (bull). This is where the market for large livestock was held, especially oxen and bulls, before the city grew. In the Middle Ages this spot sat right at the edge of the city wall, perfect for trading without clogging up the streets inside.\n\nThe current fountain, unveiled in 1822, wasn't just decorative. It was one of the main water supply points for residents, merchants and animals. Before running water existed, an important square needed an important fountain.\n\nThe building overlooking the square is the Pazo de Benda\u00f1a, built by Clemente Fern\u00e1ndez Sarela in the 18th century.\n\nBut almost nobody looks up.\n\nAt the top of the fa\u00e7ade there's a figure of Atlas holding up the celestial sphere. It's an almost unique motif in Compostela's civic architecture. While most pazos top their fa\u00e7ades with coats of arms or pinnacles, here a figure from Greek mythology literally carries the weight of the world. Today the building houses the Eugenio Granell Foundation and Museum.\n\nIn Santiago it's said that if a pure, virgin person walks underneath, Atlas will drop the globe. He's still holding on, poor guy.\n\nOn one of the sides you'll find a huge glazed gallery.\n\nGaler\u00edas (glazed balconies) are typical of Galicia, but this one is especially valuable because it shows how traditional architecture made use of the greenhouse effect: it stored heat in winter and allowed ventilation in summer by opening only the small side vents. It wasn't decoration \u2014 it was a very clever climate solution.\n\nIf you compare the fa\u00e7ades around the square, you'll notice they belong to different periods, yet they keep a surprising harmony. That's no accident: Santiago grew very slowly, and new buildings adapted to the scale of the older ones. That's why the Toural doesn't feel like a square designed all at once, but one that has matured over centuries.\n\nLocals often say the Toural is Santiago's true kilometer zero. Not because there's a plaque, but because, for generations, if you made plans with someone in the old town without specifying more, it was enough to say: \"let's meet at the Toural.\"\n\nTo continue, head downhill to the far end of the old town."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/qdF4E07.jpeg"
   },
   {
     id: "reto-17",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 17 — sin rellenar", en: "Challenge 17 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/Ror8gKo.jpeg",
+    title: { es: "As D\u00faas Mar\u00edas", en: "As D\u00faas Mar\u00edas" },
+    mapsQuery: "42.8777154,-8.5460303",
+    lat: 42.8777154,
+    lng: -8.5460303,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 17.",
-      en: "Replace this text with the story/fun fact for challenge 17."
+      es: "Maruxa y Coralia Fandi\u00f1o Ricart, \"As D\u00faas Mar\u00edas\"\n\nAunque la gente suele banalizar mucho su historia, son dos de las personas de Santiago que m\u00e1s homenaje merecen. Ellas eran dos hermanas nacidas en una familia obrera de Santiago. Sus hermanos estaban vinculados al movimiento anarcosindicalista durante la Segunda Rep\u00fablica.\n\nTras el golpe de 1936, la familia sufri\u00f3 una persecuci\u00f3n brutal. Algunos hermanos huyeron, otros fueron encarcelados y las hermanas quedaron marcadas para siempre.\n\nMaruxa y Coralia no fueron encarceladas ni fusiladas, pero sufrieron algo muy habitual en la posguerra: el acoso constante.\n\nFueron detenidas, interrogadas, humilladas p\u00fablicamente y sometidas a vigilancia durante a\u00f1os para intentar obtener informaci\u00f3n sobre sus hermanos.\n\nMuchos historiadores consideran que el deterioro psicol\u00f3gico que sufrieron est\u00e1 directamente relacionado con esa persecuci\u00f3n.\n\nA partir de los a\u00f1os 50 comenzaron a recorrer Santiago todos los d\u00edas.\n\nVest\u00edan colores llamativos, se maquillaban de forma extravagante y paseaban por la Alameda exactamente a las dos de la tarde.\n\nPor eso muchos compostelanos las conoc\u00edan como \"Las Dos en Punto\".\n\nDurante a\u00f1os fueron objeto de burlas.\n\nSin embargo, hoy mucha gente interpreta su comportamiento de otra manera: como una forma de resistencia personal.\n\nLas Mar\u00edas adoraban el ambiente estudiantil.\n\nSol\u00edan acercarse a los universitarios, conversar, pedir un cigarrillo o lanzar alg\u00fan piropo. Por eso siguen estando muy presentes en la memoria colectiva de varias generaciones de estudiantes compostelanos.\n\nSi observas fotograf\u00edas antiguas, ver\u00e1s que la estatua reproduce su forma caracter\u00edstica de caminar: juntas, ligeramente inclinadas hacia delante y conversando entre ellas.\n\nDurante d\u00e9cadas fueron vistas como dos locas. Hoy se entienden como un s\u00edmbolo de memoria, dignidad y supervivencia.\n\nPor eso, cuando alguien se sienta a hacerse una foto entre ellas en la Alameda, en realidad est\u00e1 haci\u00e9ndose una foto con una parte de la historia menos visible de Santiago: la de quienes sobrevivieron a la represi\u00f3n sin dejar nunca de recorrer las calles de su ciudad.",
+      en: "Maruxa and Coralia Fandi\u00f1o Ricart, \"As D\u00faas Mar\u00edas\"\n\nEven though people often trivialize their story, they're two of the people from Santiago who deserve the most tribute. They were two sisters born into a working-class family in Santiago. Their brothers were linked to the anarcho-syndicalist movement during the Second Republic.\n\nAfter the 1936 coup, the family suffered brutal persecution. Some brothers fled, others were imprisoned, and the sisters were marked forever.\n\nMaruxa and Coralia weren't imprisoned or executed, but they suffered something very common in the postwar years: constant harassment.\n\nThey were detained, interrogated, publicly humiliated, and kept under surveillance for years in an attempt to get information about their brothers.\n\nMany historians believe the psychological toll they suffered is directly linked to that persecution.\n\nStarting in the 1950s, they began walking through Santiago every day.\n\nThey wore bright colors, wore extravagant makeup, and strolled through the Alameda at exactly two in the afternoon.\n\nThat's why many locals knew them as \"Las Dos en Punto\" (\"The Two O'Clock Ladies\").\n\nFor years they were the target of mockery.\n\nToday, though, many people read their behavior differently: as a form of personal resistance.\n\nThe Mar\u00edas adored the student atmosphere.\n\nThey liked approaching university students, chatting, asking for a cigarette, or tossing out a flirtatious remark. That's why they remain very present in the collective memory of several generations of Compostela students.\n\nIf you look at old photographs, you'll see that the statue reproduces their characteristic way of walking: close together, leaning slightly forward, talking to each other.\n\nFor decades they were seen as two madwomen. Today they're understood as a symbol of memory, dignity, and survival.\n\nSo when someone sits down to take a photo between them in the Alameda, they're actually taking a photo with a less visible part of Santiago's history: that of people who survived repression without ever stopping their walks through their city's streets."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/vHy0xog.jpeg"
   },
   {
     id: "reto-18",
@@ -595,7 +595,7 @@ const TENGO_COCHE_ITEMS = [
     title: { es: "A Coruña", en: "A Coruña" },
     distance: { es: "45 min en coche", en: "45 min by car" },
     description: {
-      es: "Ciudad de las Torre de Hércules y el paseo marítimo más largo de Europa. Buen marisco en la zona vieja.",
+      es: "Ciudad de la Torre de Hércules y el paseo marítimo más largo de Europa. Buen marisco en la zona vieja.",
       en: "Home of the Tower of Hercules and the longest seaside promenade in Europe. Great seafood in the old town."
     }
   },
@@ -718,6 +718,7 @@ const COMER_ITEMS = [
 
 const FIESTAS_ITEMS = [
   {
+    isoDate: "2026-07-22",
     date: { es: "Miércoles 22 de julio", en: "Wednesday, July 22" },
     title: { es: "Pregón de apertura", en: "Opening ceremony" },
     description: {
@@ -726,6 +727,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-23",
     date: { es: "Jueves 23 de julio", en: "Thursday, July 23" },
     title: { es: "Alborada y Julian Marley", en: "Alborada and Julian Marley" },
     description: {
@@ -734,6 +736,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-24",
     date: { es: "Viernes 24 de julio", en: "Friday, July 24" },
     title: { es: "Fuegos del Apóstol", en: "Fireworks of the Apóstol" },
     description: {
@@ -742,6 +745,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-25",
     date: { es: "Sábado 25 de julio", en: "Saturday, July 25" },
     title: { es: "Día de Galicia y Festival do Folclore", en: "Galicia Day and Folk Festival" },
     description: {
@@ -750,6 +754,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-26",
     date: { es: "Domingo 26 de julio", en: "Sunday, July 26" },
     title: { es: "Día do Traxe (traje tradicional)", en: "Día do Traxe (traditional dress day)" },
     description: {
@@ -758,6 +763,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-27",
     date: { es: "Lunes 27 de julio", en: "Monday, July 27" },
     title: { es: "Arranca Compostela Cinema", en: "Compostela Cinema begins" },
     description: {
@@ -766,6 +772,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-28",
     date: { es: "Martes 28 de julio", en: "Tuesday, July 28" },
     title: { es: "Ajedrez al aire libre y Festa Xitana", en: "Outdoor chess and Festa Xitana" },
     description: {
@@ -774,6 +781,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-29",
     date: { es: "Miércoles 29 de julio", en: "Wednesday, July 29" },
     title: { es: "Música emergente en la Quintana", en: "Emerging music in Praza da Quintana" },
     description: {
@@ -782,6 +790,7 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-30",
     date: { es: "Jueves 30 de julio", en: "Thursday, July 30" },
     title: { es: "Concierto de Shego", en: "Shego concert" },
     description: {
@@ -790,11 +799,49 @@ const FIESTAS_ITEMS = [
     }
   },
   {
+    isoDate: "2026-07-31",
+    isWeddingEve: true,
     date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday, July 31 · the night before the wedding" },
     title: { es: "Cierre de fiestas: The Rapants y fuegos finales", en: "Closing night: The Rapants and final fireworks" },
     description: {
       es: "Último día de las fiestas, justo la noche antes de la boda. Cantos de Taberna por San Lázaro y rúa de San Pedro desde las 21:00 h, concierto de cierre de The Rapants en la Quintana a las 22:00 h, verbena con la Orquestra Suavecito en la Alameda, y a las 23:30 h el espectáculo pirotécnico de fin de fiestas.",
       en: "The last day of the festivities, the night right before the wedding. Cantos de Taberna in San Lázaro and rúa de San Pedro from 9 pm, a closing concert by The Rapants in Praza da Quintana at 10 pm, a verbena with Orquestra Suavecito in the Alameda, and the closing fireworks display at 11:30 pm."
+    }
+  },
+
+  /* ---- Atardecer no Gaiás — ciclo de conciertos gratuitos en la Cidade
+     da Cultura (jueves y viernes, 2 de julio - 14 de agosto de 2026,
+     21:00 h, entrada libre). Solo incluimos aquí las fechas que caen
+     dentro de la semana de la boda; el ciclo sigue después en agosto,
+     consulta cidadedacultura.gal si os quedáis más días. ---- */
+  {
+    isoDate: "2026-07-23",
+    isGaias: true,
+    date: { es: "Jueves 23 de julio", en: "Thursday, July 23" },
+    title: { es: "Atardecer no Gaiás: Bala", en: "Atardecer no Gaiás: Bala" },
+    description: {
+      es: "21:00 h, Praza Central da Cidade da Cultura, entrada libre. Concierto de Bala, dúo de stoner rock gallego, dentro del ciclo gratuito de conciertos al atardecer en el Gaiás.",
+      en: "9 pm, Praza Central at the Cidade da Cultura, free entry. A concert by Bala, a Galician stoner rock duo, part of the free sunset concert series at the Gaiás."
+    }
+  },
+  {
+    isoDate: "2026-07-30",
+    isGaias: true,
+    date: { es: "Jueves 30 de julio", en: "Thursday, July 30" },
+    title: { es: "Atardecer no Gaiás: Sheila Patricia", en: "Atardecer no Gaiás: Sheila Patricia" },
+    description: {
+      es: "21:00 h, Praza Central da Cidade da Cultura, entrada libre. Concierto de Sheila Patricia dentro del ciclo gratuito de conciertos al atardecer en el Gaiás.",
+      en: "9 pm, Praza Central at the Cidade da Cultura, free entry. A concert by Sheila Patricia, part of the free sunset concert series at the Gaiás."
+    }
+  },
+  {
+    isoDate: "2026-07-31",
+    isGaias: true,
+    date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday, July 31 · the night before the wedding" },
+    title: { es: "Atardecer no Gaiás: Lisdexia", en: "Atardecer no Gaiás: Lisdexia" },
+    description: {
+      es: "21:00 h, Praza Central da Cidade da Cultura, entrada libre. Concierto de Lisdexia, la misma noche del cierre de las fiestas — para quien prefiera un plan más tranquilo antes de la boda del día siguiente.",
+      en: "9 pm, Praza Central at the Cidade da Cultura, free entry. A concert by Lisdexia, the same night as the festival closing — a calmer option for anyone who'd rather take it easy the night before the wedding."
     }
   }
   // Nota: si el programa sufre cambios de última hora, verifica en santiagoturismo.com
@@ -974,4 +1021,42 @@ const PARIS_DAKAR_ITEMS = [
       en: "Rúa da Raíña 24. A lively seafood restaurant, a good option if you want to stretch the night out with a proper sit-down bite."
     }
   }
+];
+
+
+/* --------------------------------------------------------------------------
+   8. DATOS DE INTERÉS
+   Información práctica suelta: teléfonos, transportes, y cualquier otro
+   dato útil para los invitados. Cada bloque tiene:
+     - icon: "taxi" | "bus" | "phoneEmergency"  (o cualquier otro que añadas
+       a js/icons.js más adelante)
+     - title / description: como siempre, versión es/en
+   -------------------------------------------------------------------------- */
+
+const DATOS_INTERES_ITEMS = [
+  {
+    icon: "taxi",
+    title: { es: "Radio Taxi Compostela", en: "Radio Taxi Compostela" },
+    description: {
+      es: "981 56 92 92 — servicio 24 horas todos los días del año. También se puede pedir con la app Taxiclick. Otra opción es Taxi Santiago: 619 492 393.",
+      en: "981 56 92 92 — 24-hour service, every day of the year. You can also book through the Taxiclick app. Another option is Taxi Santiago: 619 492 393."
+    }
+  },
+  {
+    icon: "bus",
+    title: { es: "Autobús al aeropuerto (línea 6A)", en: "Airport bus (line 6A)" },
+    description: {
+      es: "El autobús urbano línea 6A conecta el Aeropuerto de Santiago (Lavacolla) con el centro (Praza de Galicia, Rúa da Rosa, Estación Intermodal). Sale cada 20-30 minutos, aproximadamente de 7:00 a 23:00. El billete cuesta 1€ y se paga en efectivo al subir (no aceptan billetes de más de 20€). El trayecto dura unos 25-30 minutos.",
+      en: "Urban bus line 6A connects Santiago Airport (Lavacolla) with the city center (Praza de Galicia, Rúa da Rosa, Estación Intermodal). It runs every 20-30 minutes, roughly from 7:00 am to 11:00 pm. The fare is €1, paid in cash on board (no bills over €20 accepted). The ride takes about 25-30 minutes."
+    }
+  },
+  {
+    icon: "phoneEmergency",
+    title: { es: "Emergencias", en: "Emergencies" },
+    description: {
+      es: "112 — número de emergencias gratuito válido en toda España (ambulancia, policía, bomberos). Se puede llamar desde cualquier teléfono, incluso sin cobertura o saldo, y atienden en varios idiomas.",
+      en: "112 — free emergency number valid throughout Spain (ambulance, police, fire). It can be called from any phone, even without signal or credit, and operators are available in multiple languages."
+    }
+  }
+  // Añade más datos prácticos copiando un bloque como los de arriba.
 ];

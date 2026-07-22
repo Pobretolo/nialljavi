@@ -14,6 +14,7 @@ const UI_TEXT = {
   nav_comer:       { es: "Dónde comer",     en: "Where to eat" },
   nav_fiestas:     { es: "Fiestas del Apóstol", en: "Fiestas del Apóstol" },
   nav_parisdakar:  { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
+  nav_datos:       { es: "Datos de interés", en: "Practical info" },
 
   hero_eyebrow:    { es: "Nos casamos", en: "We're getting married" },
   hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "August 1, 2026 · Santiago de Compostela" },
@@ -39,6 +40,9 @@ const UI_TEXT = {
 
   home_parisdakar_title: { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   home_parisdakar_desc:  { es: "La mítica ruta de bares de los estudiantes compostelanos, convertida en pasaporte de sellos.", en: "Santiago students' legendary bar route, turned into a stamp passport." },
+
+  home_datos_title: { es: "Datos de interés", en: "Practical info" },
+  home_datos_desc:  { es: "Teléfonos, transporte y otra información práctica para el día a día en Santiago.", en: "Phone numbers, transport and other practical info for getting around Santiago." },
 
   footer_text: { es: "Hecho con cariño por Niall & Javi", en: "Made with love by Niall & Javi" },
 
@@ -112,10 +116,14 @@ const UI_TEXT = {
 
   page_fiestas_title: { es: "Fiestas del Apóstol 2026", en: "Fiestas del Apóstol 2026" },
   page_fiestas_sub: {
-    es: "El programa oficial de las fiestas patronales de Santiago, del 22 al 31 de julio de 2026 — justo los días antes de la boda. La víspera, 31 de julio, es el cierre de fiestas.",
-    en: "The official program for Santiago's patron saint festivities, July 22–31, 2026 — right in the days before the wedding. July 31 is the closing night."
+    es: "El programa oficial de las fiestas patronales de Santiago, del 22 al 31 de julio de 2026 — justo los días antes de la boda, incluyendo los Atardecer no Gaiás. La víspera, 31 de julio, es el cierre de fiestas. Esta lista se actualiza sola: las citas que ya han pasado desaparecen automáticamente.",
+    en: "The official program for Santiago's patron saint festivities, July 22–31, 2026 — right in the days before the wedding, including the Atardecer no Gaiás sunset concerts. July 31 is the closing night. This list updates itself: past dates disappear automatically."
   },
   fiestas_wedding_eve: { es: "Víspera de la boda", en: "Night before the wedding" },
+  fiestas_all_past: {
+    es: "Las Fiestas del Apóstol de este año ya han terminado. ¡Nos vemos en la boda!",
+    en: "This year's Fiestas del Apóstol have already wrapped up. See you at the wedding!"
+  },
 
   page_parisdakar_title: { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   page_parisdakar_sub: {
@@ -144,6 +152,12 @@ const UI_TEXT = {
   parisdakar_complete_text: {
     es: "Habéis llegado al Dakar. Enhorabuena, ya formáis parte de la tradición compostelana.",
     en: "You've made it to the Dakar. Congratulations — you're now part of Compostela tradition."
+  },
+
+  page_datos_title: { es: "Datos de interés", en: "Practical info" },
+  page_datos_sub: {
+    es: "Algunos teléfonos y datos prácticos que pueden venir bien durante vuestra estancia en Santiago.",
+    en: "A few phone numbers and practical details that might come in handy during your stay in Santiago."
   },
 };
 

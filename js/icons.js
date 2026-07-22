@@ -85,6 +85,14 @@ const ICONS = {
       <path d="M6 20c1.7-1.3 3.7-1.3 6 0s4.3 1.3 6 0"/>
     </svg>`,
 
+  // Atardecer no Gaiás — puesta de sol
+  sunset: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M12 3v5M6.5 8l2 2M17.5 8l-2 2M2.5 15h19"/>
+      <path d="M6 15a6 6 0 0112 0"/>
+      <path d="M4 18.5h16M6 21h12"/>
+    </svg>`,
+
   // Dónde comer — cubiertos (nav)
   cutlery: () => `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
@@ -93,6 +101,29 @@ const ICONS = {
     </svg>`,
 
   // Ubicación / Google Maps
+  // Datos de interés — taxi, autobús, teléfono de emergencias
+  taxi: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 11l1.2-4.2A2 2 0 018.1 5.3h7.8a2 2 0 011.9 1.5L19 11"/>
+      <rect x="3" y="11" width="18" height="6.5" rx="1.5"/>
+      <circle cx="7.5" cy="17.5" r="1.3"/>
+      <circle cx="16.5" cy="17.5" r="1.3"/>
+      <path d="M9 8h2M13 8h2"/>
+    </svg>`,
+
+  bus: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="4" width="16" height="12.5" rx="2"/>
+      <path d="M4 11h16M8 4v12.5M16 4v12.5"/>
+      <circle cx="7.5" cy="19" r="1.3"/>
+      <circle cx="16.5" cy="19" r="1.3"/>
+    </svg>`,
+
+  phoneEmergency: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 4h3.2l1.3 4.3-2 1.6a11 11 0 006.6 6.6l1.6-2 4.3 1.3V19a2 2 0 01-2.2 2A16 16 0 015 6.2 2 2 0 015 4z"/>
+    </svg>`,
+
   // Pasaporte del París-Dakar — cunca de viño
   wineCup: () => `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
