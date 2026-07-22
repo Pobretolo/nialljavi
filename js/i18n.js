@@ -16,6 +16,15 @@ const UI_TEXT = {
   nav_parisdakar:  { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   nav_datos:       { es: "Datos de interés", en: "Practical info" },
 
+  eyebrow_photo:      { es: "Minijuego", en: "Mini-game" },
+  eyebrow_ver:        { es: "Ruta recomendada", en: "Recommended route" },
+  eyebrow_coche:      { es: "Escapadas", en: "Day trips" },
+  eyebrow_comer:      { es: "Gastronomía", en: "Food & drink" },
+  eyebrow_salir:      { es: "Vida nocturna", en: "Nightlife" },
+  eyebrow_fiestas:    { es: "Programa oficial", en: "Official program" },
+  eyebrow_parisdakar: { es: "Tradición compostelana", en: "Compostela tradition" },
+  eyebrow_datos:      { es: "Información práctica", en: "Practical information" },
+
   hero_eyebrow:    { es: "Nos casamos", en: "We're getting married" },
   hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "August 1, 2026 · Santiago de Compostela" },
   hero_sub:        { es: "Todo lo que necesitas para el gran día y para descubrir la ciudad mientras estás por aquí.", en: "Everything you need for the big day, and for discovering the city while you're here." },
@@ -106,6 +115,13 @@ const UI_TEXT = {
   salir_music_tranquila: { es: "Tranquila", en: "Chill" },
   salir_no_results: { es: "No hay planes con esos filtros. Prueba a quitar alguno.", en: "No spots match those filters. Try removing one." },
   maps_link: { es: "Ver en Google Maps", en: "View on Google Maps" },
+  que_ver_book: { es: "Reservar", en: "Book" },
+  que_ver_fototour_title: { es: "Empieza con un mini free tour", en: "Start with a mini free tour" },
+  que_ver_fototour_text: {
+    es: "Antes de seguir con esta guía, os proponemos el Foto Explorer: un juego de pistas por la zona vieja que funciona como un pequeño \"free tour\" de la ciudad, con historias y curiosidades en cada parada.",
+    en: "Before going through this guide, give the Foto Explorer a try: a clue-hunting game around the old town that works like a mini \"free tour\" of the city, with stories and fun facts at every stop."
+  },
+  que_ver_fototour_btn: { es: "Ir al Foto Explorer", en: "Go to the Foto Explorer" },
 
   page_comer_title: { es: "Dónde comer", en: "Where to eat" },
   page_comer_sub: {

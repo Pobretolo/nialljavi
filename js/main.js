@@ -10,6 +10,10 @@ function renderQueVer() {
       ${item.time ? `<span class="eyebrow" style="color:var(--rust)">${item.time[lang]}</span>` : ""}
       <h3>${i + 1}. ${item.title[lang]}</h3>
       <p>${item.description[lang]}</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
+        ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
+        ${item.bookingUrl ? `<a class="btn btn-solid" target="_blank" rel="noopener" href="${item.bookingUrl}">${item.bookingLabel ? item.bookingLabel[lang] : UI_TEXT.que_ver_book[lang]}</a>` : ""}
+      </div>
     </div>
   `).join("");
 }

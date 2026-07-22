@@ -434,41 +434,82 @@ const PHOTO_CHALLENGES = [
 
 const QUE_VER_ITEMS = [
   {
-    image: "images/general/obradoiro.jpg",
-    time: { es: "Mañana", en: "Morning" },
-    title: { es: "Praza do Obradoiro y la Catedral", en: "Praza do Obradoiro and the Cathedral" },
+    time: { es: "Cubiertas", en: "Rooftops" },
+    title: { es: "Subir a las cubiertas de la Catedral", en: "Climb up to the Cathedral rooftops" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+Catedral+Palacio+de+Gelm%C3%ADrez+Santiago+de+Compostela",
+    bookingUrl: "https://visitas.catedraldesantiago.es/museo-catedral-cubiertas-y-torre-de-la-carraca/",
+    bookingLabel: { es: "15€ · Reservar cubiertas", en: "€15 · Book rooftops" },
     description: {
-      es: "Empieza aquí, es el corazón de la ciudad y donde termina el Camino de Santiago. Entra a ver el Pórtico de la Gloria.",
-      en: "Start here — it's the heart of the city and where the Camino de Santiago ends. Go in to see the Pórtico de la Gloria."
+      es: "Visita guiada de una hora por las cubiertas de piedra y la Torre da Carraca (unos 72 m de altura), con las mejores vistas de la ciudad. Incluye también el Museo Catedral, el Palacio de Gelmírez y la Cripta del Pórtico de la Gloria. 15€ (12€ tarifa reducida). Reserva en la web oficial.",
+      en: "A one-hour guided tour across the Cathedral's stone rooftops and up the Torre da Carraca (about 72 m high), with the best views in the city. Also includes the Cathedral Museum, the Pazo de Xelmírez and the Pórtico de la Gloria crypt. €15 (€12 reduced). Book on the official website."
     }
   },
   {
-    image: "images/general/casco-antiguo.jpg",
-    time: { es: "Media mañana", en: "Mid-morning" },
-    title: { es: "Paseo por el casco antiguo", en: "Stroll through the old town" },
+    time: { es: "Interior", en: "Inside" },
+    title: { es: "Ver el Pórtico de la Gloria", en: "See the Pórtico de la Gloria" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+Catedral+Palacio+de+Gelm%C3%ADrez+Santiago+de+Compostela",
+    bookingUrl: "https://visitas.catedraldesantiago.es/portico-de-la-gloria/",
+    bookingLabel: { es: "12€ · Reservar Pórtico", en: "€12 · Book Pórtico" },
     description: {
-      es: "Piérdete por las calles de piedra: Rúa do Vilar, Rúa Nova, Praza de Praterías.",
-      en: "Get lost in the stone streets: Rúa do Vilar, Rúa Nova, Praza de Praterías."
+      es: "El pórtico románico original del Maestro Mateo (s. XII), recientemente restaurado y con los colores originales recuperados. El acceso está limitado a un número de visitantes al día, así que conviene reservar con antelación (hasta 7 días antes). 12€ (10€ tarifa reducida), incluye también el Museo Catedral.",
+      en: "Master Mateo's original 12th-century Romanesque portico, recently restored with its original colors recovered. Access is limited to a set number of visitors per day, so it's worth booking ahead (up to 7 days in advance). €12 (€10 reduced), also includes the Cathedral Museum."
     }
   },
   {
-    image: "images/general/mercado-abastos.jpg",
-    time: { es: "Mediodía", en: "Midday" },
+    time: { es: "Gratis", en: "Free" },
+    title: { es: "Visitar el interior de la Catedral", en: "Visit the inside of the Cathedral" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Praza+do+Obradoiro+Santiago+de+Compostela",
+    description: {
+      es: "La visita general al interior es gratuita. Recomendamos ir a primera hora de la mañana para evitar las colas más largas, que se forman sobre todo a media mañana y con la llegada de los grupos organizados.",
+      en: "General entry to the inside is free. We recommend going first thing in the morning to avoid the longest queues, which build up mostly by mid-morning once organized tour groups start arriving."
+    }
+  },
+  {
+    time: { es: "Parque", en: "Park" },
+    title: { es: "Parque de Bonaval y Panteón de Galegos Ilustres", en: "Parque de Bonaval and the Panteón de Galegos Ilustres" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Parque+de+Bonaval+Santiago+de+Compostela",
+    description: {
+      es: "Antiguo huerto del convento de San Domingos de Bonaval, hoy uno de los parques con más encanto de Santiago, en una colina justo fuera del casco histórico. En la iglesia gótica del propio convento (hoy parte del Museo do Pobo Galego) está el Panteón de Galegos Ilustres, donde descansan Rosalía de Castro, Castelao y otras figuras clave de la cultura gallega.",
+      en: "The former orchard of the Convento de San Domingos de Bonaval, today one of Santiago's most charming parks, on a hill just outside the old town. Inside the convent's Gothic church (now part of the Museo do Pobo Galego) is the Panteón de Galegos Ilustres, the resting place of Rosalía de Castro, Castelao, and other key figures of Galician culture."
+    }
+  },
+  {
+    time: { es: "Museo", en: "Museum" },
+    title: { es: "Museo do Pobo Galego", en: "Museo do Pobo Galego" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+do+Pobo+Galego+San+Domingos+de+Bonaval+Santiago+de+Compostela",
+    description: {
+      es: "En el mismo antiguo convento de Bonaval. Repasa la cultura tradicional gallega (oficios del mar, arquitectura popular, trajes) y tiene una llamativa escalera helicoidal de triple rampa. Entrada unos 3€, gratis los domingos. Cerrado los lunes.",
+      en: "In the same former Bonaval convent. It covers traditional Galician culture (seafaring trades, vernacular architecture, folk costume) and has a striking triple-helix spiral staircase. Entry is about €3, free on Sundays. Closed on Mondays."
+    }
+  },
+  {
+    time: { es: "Museo", en: "Museum" },
+    title: { es: "Museo das Peregrinacións", en: "Museo das Peregrinacións" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+das+Peregrinaci%C3%B3ns+e+de+Santiago",
+    description: {
+      es: "A pocos metros de la Catedral. Entrada gratuita, cuenta la historia del Camino de Santiago y de cómo fue creciendo la propia ciudad alrededor de la tumba del Apóstol. Cerrado los lunes.",
+      en: "Just a few meters from the Cathedral. Free entry, telling the story of the Camino de Santiago and how the city itself grew up around the Apostle's tomb. Closed on Mondays."
+    }
+  },
+  {
+    time: { es: "Mercado", en: "Market" },
     title: { es: "Mercado de Abastos", en: "Mercado de Abastos" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+Abastos+Santiago+de+Compostela",
     description: {
-      es: "Mercado tradicional gallego donde puedes comer marisco fresquísimo en varios puestos.",
-      en: "Traditional Galician market where you can eat super-fresh seafood at several stalls."
+      es: "Aunque también tiene su propia parada en el Foto Explorer, merece la pena reservarle un rato del día: paseo entre puestos de marisco, verdura y las paisanas vendiendo directamente su producto, con la opción de comprar y comer en alguno de los puestos-restaurante.",
+      en: "Even though it also has its own stop in the Foto Explorer, it's worth setting aside some time for it during the day: a wander among seafood and vegetable stalls and the paisanas selling their own produce directly, with the option to buy and eat right there at one of the stall-restaurants."
     }
   },
   {
-    image: "images/general/alameda.jpg",
-    time: { es: "Tarde", en: "Afternoon" },
-    title: { es: "Parque de la Alameda", en: "Alameda Park" },
+    time: { es: "Descanso", en: "Break" },
+    title: { es: "Costa Vella", en: "Costa Vella" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+Costa+Vella+Porta+da+Pena+Santiago+de+Compostela",
     description: {
-      es: "Las mejores vistas de la Catedral desde el Paseo de la Herradura, sobre todo al atardecer.",
-      en: "The best views of the Cathedral from the Paseo de la Herradura, especially at sunset."
+      es: "El jardín interior del Hotel Costa Vella (Porta da Pena, 17) es uno de esos rincones secretos del casco histórico: manzanos, limoneros y una fuente de piedra entre mesas. Hoy funciona como O Xardín das Delicias, café a cargo de la chef Lucía Freitas (la misma de A Tafona). Ideal para un desayuno o una pausa con té a media tarde.",
+      en: "The interior garden of the Hotel Costa Vella (Porta da Pena, 17) is one of the old town's secret little corners: apple trees, lemon trees and a stone fountain among the tables. These days it runs as O Xardín das Delicias, a café run by chef Lucía Freitas (the same chef behind A Tafona). Ideal for breakfast or a mid-afternoon tea break."
     }
   }
+
   // Añade más paradas copiando un bloque como los de arriba.
 ];
 
@@ -506,7 +547,7 @@ const TENGO_COCHE_ITEMS = [
     rating: 4,
     title: { es: "Costa da Morte", en: "Costa da Morte" },
     distance: { es: "45-60 min en coche", en: "45-60 min by car" },
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Muxía+Cabo+Vilán+Costa+da+Morte",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Faro+Cabo+Vil%C3%A1n%2C+Camari%C3%B1as",
     description: {
       es: "Acantilados salvajes y faros. Muxía y Cabo Vilán son parada obligatoria.",
       en: "Wild cliffs and lighthouses. Muxía and Cabo Vilán are a must-stop."
@@ -517,7 +558,7 @@ const TENGO_COCHE_ITEMS = [
     rating: 2,
     title: { es: "Fervenza do Toxa", en: "Fervenza do Toxa" },
     distance: { es: "40 min en coche", en: "40 min by car" },
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Fervenza+do+Toxa+Galicia",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Fervenza+do+Toxa%2C+A+Estrada",
     description: {
       es: "Una de las cascadas más altas de Galicia, escondida entre bosque. Un rincón muy poco masificado, ideal para desconectar un rato de la ciudad.",
       en: "One of Galicia's tallest waterfalls, hidden away in the forest. A quiet, uncrowded spot, ideal for a short break from the city."
@@ -720,19 +761,6 @@ const SALIR_ITEMS = [
     }
   },
   {
-    name: "O Boneco Bar",
-    music: "moderna",
-    tapa: false,
-    gay: false,
-    image: "",
-    liveMusic: true,
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Boneco+Bar+Santiago+de+Compostela",
-    description: {
-      es: "Bar pequeño y con encanto muy cerca de la Catedral, buena selección de ginebras y música que va de los 80 a la actualidad. Ambiente muy variado.",
-      en: "A small, charming bar very close to the Cathedral, with a good gin selection and music ranging from the 80s to today. A nicely mixed crowd."
-    }
-  },
-  {
     name: "Way Club",
     music: "moderna",
     tapa: false,
@@ -830,18 +858,6 @@ const SALIR_ITEMS = [
     }
   },
   {
-    name: "Paraíso Perdido",
-    music: "tranquila",
-    tapa: false,
-    gay: false,
-    image: "",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Para%C3%ADso+Perdido+R%C3%BAa+de+San+Paio+de+Antealtares+Santiago+de+Compostela",
-    description: {
-      es: "Bar con ambiente de cueva, decoración vintage (máquinas de coser antiguas, objetos de otra época) en una plaza tranquila detrás de Cervantes. Perfecto para desconectar del bullicio.",
-      en: "A cave-like bar with vintage decor (old sewing machines, period pieces) on a quiet square behind Cervantes. Perfect for getting away from the bustle."
-    }
-  },
-  {
     name: "O Filandón",
     music: "tranquila",
     tapa: false,
@@ -859,7 +875,7 @@ const SALIR_ITEMS = [
     tapa: true,
     gay: false,
     image: "",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Bandullo+do+Lamb%C3%B3n+R%C3%BAa+da+Ra%C3%ADña+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Bandullo+do+Lamb%C3%B3n+R%C3%BAa+da+Ra%C3%AD%C3%B1a+Santiago+de+Compostela",
     description: {
       es: "Bar de cervezas artesanas gallegas e internacionales en la Rúa da Raíña, con tapa gratis (aceitunas, quesos) con cada bebida. Ambiente relajado.",
       en: "A Galician and international craft beer bar on Rúa da Raíña, with a free tapa (olives, cheese) with every drink. A relaxed vibe."
@@ -949,6 +965,18 @@ const SALIR_ITEMS = [
       es: "Bar musical cerca del Mercado de Abastos, ambiente acogedor y decoración moderna, con música en directo algunos días. Público muy variado: estudiantes, vecinos y visitantes por igual.",
       en: "A music bar near the Mercado de Abastos, cozy and modern, with live music some days. A very mixed crowd of students, locals, and visitors alike."
     }
+  },
+  {
+    name: "Xuntanza",
+    music: "tranquila",
+    tapa: true,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cervexer%C3%ADa+Xuntanza+R%C3%BAa+de+Xelm%C3%ADrez+28+Santiago+de+Compostela",
+    description: {
+      es: "Cervecería artesanal en la Rúa de Xelmírez, muy cerca de la Catedral, desde 2013. Buena selección de cervezas gallegas, con tapa a elegir (tostas, arepas, panpizza...) incluida en cada consumición. Terraza agradable en la calle.",
+      en: "A craft beer bar on Rúa de Xelmírez, very close to the Cathedral, open since 2013. A good selection of Galician craft beers, with a choice of tapa (tostas, arepas, mini pizza...) included with every drink. A pleasant street-side terrace."
+    }
   }
   // Añade más sitios copiando un bloque como los de arriba.
   // "mapsUrl" -> en Google Maps, busca el sitio, pulsa "Compartir" y copia el enlace aquí.
@@ -1007,8 +1035,8 @@ const COMER_ITEMS = [
     name: "O Dezaseis",
     category: "tradicional",
     breakfast: false,
-    rating: 4.4,
-    ratingApprox: true,
+    rating: 4.5,
+    ratingApprox: false,
     price: 1,
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Dezaseis+R%C3%BAa+de+San+Pedro+16+Santiago+de+Compostela",
     description: {
@@ -1020,8 +1048,8 @@ const COMER_ITEMS = [
     name: "O Sendeiro",
     category: "altacocina",
     breakfast: false,
-    rating: 4.6,
-    ratingApprox: true,
+    rating: 4.8,
+    ratingApprox: false,
     price: 4,
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Sendeiro+Rua+Olvido+Santiago+de+Compostela",
     description: {
@@ -1147,16 +1175,16 @@ const COMER_ITEMS = [
     }
   },
   {
-    name: "La Casa de la Tortilla (Restaurante Marte)",
+    name: "La Casa de las Tortillas (Armando Blanco)",
     category: "tradicional",
-    breakfast: true,
-    rating: 4.4,
+    breakfast: false,
+    rating: 4,
     ratingApprox: true,
     price: 2,
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurante+Marte+Avenida+Rodrigo+del+Padr%C3%B3n+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurante+Armando+Blanco+Traves%C3%ADa+de+Cacheiras+56+Teo",
     description: {
-      es: "Conocido como \"la casa de la tortilla desde 1988\", cerca de la Catedral y la Alameda. Tortillas creativas (trufa, pulpo, jam\u00f3n asado...) adem\u00e1s de raciones, bocadillos y desayunos.",
-      en: "Known as \"the house of tortilla since 1988,\" near the Cathedral and the Alameda. Creative tortillas (truffle, octopus, roast ham...) plus shared plates, sandwiches and breakfast."
+      es: "Ojo, está a unos 10 km de Santiago, en Cacheiras (Teo) — hace falta coche. Es todo un mito gallego de la tortilla, con varias variedades (jamón, chorizo, atún, cebolla...), muy jugosa y a precio muy asequible. Casa de labranza sencilla, sin lujos.",
+      en: "Heads up: it's about 10 km from Santiago, in Cacheiras (Teo) — you'll need a car. A true Galician tortilla legend, with several varieties (ham, chorizo, tuna, onion...), very juicy and very affordable. A simple, no-frills old farmhouse."
     }
   },
   {
@@ -1248,6 +1276,19 @@ const COMER_ITEMS = [
     description: {
       es: "Un cl\u00e1sico para desayunar con calma y leer un libro. Ambiente sencillo, ideal para empezar el d\u00eda sin prisas.",
       en: "A classic spot for a relaxed breakfast and a good book. Simple atmosphere, ideal for starting the day unhurried."
+    }
+  },
+  {
+    name: "Café Costa Vella (O Xardín das Delicias)",
+    category: "cafeteria",
+    breakfast: true,
+    rating: 4.7,
+    ratingApprox: true,
+    price: 2,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+Costa+Vella+Porta+da+Pena+Santiago+de+Compostela",
+    description: {
+      es: "El jardín interior del Hotel Costa Vella (Porta da Pena, 17), hoy a cargo de la chef Lucía Freitas (A Tafona) bajo el nombre O Xardín das Delicias. Manzanos, limoneros y una fuente de piedra entre las mesas. Ideal para desayunar o para una pausa con té a media tarde.",
+      en: "The interior garden of the Hotel Costa Vella (Porta da Pena, 17), now run by chef Lucía Freitas (A Tafona) under the name O Xardín das Delicias. Apple trees, lemon trees and a stone fountain among the tables. Ideal for breakfast or a mid-afternoon tea break."
     }
   }
   // Añade más sitios copiando un bloque como los de arriba.
@@ -1412,7 +1453,7 @@ const PARIS_DAKAR_ITEMS = [
   {
     name: "Café Bar Paris",
     isStart: true,
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJYbzF2ED-Lg0RlWsGaqW_JjE",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Bar+Paris+R%C3%BAa+dos+Bautizados+Santiago+de+Compostela",
     tip: {
       es: "El punto de salida histórico de la ruta, en Rúa dos Bautizados. Negocio familiar con casi 30 años detrás de la barra. Empezad aquí con una primera cunca.",
       en: "The route's historic starting point, on Rúa dos Bautizados. A family-run spot with nearly 30 years behind the bar. Start here with your first cunca."
@@ -1420,7 +1461,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "O'42",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJRdq2JUH-Lg0RZozSa1goQlI",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+42+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     tip: {
       es: "También conocido como Mesón 42, en plena Rúa do Franco. Buenas raciones para compartir, sobre todo si vais en grupo.",
       en: "Also known as Mesón 42, right on Rúa do Franco. Good sharing plates, especially if you're in a group."
@@ -1436,7 +1477,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "Bar Restaurante Orella",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJVV7mNUH-Lg0RWwWJnPg1qFI",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Restaurante+Orella+Santiago+de+Compostela",
     tip: {
       es: "En la Rúa da Raíña. Buen marisco a la plancha a precio justo — sencillo y muy recomendable.",
       en: "On Rúa da Raíña. Good grilled seafood at a fair price — simple and well worth it."
@@ -1444,7 +1485,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "Nova Galicia",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Nova+Galicia+R%C3%BAa+da+Ra%C3%ADña+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Nova+Galicia+R%C3%BAa+da+Ra%C3%AD%C3%B1a+Santiago+de+Compostela",
     tip: {
       es: "⚠️ No hemos podido confirmar la ubicación exacta en Google Maps — verificadla vosotros antes de publicar y sustituid este enlace por el correcto.",
       en: "⚠️ We couldn't confirm the exact location on Google Maps — please verify it yourselves before publishing and replace this link with the right one."
@@ -1452,7 +1493,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "Carpe Diem",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJAzaPJkH-Lg0RdO6U3uGMZlc",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Carpe+Diem+bar+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     tip: {
       es: "En Rúa do Franco 48. Una parada más de la ruta clásica.",
       en: "At Rúa do Franco 48. Another classic stop on the route."
@@ -1468,7 +1509,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "El Submarino",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJlezXJUH-Lg0RJ-PC6KZ9eZQ",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Submarino+bar+Santiago+de+Compostela",
     tip: {
       es: "Producto fresco de mercado en plena Rúa do Franco, formato de barra pequeña.",
       en: "Fresh market produce right on Rúa do Franco, small bar-style spot."
@@ -1476,7 +1517,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "Bar Trafalgar",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJGzOTVkH-Lg0RXYUNIGbgCSg",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Trafalgar+Santiago+de+Compostela",
     tip: {
       es: "Uno de los clásicos de la Rúa da Raíña, famoso por sus \"tigres rabiosos\" (mejillones picantes) y la tapa gratis con cada bebida.",
       en: "One of the Rúa da Raíña classics, famous for its spicy stuffed mussels (\"tigres rabiosos\") and a free tapa with every drink."
@@ -1484,7 +1525,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "A Barrola",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJ0UHDMEH-Lg0Rnhip7EA-2mk",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Barrola+Santiago+de+Compostela",
     tip: {
       es: "Marisquería de las de mantel, un punto más elegante de la ruta — ideal si os apetece darse un capricho con marisco.",
       en: "A proper white-tablecloth seafood restaurant, a slightly more upscale point on the route — great if you fancy splurging on shellfish."
@@ -1492,7 +1533,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "San Jaime",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJtSJVU0H-Lg0RUk3dhY9m2Iw",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+San+Jaime+Santiago+de+Compostela",
     tip: {
       es: "En la Praza de Fonseca, con terraza a la plaza. Muy frecuentado por gente local.",
       en: "On Praza de Fonseca, with terrace seating on the square. Popular with locals."
@@ -1500,7 +1541,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "Orense",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJ2_jYNUH-Lg0RuBDsn3NsZtI",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Orense+Santiago+de+Compostela",
     tip: {
       es: "Bar de barrica en la Rúa da Raíña, vino de la casa servido directo del tonel. Ambiente muy local, nada turístico.",
       en: "A barrel-wine bar on Rúa da Raíña, house wine served straight from the cask. Very local vibe, not touristy at all."
@@ -1508,7 +1549,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "O Gato Negro",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJW8J_SUH-Lg0RnFOWtBtEhn4",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Taberna+O+Gato+Negro+R%C3%BAa+do+Franco+40+Santiago+de+Compostela",
     tip: {
       es: "Más de 100 años de historia en la Rúa da Raíña. Está escondido en un callejón — buscad el gato negro en la fachada y la puerta verde. Suele llenarse rápido.",
       en: "Over 100 years of history on Rúa da Raíña. It's tucked down a small alley — look for the black cat on the façade and the green door. Fills up fast."
@@ -1516,7 +1557,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "El Cayado",
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJMyKzMEH-Lg0Rl3Pn5bD9XcE",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Cayado+bar+Santiago+de+Compostela",
     tip: {
       es: "En Rúa do Franco 20. Aviso: en Google Maps este local aparece también asociado a un cambio de nombre reciente — comprobad in situ que sigue siendo el que buscáis.",
       en: "At Rúa do Franco 20. Heads up: on Google Maps this spot also shows up linked to a recent name change — double-check on the spot that it's still the one you're after."
@@ -1525,7 +1566,7 @@ const PARIS_DAKAR_ITEMS = [
   {
     name: "Restaurante Dakar",
     isFinish: true,
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJDSwLSUH-Lg0RPWtsrm1GNCY",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurante+Dakar+R%C3%BAa+do+Franco+13+Santiago+de+Compostela",
     tip: {
       es: "La meta tradicional de la ruta, en Rúa do Franco 13, con terraza a la calle. Si llegáis hasta aquí, ¡ya sois parte de la historia del París-Dakar!",
       en: "The route's traditional finish line, at Rúa do Franco 13, with street-side terrace seating. If you make it here, you're officially part of Paris-Dakar history!"
@@ -1536,7 +1577,7 @@ const PARIS_DAKAR_ITEMS = [
   {
     name: "A Taberna do Bispo",
     isOptional: true,
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJ08-pOkH-Lg0R9G3LD9V3pv8",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Taberna+do+Bispo+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     tip: {
       es: "Rúa do Franco 37. Tapas servidas en formato barra: te sientas y vas señalando lo que te apetece de lo que hay expuesto.",
       en: "Rúa do Franco 37. Bar-style tapas: sit down and point at whatever looks good from what's on display."
@@ -1545,7 +1586,7 @@ const PARIS_DAKAR_ITEMS = [
   {
     name: "Casa de Xantar O Dezaseis",
     isOptional: true,
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJBz7wikX-Lg0RY3oNkxsPBR8",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+de+Xantar+O+Dezaseis+R%C3%BAa+de+San+Pedro+16+Santiago+de+Compostela",
     tip: {
       es: "Rúa de San Pedro 16, un poco fuera del núcleo Franco/Raíña. Ambiente acogedor y muy querido por los vecinos del barrio.",
       en: "Rúa de San Pedro 16, a bit outside the core Franco/Raíña stretch. Cozy atmosphere, well loved by neighborhood regulars."
@@ -1554,7 +1595,7 @@ const PARIS_DAKAR_ITEMS = [
   {
     name: "Mesón do Pulpo",
     isOptional: true,
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJ75gGLFz-Lg0R4jdVeux_NTo",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mes%C3%B3n+do+Pulpo+Santiago+de+Compostela",
     tip: {
       es: "Algo alejado del centro (Rúa de Vista Alegre), conocido sobre todo por su pulpo. Más plan tranquilo de sobremesa que parada rápida.",
       en: "A bit outside the center (Rúa de Vista Alegre), known especially for its octopus. More of a relaxed sit-down stop than a quick one."
@@ -1563,7 +1604,7 @@ const PARIS_DAKAR_ITEMS = [
   {
     name: "Casa Camilo",
     isOptional: true,
-    mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJrVwUSUH-Lg0RPqn1WXecGxg",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Camilo+R%C3%BAa+da+Ra%C3%AD%C3%B1a+24+Santiago+de+Compostela",
     tip: {
       es: "Rúa da Raíña 24. Restaurante de marisco con ambiente animado, buena opción si queréis alargar la noche con algo más de comida.",
       en: "Rúa da Raíña 24. A lively seafood restaurant, a good option if you want to stretch the night out with a proper sit-down bite."
