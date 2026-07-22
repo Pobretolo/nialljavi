@@ -44,6 +44,18 @@ en cada uno. Si dejas `lat`/`lng` en `null`, ese reto seguirá funcionando
 pero aparecerá siempre al final de la lista (el juego no sabrá lo cerca
 que está de nadie hasta que le des sus coordenadas).
 
+## Vídeos de YouTube en el Foto Explorer
+
+Algunos retos pueden incluir un vídeo de YouTube dentro de la recompensa
+(por ejemplo, el reto de la Catedral). Para añadirlo, pon el campo `video`
+en `js/data.js` con el enlace normal de YouTube — funciona tanto con
+enlaces `youtube.com/watch?v=...` como con `youtube.com/shorts/...` o
+`youtu.be/...`, la web se encarga de convertirlo al formato correcto:
+```js
+video: "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+```
+Si no quieres vídeo en un reto, simplemente no incluyas el campo.
+
 ## Cómo añadir fotos a los locales de "¿Por dónde salir?"
 
 No hemos podido incrustar fotos automáticas de Google en las tarjetas de

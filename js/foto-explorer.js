@@ -262,14 +262,40 @@ function renderModal(id) {
   });
 }
 
+/* Convierte cualquier formato de enlace de YouTube (watch, shorts, youtu.be)
+   en la URL de embed correspondiente. Devuelve null si no lo reconoce. */
+function getYoutubeEmbedUrl(url) {
+  try {
+    const u = new URL(url);
+    if (u.hostname.includes("youtu.be")) {
+      return `https://www.youtube.com/embed${u.pathname}`;
+    }
+    if (u.pathname.startsWith("/shorts/")) {
+      const id = u.pathname.split("/shorts/")[1];
+      return `https://www.youtube.com/embed/${id}`;
+    }
+    const v = u.searchParams.get("v");
+    if (v) return `https://www.youtube.com/embed/${v}`;
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
 function rewardHtml(ch, lang) {
   const rewardText = (ch.reward[lang] || "").replace(/\n/g, "<br><br>");
+  const embedUrl = ch.video ? getYoutubeEmbedUrl(ch.video) : null;
   return `
     <div class="card" style="border-color:var(--gold);">
       <span class="eyebrow">${UI_TEXT.photo_reward_title[lang]}</span>
       <h3>${ch.title[lang]}</h3>
       ${ch.rewardImage ? `<img src="${ch.rewardImage}" alt="" style="border-radius:4px;margin:12px 0;aspect-ratio:4/3;object-fit:cover;object-position:${ch.imagePosition || "center"};">` : ""}
       <p>${rewardText}</p>
+      ${embedUrl ? `
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;margin-top:16px;">
+          <iframe src="${embedUrl}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      ` : ""}
     </div>
   `;
 }

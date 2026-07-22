@@ -294,237 +294,135 @@ const PHOTO_CHALLENGES = [
   },
   {
     id: "reto-18",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 18 — sin rellenar", en: "Challenge 18 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/Stvxesj.jpeg",
+    title: { es: "R\u00faa do Vilar \u2014 ventanas de vigilancia", en: "R\u00faa do Vilar \u2014 watch windows" },
+    mapsQuery: "42.8778611,-8.5454139",
+    lat: 42.8778611,
+    lng: -8.5454139,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 18.",
-      en: "Replace this text with the story/fun fact for challenge 18."
+      es: "Ring! Antes de Ring!\n\nAhora somos todos muy modernos, con nuestros videoporteros conectados al tel\u00e9fono para poder ver c\u00f3mo el repartidor se va con nuestro paquete mientras pone \"ausente\" en la app; pero en la Santiago medieval esto ya exist\u00eda. Estas ventanitas que encontrar\u00e9is en muchos soportales de las calles con arcos, como esta R\u00faa do Vilar, serv\u00edan para que las criadas controlaran qui\u00e9n llegaba, los comerciantes vigilaran sus tiendas y m\u00e1s de un estudiante compostelano supiera que alguien lo estaba observando sin que \u00e9l pudiera ver a quien miraba.\n\nAl estar la puerta bajo los p\u00f3rticos, si alguien llamaba ser\u00eda imposible saber qui\u00e9n era, y hacerle asomarse a la habitual lluvia del invierno, especialmente en un tiempo en el que secar la ropa era... dif\u00edcil, no sonaba como una buena opci\u00f3n; por lo que estos ventanucos hac\u00edan las veces de videoportero al mismo tiempo que te permit\u00edan arrojar la llave por ellos para que el visitante pudiera entrar.\n\nCuidado, la siguiente imagen est\u00e1 cerca, \u00a1muy cerca!",
+      en: "Ring! Before Ring doorbells existed\n\nWe're all very modern now, with video doorbells linked to our phones so we can watch the delivery driver leave with our package while the app shows us as \"away\"; but medieval Santiago already had something like it. These little windows you'll find in many of the arcaded doorways along streets like R\u00faa do Vilar let servants keep an eye on who was arriving, shopkeepers watch over their stores, and more than one Compostela student learn that someone was watching him without him being able to see who was looking.\n\nSince the door sat under the porticoes, if someone knocked it would be impossible to know who it was, and making them step out into the usual winter rain \u2014 especially at a time when drying clothes was... difficult \u2014 didn't sound like a good option. So these little windows worked as a kind of video doorbell, while also letting you drop the key through so the visitor could let themselves in.\n\nCareful, the next photo is close, very close!"
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/nOs7crt.jpeg"
   },
   {
     id: "reto-19",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 19 — sin rellenar", en: "Challenge 19 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/ytUTErs.jpeg",
+    title: { es: "Calella de Entrerr\u00faas", en: "Calella de Entrerr\u00faas" },
+    mapsQuery: "42.8780633,-8.5448648",
+    lat: 42.8780633,
+    lng: -8.5448648,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 19.",
-      en: "Replace this text with the story/fun fact for challenge 19."
+      es: "Est\u00e1s ante una de las calles m\u00e1s estrechas de Santiago. En realidad, el paso m\u00e1s estrecho corresponder\u00eda a la R\u00faa da Oliveira (70cm), pero es s\u00f3lo en un punto y se ensancha enormemente. Sin embargo, este alargado callej\u00f3n (90 cm en su parte m\u00e1s estrecha) se estira durante varios metros, hasta dar a una peque\u00f1a plaza en la que hasta no hace mucho tiempo se manten\u00eda una herrer\u00eda tradicional, y vuelve como callej\u00f3n hasta la R\u00faa Nova que hemos atravesado hace un rato.\n\nMira hacia arriba. Ver\u00e1s que las fachadas no son paralelas. Cada propietario fue ampliando o modificando su casa con el paso de los siglos, de manera que el callej\u00f3n se estrecha y ensancha ligeramente.\n\nLa entrada desde la R\u00faa do Vilar est\u00e1 dominada por el Pazo de Vaamonde, hoy sede del Consorcio de Santiago. Merece la pena fijarse en el llamador de la puerta: es una obra del escultor gallego Francisco Asorey.\n\nAhora, volvamos a la R\u00faa do Vilar para buscar la siguiente parada.",
+      en: "You're standing in one of Santiago's narrowest streets. Technically, the narrowest passage is R\u00faa da Oliveira (70 cm), but that's only at one point before it widens considerably. This long alley, though (90 cm at its narrowest), stretches on for several meters, opening onto a small square that until not long ago held a traditional blacksmith's forge, then continues back out as an alley to R\u00faa Nova, which we already crossed a while ago.\n\nLook up. You'll notice the fa\u00e7ades aren't parallel. Each owner expanded or altered their house over the centuries, so the alley narrows and widens slightly along the way.\n\nThe entrance from R\u00faa do Vilar is dominated by the Pazo de Vaamonde, today home to the Consorcio de Santiago. It's worth checking out the door knocker: it's a work by the Galician sculptor Francisco Asorey.\n\nNow, let's head back to R\u00faa do Vilar to look for the next stop."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/cEnWvfB.jpeg"
   },
   {
     id: "reto-20",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 20 — sin rellenar", en: "Challenge 20 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/bHkgw5o.jpeg",
+    title: { es: "Caf\u00e9 Casino", en: "Caf\u00e9 Casino" },
+    mapsQuery: "42.8789448,-8.5447398",
+    lat: 42.8789448,
+    lng: -8.5447398,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 20.",
-      en: "Replace this text with the story/fun fact for challenge 20."
+      es: "Si entras pensando que es una cafeter\u00eda bonita, te perder\u00e1s lo mejor: en realidad est\u00e1s entrando en el antiguo casino de la burgues\u00eda compostelana, uno de los espacios civiles m\u00e1s elegantes de Galicia.\n\nUn club privado... sin ruletas\n\nLa palabra casino aqu\u00ed no tiene nada que ver con el juego.\n\nEn el siglo XIX un casino era una sociedad de recreo donde se reun\u00edan las \u00e9lites para leer la prensa, celebrar bailes, escuchar conciertos, jugar al billar o discutir de pol\u00edtica. El Casino de Santiago naci\u00f3 en 1873, heredando una sociedad anterior fundada en 1844 en el Pazo de Benda\u00f1a, en el Toural.\n\nDurante d\u00e9cadas fue uno de los grandes centros de la vida intelectual compostelana. La tradici\u00f3n sit\u00faa aqu\u00ed a Valle-Incl\u00e1n, que frecuent\u00f3 sus salones, y el propio Castelao le dedic\u00f3 uno de sus dibujos, Cousas do Casino. M\u00e1s tarde tambi\u00e9n pasaron por aqu\u00ed escritores, pol\u00edticos y artistas de paso por Santiago.\n\nEn 1919 un gran incendio destruy\u00f3 buena parte de los salones y la biblioteca. La reconstrucci\u00f3n dio lugar al espectacular espacio que hoy ves, con una enorme sala di\u00e1fana de m\u00e1s de veinte metros de largo sin vigas centrales, algo muy avanzado para la \u00e9poca.\n\nEl techo suele llevarse todas las miradas, pero yo siempre invito a mirar las paredes. Las 36 tallas de madera fueron realizadas por el escultor compostelano Maximino Magari\u00f1os. No son simples adornos: representan escenas religiosas, alegor\u00edas, pecados, juegos de cartas e incluso escudos de Galicia y de las provincias. Es casi un museo de ebanister\u00eda escondido en una cafeter\u00eda.\n\nEn la primera planta exist\u00eda el famoso Sal\u00f3n Amarillo, considerado durante muchos a\u00f1os el gran sal\u00f3n de baile de Compostela. En Carnaval, Ascensi\u00f3n o Pascua acog\u00eda algunas de las fiestas m\u00e1s exclusivas de Galicia. All\u00ed sonaban las mejores orquestas y acud\u00eda la alta sociedad compostelana. Hoy ya no conserva esa funci\u00f3n, pero durante d\u00e9cadas fue el epicentro de la vida social de la ciudad.\n\nAhora, pi\u00e9rdete un rato paseando la R\u00faa do Vilar hasta llegar a la siguiente imagen, al final de la calle. Por el camino, puedes parar en el museo de la Fundaci\u00f3n Gonzalo Torrente Ballester. Actualmente tiene una exposici\u00f3n interactiva sobre el Camino de Santiago bastante entretenida.",
+      en: "If you walk in thinking it's just a pretty caf\u00e9, you'll miss the best part: you're actually stepping into the old casino of Compostela's bourgeoisie, one of the most elegant civic spaces in Galicia.\n\nA private club... with no roulette wheels\n\nThe word casino here has nothing to do with gambling.\n\nIn the 19th century, a casino was a leisure society where the elite gathered to read the press, hold dances, listen to concerts, play billiards, or discuss politics. The Casino de Santiago was founded in 1873, inheriting an earlier society founded in 1844 at the Pazo de Benda\u00f1a, in the Toural.\n\nFor decades it was one of the great centers of Compostela's intellectual life. Tradition places Valle-Incl\u00e1n here, who frequented its salons, and Castelao himself dedicated one of his drawings to it, Cousas do Casino. Later, writers, politicians and artists passing through Santiago also came through here.\n\nIn 1919 a major fire destroyed much of the halls and the library. The rebuilding produced the spectacular space you see today, with an enormous open hall over twenty meters long with no central beams \u2014 quite advanced for its time.\n\nThe ceiling usually gets all the attention, but I always suggest looking at the walls. The 36 wood carvings were made by the Compostela sculptor Maximino Magari\u00f1os. They're not just decoration: they depict religious scenes, allegories, sins, card games, and even the coats of arms of Galicia and its provinces. It's almost a hidden museum of woodwork inside a caf\u00e9.\n\nOn the first floor was the famous Sal\u00f3n Amarillo, considered for many years the great ballroom of Compostela. At Carnival, Ascension, or Easter it hosted some of Galicia's most exclusive parties \u2014 the best orchestras played there, and Compostela high society attended. It no longer serves that purpose today, but for decades it was the epicenter of the city's social life.\n\nNow, spend a while wandering down R\u00faa do Vilar until you reach the next photo, at the end of the street. On the way, you can stop at the Fundaci\u00f3n Gonzalo Torrente Ballester museum \u2014 it currently has quite an entertaining interactive exhibition about the Camino de Santiago."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/x4Cv3jG.jpeg"
   },
   {
     id: "reto-21",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 21 — sin rellenar", en: "Challenge 21 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/0yqlw4W.jpeg",
+    title: { es: "Praza das Prater\u00edas", en: "Praza das Prater\u00edas" },
+    mapsQuery: "42.8799758,-8.5443258",
+    lat: 42.8799758,
+    lng: -8.5443258,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 21.",
-      en: "Replace this text with the story/fun fact for challenge 21."
+      es: "La Praza das Prater\u00edas es, probablemente, el rinc\u00f3n donde mejor se entiende la evoluci\u00f3n de Santiago. En apenas unos metros conviven el rom\u00e1nico del siglo XII, el barroco del XVIII y el urbanismo del XIX, formando un escenario cuidadosamente dise\u00f1ado.\n\nLa plaza recibe su nombre del gremio de los plateros, que desde la Edad Media ten\u00eda aqu\u00ed sus talleres. Si hoy todav\u00eda ves joyer\u00edas alrededor, no es una casualidad: es una tradici\u00f3n con m\u00e1s de setecientos a\u00f1os.\n\nAdem\u00e1s, es la \u00fanica fachada rom\u00e1nica de la Catedral que se conserva esencialmente en su lugar original. Si comparas Prater\u00edas con el Obradoiro, est\u00e1s viendo dos maneras muy distintas de entender la arquitectura: el rom\u00e1nico del siglo XII frente al barroco del XVIII.\n\nLa fuente actual se instal\u00f3 en 1829, aunque aprovecha elementos anteriores. Lo primero que llaman la atenci\u00f3n son los cuatro caballos \u2014en realidad, hipocampos, criaturas mitol\u00f3gicas mitad caballo y mitad pez\u2014 que lanzan agua por la boca. Sobre ellos se alza una figura femenina sosteniendo una estrella, interpretada generalmente como una alegor\u00eda de Compostela.\n\nCuando Federico Garc\u00eda Lorca visit\u00f3 Santiago en 1932, qued\u00f3 fascinado por esta plaza y por la fuente. Esa impresi\u00f3n termin\u00f3 cristalizando en su poema \"Danza da l\u00faa en Santiago\", incluido en Seis poemas galegos. La plaza, iluminada por la luna y con el sonido del agua, le pareci\u00f3 casi un escenario irreal.\n\nA vuestra espalda, frente a la Catedral, est\u00e1 la Casa do Cabildo.\n\nEsta es una de las mayores \"ilusiones \u00f3pticas\" arquitect\u00f3nicas de Galicia. A primera vista parece un gran palacio barroco. Pero en realidad... \u00a1solo tiene unos tres o cuatro metros de profundidad! Fue construida entre 1754 y 1758 por Clemente Fern\u00e1ndez Sarela con un objetivo muy concreto: embellecer la plaza. No hac\u00eda falta un edificio; hac\u00eda falta una fachada.\n\nEs uno de los mejores ejemplos espa\u00f1oles de lo que en teatro se llama una escenograf\u00eda: un decorado permanente para que el espacio urbano resultara m\u00e1s armonioso. Si la observas de lado comprender\u00e1s el truco. Desde Prater\u00edas parece un edificio monumental. Desde la R\u00faa da Conga descubres que apenas tiene fondo. Es una aut\u00e9ntica obra maestra del urbanismo barroco: en lugar de transformar toda la plaza, bast\u00f3 una fachada elegante para cambiar por completo su percepci\u00f3n. Una muestra de la vanidad del poder catedralicio, nada pod\u00eda afear el entorno de la Catedral.",
+      en: "Praza das Prater\u00edas is probably the corner of the city where you best understand Santiago's evolution. Within just a few meters, 12th-century Romanesque, 18th-century baroque, and 19th-century urban planning coexist, forming a carefully composed stage set.\n\nThe square gets its name from the silversmiths' guild, who had their workshops here since the Middle Ages. If you still see jewelry shops around today, that's no coincidence \u2014 it's a tradition more than seven hundred years old.\n\nIt's also the only Romanesque fa\u00e7ade of the Cathedral that survives essentially in its original spot. Compare Prater\u00edas with the Obradoiro and you're looking at two very different ways of understanding architecture: 12th-century Romanesque versus 18th-century baroque.\n\nThe current fountain was installed in 1829, though it reuses earlier elements. The first thing that catches your eye are the four horses \u2014 actually hippocamps, mythological creatures half horse, half fish \u2014 spouting water from their mouths. Above them rises a female figure holding a star, generally read as an allegory of Compostela.\n\nWhen Federico Garc\u00eda Lorca visited Santiago in 1932, he was captivated by this square and its fountain. That impression later crystallized into his poem \"Danza da l\u00faa en Santiago,\" included in Seis poemas galegos. Lit by the moon and filled with the sound of water, the square struck him as almost an unreal stage.\n\nBehind you, facing the Cathedral, stands the Casa do Cabildo.\n\nThis is one of the greatest architectural \"optical illusions\" in Galicia. At first glance it looks like a grand baroque palace. But in reality... it's only three or four meters deep! It was built between 1754 and 1758 by Clemente Fern\u00e1ndez Sarela with one very specific goal: to beautify the square. What was needed wasn't a building \u2014 it was a fa\u00e7ade.\n\nIt's one of the finest Spanish examples of what in theater is called a scenography: a permanent backdrop designed to make the urban space feel more harmonious. Look at it from the side and you'll understand the trick \u2014 from Prater\u00edas it looks like a monumental building; from R\u00faa da Conga you discover it barely has any depth at all. It's a true masterpiece of baroque urban planning: instead of transforming the whole square, one elegant fa\u00e7ade was enough to completely change how it's perceived \u2014 a display of the Cathedral chapter's vanity, since nothing was allowed to spoil the area around the Cathedral."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/tRQPyb1.jpeg"
   },
   {
     id: "reto-22",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 22 — sin rellenar", en: "Challenge 22 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/P2QpeWI.jpeg",
+    title: { es: "A Sombra do Peregrino", en: "A Sombra do Peregrino (the Pilgrim's Shadow)" },
+    mapsQuery: "42.880381,-8.5439586",
+    lat: 42.880381,
+    lng: -8.5439586,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 22.",
-      en: "Replace this text with the story/fun fact for challenge 22."
+      es: "La Sombra do Peregrino es una de las leyendas m\u00e1s recientes de Santiago, pero ha arraigado tan bien que mucha gente cree que es medieval.\n\nLa encontrar\u00e1s en la Praza da Quintana, junto a la Porta Santa. Por la noche, una sombra con forma de peregrino aparece proyectada sobre los sillares de granito.\n\nLa explicaci\u00f3n f\u00edsica es sencilla: una combinaci\u00f3n de iluminaci\u00f3n urbana y elementos arquitect\u00f3nicos proyecta una silueta muy sugerente. Pero la gracia de Santiago nunca ha estado en las explicaciones sencillas.\n\nCuenta la historia de un peregrino que lleg\u00f3 a Compostela para encontrarse con una mujer de la que estaba enamorado. Ella nunca apareci\u00f3. El peregrino sigui\u00f3 esper\u00e1ndola d\u00eda tras d\u00eda en la Quintana hasta morir. Su sombra, incapaz de abandonar el lugar, contin\u00faa aguardando junto a la Catedral.\n\nLa sombra mira hacia la Catedral, no hacia la plaza. Por eso algunos gu\u00edas cuentan otra versi\u00f3n: no espera a una mujer, sino que es un peregrino que lleg\u00f3 demasiado tarde para obtener el perd\u00f3n jubilar y qued\u00f3 condenado a permanecer all\u00ed eternamente.\n\nLa Quintana ya ten\u00eda tradici\u00f3n de leyendas mucho antes de la sombra. La mitad inferior de esta plaza es la Quintana dos Mortos, el antiguo cementerio de la Catedral. Durante siglos estuvo llena de sepulturas. Si hab\u00eda una plaza compostelana destinada a generar historias de apariciones, era esta.\n\nSigue por la plaza para encontrar la siguiente imagen.",
+      en: "The Sombra do Peregrino (Pilgrim's Shadow) is one of Santiago's most recent legends, but it has taken root so well that many people believe it's medieval.\n\nYou'll find it in Praza da Quintana, next to the Porta Santa. At night, a shadow shaped like a pilgrim appears projected onto the granite ashlars.\n\nThe physical explanation is simple: a combination of streetlighting and architectural elements casts a very suggestive silhouette. But Santiago's charm has never been in the simple explanations.\n\nThe story goes that a pilgrim arrived in Compostela to meet a woman he was in love with. She never showed up. The pilgrim kept waiting for her day after day in the Quintana until he died. His shadow, unable to leave the spot, keeps waiting beside the Cathedral to this day.\n\nThe shadow looks toward the Cathedral, not toward the square. That's why some guides tell a different version: he isn't waiting for a woman, but is a pilgrim who arrived too late to receive the jubilee pardon and was condemned to remain there forever.\n\nThe Quintana already had a tradition of legends long before the shadow. The lower half of this square is the Quintana dos Mortos, the Cathedral's old cemetery. For centuries it was full of graves. If any Compostela square was destined to generate ghost stories, it was this one.\n\nContinue across the square to find the next photo."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://albertosolana.wordpress.com/wp-content/uploads/2015/09/fb_img_1593302154360-2.jpg"
   },
   {
     id: "reto-23",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 23 — sin rellenar", en: "Challenge 23 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/gRUnbFv.jpeg",
+    title: { es: "Porta Santa", en: "Porta Santa (Holy Door)" },
+    mapsQuery: "42.880381,-8.5439586",
+    lat: 42.880381,
+    lng: -8.5439586,
+    video: "https://www.youtube.com/shorts/glsBldxPGEI",
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 23.",
-      en: "Replace this text with the story/fun fact for challenge 23."
+      es: "La Porta Santa es uno de los lugares m\u00e1s importantes de Santiago, pero su inter\u00e9s va mucho m\u00e1s all\u00e1 de abrirse en A\u00f1o Santo.\n\nLa puerta que ves en la Quintana permanece tapiada o cerrada la mayor parte del tiempo. Solo se abre durante los A\u00f1os Santos Jacobeos, cuando el 25 de julio cae en domingo.\n\nLo curioso es que la ceremonia de apertura consiste literalmente en derribar simb\u00f3licamente el muro que la sella desde el interior.\n\nLa Porta Santa se abre hacia la Quintana dos Mortos, que durante siglos fue el cementerio de la Catedral. Por eso la experiencia medieval de cruzarla ten\u00eda una enorme carga simb\u00f3lica: se pasaba del espacio asociado a la muerte al interior del templo del Ap\u00f3stol.\n\nMuchos peregrinos cruzan la puerta sin fijarse en las figuras que la rodean. Las esculturas proceden del antiguo coro p\u00e9treo rom\u00e1nico realizado por el Maestro Mateo para el interior de la Catedral. Cuando el coro fue desmontado en el siglo XVII, varias piezas acabaron reutilizadas aqu\u00ed. Es decir, algunas de las esculturas que ves estuvieron originalmente dentro de la Catedral rom\u00e1nica.\n\nEs una de las pocas Puertas Santas del mundo; Roma tiene las suyas en las bas\u00edlicas mayores, pero fuera de ese contexto la de Santiago es una de las m\u00e1s relevantes de la cristiandad. Atravesarla durante un A\u00f1o Santo permite obtener la indulgencia jubilar, siempre que se cumplan las condiciones establecidas por la Iglesia.\n\nSi quieres hacer una \"parada t\u00e9cnica\", te recomiendo el caf\u00e9 Literarios, en lo alto de las escaleras, en la Quintana de Vivos.\n\nPara seguir nuestra b\u00fasqueda, vuelve sobre tus pasos a la plaza de Prater\u00edas (la de la fuente de caballos) y contin\u00faa bajando la calle, pegado a la Catedral, si la cola interminable de peregrinos te lo permite.",
+      en: "The Porta Santa is one of Santiago's most important spots, but its interest goes well beyond simply opening in a Holy Year.\n\nThe door you see in the Quintana stays bricked up or closed most of the time. It only opens during Jacobean Holy Years, when July 25 falls on a Sunday.\n\nThe curious thing is that the opening ceremony literally consists of symbolically knocking down the wall that seals it from the inside.\n\nThe Porta Santa opens onto the Quintana dos Mortos, which for centuries was the Cathedral's cemetery. That's why, in medieval experience, crossing it carried enormous symbolic weight: you passed from a space associated with death into the interior of the Apostle's temple.\n\nMany pilgrims cross the door without noticing the figures around it. The sculptures come from the old Romanesque stone choir made by Master Mateo for the Cathedral's interior. When the choir was dismantled in the 17th century, several pieces ended up reused here. In other words, some of the sculptures you see were originally inside the Romanesque Cathedral.\n\nIt's one of the few Holy Doors in the world \u2014 Rome has its own in the major basilicas, but outside that context, Santiago's is one of the most significant in Christianity. Crossing it during a Holy Year grants the jubilee indulgence, provided the conditions set by the Church are met.\n\nIf you'd like a \"technical stop,\" I'd recommend Caf\u00e9 Literarios, at the top of the stairs, in the Quintana de Vivos.\n\nTo continue our search, retrace your steps to Prater\u00edas square (the one with the horse fountain) and keep heading down the street, hugging the Cathedral, if the endless line of pilgrims lets you."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/crusHQq.jpeg"
   },
   {
     id: "reto-24",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 24 — sin rellenar", en: "Challenge 24 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/tPlldUO.jpeg",
+    title: { es: "\u00c1rbol da Ciencia", en: "Tree of Knowledge" },
+    mapsQuery: "42.8799477,-8.5452529",
+    lat: 42.8799477,
+    lng: -8.5452529,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 24.",
-      en: "Replace this text with the story/fun fact for challenge 24."
+      es: "El \u00c1rbol da Ciencia es una de las curiosidades menos conocidas del Obradoiro. Miles de personas pasan delante sin darse cuenta de que esconde una tradici\u00f3n universitaria con siglos de historia. Si te acercas ver\u00e1s que entre las ramas cuelgan trece pergaminos escritos en lat\u00edn. Cada uno representa una de las disciplinas que antiguamente se ense\u00f1aban en la Universidad de Santiago: Teolog\u00eda, Medicina, Derecho, Filosof\u00eda... El \u00e1rbol simboliza que todo el conocimiento nace de un mismo tronco.\n\nLos estudiantes indecisos se colocaban frente al \u00e1rbol, daban tres vueltas sobre s\u00ed mismos, se giraban de espaldas y se\u00f1alaban al azar una de las ramas. La disciplina que tocaban era la carrera que deb\u00edan estudiar.\n\nHoy el \u00e1rbol est\u00e1 protegido por un cristal. Antiguamente se pod\u00eda tocar directamente, y el desgaste de algunas zonas era consecuencia de miles de manos de estudiantes siguiendo el ritual. Ahora la tradici\u00f3n contin\u00faa, pero el dedo se apoya sobre el cristal.\n\nAhora, antes de ir hacia la Catedral, avanzaremos un poco en direcci\u00f3n contraria, al Pazo de Fonseca (el edificio grande frente a la plaza con tanta vegetaci\u00f3n).",
+      en: "The \u00c1rbol da Ciencia (Tree of Knowledge) is one of the lesser-known curiosities of the Obradoiro. Thousands of people walk past it without noticing it holds a centuries-old university tradition. Look closely and you'll see thirteen parchments hanging from its branches, written in Latin. Each represents one of the disciplines once taught at the University of Santiago: Theology, Medicine, Law, Philosophy... The tree symbolizes that all knowledge grows from a single trunk.\n\nUndecided students would stand in front of the tree, spin around three times, turn their backs to it, and point at random toward one of the branches. Whichever discipline they touched was the degree they were meant to study.\n\nToday the tree is protected behind glass. In the past you could touch it directly, and the wear on certain spots came from thousands of students' hands following the ritual over the years. The tradition continues today, but now your finger rests on the glass instead.\n\nNow, before heading toward the Cathedral, we'll go a little way in the opposite direction, to the Pazo de Fonseca (the large building with all the greenery facing the square)."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/QLHxvIR.jpeg"
   },
   {
     id: "reto-25",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 25 — sin rellenar", en: "Challenge 25 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/IS5vMRJ.jpeg",
+    title: { es: "Pazo de Fonseca", en: "Pazo de Fonseca" },
+    mapsQuery: "42.8796891,-8.5453891",
+    lat: 42.8796891,
+    lng: -8.5453891,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 25.",
-      en: "Replace this text with the story/fun fact for challenge 25."
+      es: "El Colegio de Fonseca es, en mi opini\u00f3n, uno de los edificios m\u00e1s importantes de Santiago y, al mismo tiempo, uno de los m\u00e1s infravalorados. Sin \u00e9l, probablemente la Universidad de Santiago no habr\u00eda alcanzado el prestigio que tuvo durante siglos.\n\nFue fundado en 1501 por el arzobispo Alonso III de Fonseca, uno de los grandes mecenas del Renacimiento espa\u00f1ol. Su idea era revolucionaria para la \u00e9poca: crear un colegio donde los estudiantes vivieran, estudiaran y se formasen juntos, siguiendo el modelo de Salamanca o Alcal\u00e1.\n\nM\u00e1s que una facultad, era un colegio mayor, reservado a alumnos brillantes, muchos de los cuales acabar\u00edan ocupando cargos importantes en la Iglesia o en la administraci\u00f3n.\n\nCuando Santiago a\u00fan era una ciudad de aspecto eminentemente medieval, Fonseca introdujo un lenguaje arquitect\u00f3nico completamente nuevo. El patio interior, de l\u00edneas sobrias y perfectamente proporcionadas, es uno de los primeros grandes ejemplos del Renacimiento gallego. Si vienes de recorrer el rom\u00e1nico y el barroco de la Catedral, entrar en este claustro es casi un cambio de \u00e9poca instant\u00e1neo.\n\nVale la pena entrar para recorrer el claustro: tiene dos pisos de arquer\u00edas y una armon\u00eda muy distinta a la arquitectura compostelana habitual. Despu\u00e9s de tanto rom\u00e1nico y barroco, el patio transmite una serenidad muy \"italiana\"; y el paraninfo (si tienes suerte y est\u00e1 abierto, podr\u00e1s ver uno de los espacios ceremoniales m\u00e1s importantes de la Universidad de Santiago. All\u00ed se celebran investiduras de doctores, aperturas de curso y otros actos solemnes).\n\nAhora s\u00ed, \u00a1sal de Fonseca y dir\u00edgete al Obradoiro!",
+      en: "The Colegio de Fonseca is, in my opinion, one of the most important buildings in Santiago and, at the same time, one of the most underrated. Without it, the University of Santiago probably wouldn't have reached the prestige it held for centuries.\n\nIt was founded in 1501 by archbishop Alonso III de Fonseca, one of the great patrons of the Spanish Renaissance. His idea was revolutionary for the time: create a college where students would live, study, and train together, following the model of Salamanca or Alcal\u00e1.\n\nMore than a faculty, it was a colegio mayor, reserved for brilliant students, many of whom went on to hold important posts in the Church or in government.\n\nAt a time when Santiago still looked overwhelmingly medieval, Fonseca introduced a completely new architectural language. The interior courtyard, with its sober, perfectly proportioned lines, is one of the first great examples of the Galician Renaissance. If you've just come from the Romanesque and baroque of the Cathedral, stepping into this cloister feels almost like an instant change of era.\n\nIt's worth going in to walk the cloister: it has two floors of arcades and a harmony very different from Compostela's usual architecture. After so much Romanesque and baroque, the courtyard has a very \"Italian\" serenity to it; and the paraninfo (if you're lucky and it's open, you can see one of the most important ceremonial spaces of the University of Santiago, where doctoral investitures, opening-of-term ceremonies and other formal events take place).\n\nNow, leave Fonseca and head to the Obradoiro!"
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/OKYpesW.jpeg"
   },
   {
     id: "reto-26",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 26 — sin rellenar", en: "Challenge 26 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/k3GgMIl.jpeg",
+    title: { es: "Catedral de Santiago \u2014 fachada do Obradoiro", en: "Cathedral of Santiago \u2014 Obradoiro fa\u00e7ade" },
+    mapsQuery: "Praza do Obradoiro, Santiago de Compostela",
+    lat: 42.8805,
+    lng: -8.5456,
+    video: "https://www.youtube.com/watch?v=sYz3T6tHWWk",
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 26.",
-      en: "Replace this text with the story/fun fact for challenge 26."
+      es: "\u00bfPensabas que no te iba a hablar de la Catedral?\n\nPrimero, para los muy futboleros, un v\u00eddeo de Ronaldinho.\n\nY ahora, a lo que hemos venido.\n\nLa Praza do Obradoiro, tal y como la conocemos, es relativamente reciente. Durante siglos este espacio estaba mucho m\u00e1s fragmentado por construcciones, muros y desniveles.\n\nSu nombre procede de los obradoiros (talleres) de los canteros que trabajaban en la fachada occidental de la Catedral durante los siglos XVII y XVIII.\n\nSi giras sobre ti mismo en el centro del Obradoiro ver\u00e1s algo extraordinario:\n\u2022 Catedral \u2192 poder religioso.\n\u2022 Pazo de Raxoi \u2192 poder pol\u00edtico y administrativo.\n\u2022 Hostal dos Reis Cat\u00f3licos \u2192 poder asistencial y hospitalario (\u00a1y donde nos veremos el d\u00eda de la boda!).\n\u2022 Colexio de Fonseca / San Xerome \u2192 poder acad\u00e9mico.\n\nPocas plazas europeas re\u00fanen de forma tan clara los grandes poderes de una sociedad.\n\nLa fachada que vemos hoy no es la fachada original de la Catedral. Entre 1738 y 1750, Fernando de Casas Novoa construy\u00f3 la enorme fachada barroca para proteger el antiguo P\u00f3rtico de la Gloria de la lluvia y del viento atl\u00e1ntico. Detr\u00e1s de ese inmenso decorado sigue estando la fachada medieval. Es uno de los ejemplos m\u00e1s espectaculares de Europa de una fachada construida como protecci\u00f3n de otra m\u00e1s antigua.\n\nLas torres no son gemelas\n\nCasi nadie lo aprecia a primera vista.\n\u2022 La torre de la izquierda (mirando la Catedral) es la Carraca.\n\u2022 La de la derecha es la de las Camp\u00e1s.\n\nParecen id\u00e9nticas, pero no lo son. Si observas con atenci\u00f3n descubrir\u00e1s diferencias en ventanas, remates y proporciones. La torre sur alberga algunas de las campanas hist\u00f3ricas m\u00e1s importantes de la Catedral. Durante siglos marcaron las horas, los incendios, las fiestas y las emergencias. A d\u00eda de hoy siguen siendo el terror de los insomnes.\n\nLa torre norte recibe su nombre de la carraca, un instrumento de madera utilizado durante la Semana Santa cuando las campanas guardaban silencio. Ese detalle conserva una tradici\u00f3n lit\u00fargica medieval que sobrevive en el propio nombre de la torre y todav\u00eda se lleva a cabo cada Semana Santa.\n\nEn el centro de la fachada, sobre el gran ventanal, aparece la estatua del Ap\u00f3stol Santiago como peregrino: sombrero, bord\u00f3n, capa y concha jacobea. Es un mensaje muy potente: el santo recibe a quienes llegan siguiendo sus propios pasos.\n\nSi te acercas a la fachada del Obradoiro y empiezas a leerla de abajo arriba, descubrir\u00e1s que est\u00e1 dise\u00f1ada como una enorme catequesis de piedra.\n\nUna fachada para salvar otra\n\nLo primero que hay que entender es que la fachada no se construy\u00f3 para embellecer la Catedral, sino para proteger el P\u00f3rtico de la Gloria. La lluvia atl\u00e1ntica estaba deteriorando las esculturas del Maestro Mateo, y la soluci\u00f3n fue envolver toda la fachada occidental con esta gigantesca pantalla barroca. Por eso algunos historiadores la llaman una especie de \"paraguas monumental\".\n\nEl gran ventanal\n\nEl enorme ventanal central no es solo decorativo. Su misi\u00f3n es iluminar el interior del P\u00f3rtico de la Gloria. Antes de la iluminaci\u00f3n artificial, era la principal fuente de luz natural para las esculturas mateanas. La luz que entra por ah\u00ed fue cuidadosamente calculada para ba\u00f1ar el p\u00f3rtico.\n\nA ambos lados de Santiago aparecen Atanasio y Teodoro, considerados seg\u00fan la tradici\u00f3n los disc\u00edpulos que trasladaron el cuerpo del Ap\u00f3stol desde Palestina hasta Galicia. Son personajes fundamentales en la leyenda jacobea, aunque muchos visitantes no saben qui\u00e9nes son.\n\nEl escudo gigantesco\n\nUno de los elementos m\u00e1s impresionantes es el enorme escudo real que domina la fachada. Representa a la monarqu\u00eda espa\u00f1ola y recuerda que la Catedral no fue solo un centro religioso, sino tambi\u00e9n un proyecto pol\u00edtico de primer orden. Cuando se construye el Obradoiro, Santiago es una cuesti\u00f3n de Estado.\n\nLa siguiente parada est\u00e1 escondida entre el Obradoiro y el Hostal dos Reis Cat\u00f3licos.",
+      en: "Did you think I wasn't going to talk about the Cathedral?\n\nFirst, for the football fans, a Ronaldinho video.\n\nAnd now, on to what we came for.\n\nPraza do Obradoiro, as we know it today, is relatively recent. For centuries this space was far more fragmented by buildings, walls and changes in level.\n\nIts name comes from the obradoiros (workshops) of the stonemasons who worked on the Cathedral's western fa\u00e7ade during the 17th and 18th centuries.\n\nTurn around in the middle of the Obradoiro and you'll see something extraordinary:\n\u2022 The Cathedral \u2192 religious power.\n\u2022 The Pazo de Raxoi \u2192 political and administrative power.\n\u2022 The Hostal dos Reis Cat\u00f3licos \u2192 welfare and hospital power (and where we'll see you on the wedding day!).\n\u2022 The Colexio de Fonseca / San Xerome \u2192 academic power.\n\nFew European squares bring together the great powers of a society so clearly.\n\nThe fa\u00e7ade we see today isn't the Cathedral's original fa\u00e7ade. Between 1738 and 1750, Fernando de Casas Novoa built the huge baroque fa\u00e7ade to protect the old P\u00f3rtico de la Gloria from Atlantic rain and wind. Behind that immense decoration, the medieval fa\u00e7ade is still there. It's one of Europe's most spectacular examples of a fa\u00e7ade built to protect an older one.\n\nThe towers aren't twins\n\nAlmost nobody notices at first glance.\n\u2022 The tower on the left (facing the Cathedral) is the Carraca.\n\u2022 The one on the right is the Camp\u00e1s.\n\nThey look identical, but they aren't. Look closely and you'll spot differences in the windows, finials and proportions. The south tower holds some of the Cathedral's most historically important bells. For centuries they marked the hours, fires, festivities, and emergencies. To this day they remain the terror of light sleepers.\n\nThe north tower takes its name from the carraca, a wooden instrument used during Holy Week when the bells fall silent. That detail preserves a medieval liturgical tradition that survives in the tower's very name and is still carried out every Holy Week.\n\nAt the center of the fa\u00e7ade, above the great window, stands the statue of the Apostle Santiago as a pilgrim: hat, staff, cape, and scallop shell. It's a powerful message: the saint welcomes those who arrive following in his own footsteps.\n\nIf you look at the Obradoiro fa\u00e7ade and start reading it from bottom to top, you'll find it's designed as an enormous catechism carved in stone.\n\nA fa\u00e7ade to save another fa\u00e7ade\n\nThe first thing to understand is that the fa\u00e7ade wasn't built to beautify the Cathedral, but to protect the P\u00f3rtico de la Gloria. Atlantic rain was damaging Master Mateo's sculptures, and the solution was to wrap the whole western fa\u00e7ade in this giant baroque screen. That's why some historians call it a kind of \"monumental umbrella.\"\n\nThe great window\n\nThe enormous central window isn't just decorative. Its job is to light the interior of the P\u00f3rtico de la Gloria. Before artificial lighting, it was the main source of natural light for Master Mateo's sculptures. The light entering through it was carefully calculated to bathe the portico.\n\nOn either side of Santiago appear Atanasio and Teodoro, considered by tradition to be the disciples who carried the Apostle's body from Palestine to Galicia. They're key figures in the Jacobean legend, though many visitors don't know who they are.\n\nThe giant coat of arms\n\nOne of the most striking elements is the enormous royal coat of arms that dominates the fa\u00e7ade. It represents the Spanish monarchy and is a reminder that the Cathedral wasn't just a religious center, but also a major political project. By the time the Obradoiro was built, Santiago was a matter of State.\n\nThe next stop is hidden between the Obradoiro and the Hostal dos Reis Cat\u00f3licos."
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/B0BRQtK.jpeg"
   },
   {
     id: "reto-27",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 27 — sin rellenar", en: "Challenge 27 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
+    clueImage: "https://i.imgur.com/MPLZxQo.jpeg",
+    title: { es: "Iglesia de San Fructuoso", en: "Iglesia de San Fructuoso" },
+    mapsQuery: "42.8806394,-8.5465384",
+    lat: 42.8806394,
+    lng: -8.5465384,
     reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 27.",
-      en: "Replace this text with the story/fun fact for challenge 27."
+      es: "O, como se la conoce, \"Iglesia de la baraja\".\n\nSi levantas la vista hacia la parte superior de la fachada ver\u00e1s cuatro figuras femeninas. Oficialmente representan las cuatro virtudes cardinales:\n\u2022 Prudencia.\n\u2022 Justicia.\n\u2022 Fortaleza.\n\u2022 Templanza.\n\nPero el pueblo compostelano empez\u00f3 a decir que parec\u00edan las cuatro sotas de la baraja espa\u00f1ola. Desde entonces, el apodo de \"iglesia de la baraja\" qued\u00f3 para siempre.\n\nLa fachada est\u00e1 dise\u00f1ada para verse desde el Obradoiro, que est\u00e1 unos metros m\u00e1s alto que la puerta de la iglesia. Por eso las esculturas se concentran en la parte superior: el arquitecto sab\u00eda que el espectador las contemplar\u00eda desde arriba, no desde la calle.\n\nCuando la gente llega a la plaza, la Catedral acapara toda la atenci\u00f3n. Sin embargo, San Fructuoso ocupa una posici\u00f3n privilegiada: forma parte del gran escenario barroco que cierra el Obradoiro por el oeste.\n\nFue construida entre 1754 y 1765 por Lucas Ferro Caaveiro, uno de los grandes arquitectos del barroco gallego. En las esquinas superiores de la fachada aparecen cuatro figuras que representan a los reyes:\n\u2022 Alfonso IX de Le\u00f3n.\n\u2022 Fernando II.\n\u2022 Alfonso VII.\n\u2022 Ordo\u00f1o II.\n\nSon monarcas estrechamente vinculados a la historia de Santiago y del reino medieval de Galicia y Le\u00f3n. Si los miras desde abajo parecen vigilar la ciudad.\n\nLa mayor\u00eda de iglesias compostelanas tienen planta longitudinal. San Fructuoso, en cambio, posee una planta de cruz griega, con los cuatro brazos de longitud semejante.\n\nF\u00edjate en la c\u00fapula. Desde ciertos puntos del Obradoiro apenas se percibe porque queda visualmente eclipsada por la masa gigantesca de la Catedral. Sin embargo, cuando la observas desde la Costa do Cristo o desde las calles traseras, aparece de repente como una de las c\u00fapulas barrocas m\u00e1s elegantes de la ciudad.\n\nEl siguiente lugar ya lo conoces (o lo conocer\u00e1s en breve), est\u00e1 a pocos pasos de ti, \u00a1busca bien!",
+      en: "Or, as it's known, the \"Iglesia de la Baraja\" (Church of the Playing Cards).\n\nLook up toward the top of the fa\u00e7ade and you'll see four female figures. Officially they represent the four cardinal virtues:\n\u2022 Prudence.\n\u2022 Justice.\n\u2022 Fortitude.\n\u2022 Temperance.\n\nBut the people of Compostela started saying they looked like the four jacks of a Spanish deck of cards. Since then, the nickname \"iglesia de la baraja\" stuck for good.\n\nThe fa\u00e7ade is designed to be seen from the Obradoiro, which sits a few meters higher than the church door. That's why the sculptures are concentrated near the top: the architect knew viewers would look at them from above, not from street level.\n\nWhen people arrive at the square, the Cathedral grabs all the attention. Yet San Fructuoso holds a privileged position: it's part of the great baroque backdrop that closes off the Obradoiro to the west.\n\nIt was built between 1754 and 1765 by Lucas Ferro Caaveiro, one of the great architects of Galician baroque. In the upper corners of the fa\u00e7ade appear four figures representing kings:\n\u2022 Alfonso IX of Le\u00f3n.\n\u2022 Fernando II.\n\u2022 Alfonso VII.\n\u2022 Ordo\u00f1o II.\n\nThese are monarchs closely tied to the history of Santiago and the medieval kingdom of Galicia and Le\u00f3n. Looked at from below, they seem to keep watch over the city.\n\nMost Compostela churches have a longitudinal floor plan. San Fructuoso, on the other hand, has a Greek-cross plan, with four arms of similar length.\n\nLook at the dome. From certain points in the Obradoiro it's barely visible, overshadowed by the Cathedral's massive bulk. But seen from Costa do Cristo or the back streets, it suddenly appears as one of the most elegant baroque domes in the city.\n\nThe next spot you already know (or you'll get to know it very soon) \u2014 it's just a few steps away, look carefully!"
     },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-28",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 28 — sin rellenar", en: "Challenge 28 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 28.",
-      en: "Replace this text with the story/fun fact for challenge 28."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-29",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 29 — sin rellenar", en: "Challenge 29 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 29.",
-      en: "Replace this text with the story/fun fact for challenge 29."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-30",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 30 — sin rellenar", en: "Challenge 30 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 30.",
-      en: "Replace this text with the story/fun fact for challenge 30."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-31",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 31 — sin rellenar", en: "Challenge 31 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 31.",
-      en: "Replace this text with the story/fun fact for challenge 31."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-32",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 32 — sin rellenar", en: "Challenge 32 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 32.",
-      en: "Replace this text with the story/fun fact for challenge 32."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-33",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 33 — sin rellenar", en: "Challenge 33 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 33.",
-      en: "Replace this text with the story/fun fact for challenge 33."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-34",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 34 — sin rellenar", en: "Challenge 34 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 34.",
-      en: "Replace this text with the story/fun fact for challenge 34."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
-  },
-  {
-    id: "reto-35",
-    clueImage: "", // pega aquí el enlace DIRECTO de imgur (https://i.imgur.com/XXXXX.jpeg)
-    title: { es: "Reto 35 — sin rellenar", en: "Challenge 35 — not filled in yet" },
-    mapsQuery: "", // ej: "Praza da Quintana, Santiago de Compostela"
-    lat: null,
-    lng: null,
-    reward: {
-      es: "Sustituye este texto por la historia/curiosidad del reto 35.",
-      en: "Replace this text with the story/fun fact for challenge 35."
-    },
-    rewardImage: "" // pega aquí el enlace DIRECTO de la foto premio
+    rewardImage: "https://i.imgur.com/ZXBZHo7.jpeg"
   }
 ];
 
@@ -921,6 +819,19 @@ const SALIR_ITEMS = [
     description: {
       es: "Pub de ambiente bohemio y muy LGTBI+ friendly, con juegos de mesa, opciones veganas, y conciertos ocasionales en el s\u00f3tano.",
       en: "A bohemian, very LGBTQ+-friendly pub, with board games, vegan options, and occasional gigs in the basement."
+    }
+  },
+  {
+    name: "Embora",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    liveMusic: true,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Embora+R%C3%BAa+de+Tras+San+Fiz+de+Solovio+Santiago+de+Compostela",
+    description: {
+      es: "Bar musical cerca del Mercado de Abastos, ambiente acogedor y decoraci\u00f3n moderna, con m\u00fasica en directo algunos d\u00edas. P\u00fablico muy variado: estudiantes, vecinos y visitantes por igual.",
+      en: "A music bar near the Mercado de Abastos, cozy and modern, with live music some days. A very mixed crowd of students, locals, and visitors alike."
     }
   }
   // Añade más sitios copiando un bloque como los de arriba.
