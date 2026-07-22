@@ -1,14 +1,16 @@
 /* ==========================================================================
    Foto Explorer — minijuego de pistas
-   - Intenta geolocalizar al jugador para empezar por el reto más cercano.
+   - Intenta geolocalizar al jugador para averiguar POR QUÉ RETO EMPEZAR.
    - Si no puede (permiso denegado, sin GPS, navegador sin soporte...),
      pide elegir uno de los 3 puntos de partida (STARTING_POINTS en data.js).
-   - A partir de ahí, ordena los retos de más cercano a más lejano.
+   - Los retos son una secuencia narrativa fija (1, 2, 3...): la ubicación
+     SOLO decide en qué punto de esa secuencia empezar. A partir de ahí,
+     siempre se continúa en orden numérico estricto (nunca se desordenan).
    Progreso guardado en localStorage del navegador de cada invitado.
    ========================================================================== */
 
 const PROGRESS_KEY = "boda_foto_explorer_progress";
-let feReferencePoint = null; // {lat, lng} usado para ordenar por cercanía
+let feReferencePoint = null; // {lat, lng} usado solo para elegir el punto de partida
 
 function getProgress() {
   try {
@@ -40,21 +42,31 @@ function distanceMeters(lat1, lng1, lat2, lng2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-/* Devuelve los retos ordenados de más cercano a más lejano al punto de
-   referencia. Los retos sin lat/lng (aún sin rellenar) van al final. */
+/* Encuentra el índice del reto más cercano al punto de referencia (solo
+   entre los que ya tienen lat/lng). Ese va a ser el punto de partida. */
+function findNearestChallengeIndex(refPoint) {
+  let bestIndex = 0;
+  let bestDist = Infinity;
+  PHOTO_CHALLENGES.forEach((ch, index) => {
+    const hasCoords = typeof ch.lat === "number" && typeof ch.lng === "number";
+    if (!hasCoords) return;
+    const dist = distanceMeters(refPoint.lat, refPoint.lng, ch.lat, ch.lng);
+    if (dist < bestDist) {
+      bestDist = dist;
+      bestIndex = index;
+    }
+  });
+  return bestIndex;
+}
+
+/* Devuelve los retos en su ORDEN NUMÉRICO fijo, empezando por el reto más
+   cercano al punto de referencia y continuando en secuencia (dando la
+   vuelta al llegar al final, para que ninguno quede inalcanzable). */
 function getSortedChallenges() {
   if (!feReferencePoint) return PHOTO_CHALLENGES;
 
-  const withDistance = PHOTO_CHALLENGES.map((ch, originalIndex) => {
-    const hasCoords = typeof ch.lat === "number" && typeof ch.lng === "number";
-    const dist = hasCoords
-      ? distanceMeters(feReferencePoint.lat, feReferencePoint.lng, ch.lat, ch.lng)
-      : Infinity;
-    return { ch, originalIndex, dist };
-  });
-
-  withDistance.sort((a, b) => a.dist - b.dist);
-  return withDistance.map((w) => w.ch);
+  const startIndex = findNearestChallengeIndex(feReferencePoint);
+  return PHOTO_CHALLENGES.slice(startIndex).concat(PHOTO_CHALLENGES.slice(0, startIndex));
 }
 
 /* ---------- Selección de punto de partida / geolocalización ---------- */
