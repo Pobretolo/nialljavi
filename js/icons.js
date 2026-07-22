@@ -139,6 +139,19 @@ const ICONS = {
       <path d="M12 17v4M9 21h6"/>
     </svg>`,
 
+  // Alta cocina — estrella
+  star: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+      <path d="M12 3l2.5 5.5 6 .7-4.4 4.1 1.2 6-5.3-3-5.3 3 1.2-6-4.4-4.1 6-.7z"/>
+    </svg>`,
+
+  // Vegano / vegetariano — hoja
+  leaf: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14z"/>
+      <path d="M5 19c2-4 5-7 9-9"/>
+    </svg>`,
+
   // Anillo — para la calificación de interés en "Tengo coche"
   ring: () => `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8">

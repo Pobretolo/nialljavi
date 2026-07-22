@@ -109,13 +109,16 @@ const UI_TEXT = {
 
   page_comer_title: { es: "Dónde comer", en: "Where to eat" },
   page_comer_sub: {
-    es: "Nuestros sitios de confianza en Santiago, con ubicación en Google Maps.",
-    en: "Our trusted spots in Santiago, with a Google Maps location."
+    es: "Nuestros sitios de confianza en Santiago, con ubicación en Google Maps, su nota real en Google (en anillos), el precio orientativo (en €) y el tipo de cocina.",
+    en: "Our trusted spots in Santiago, with a Google Maps location, their real Google rating (shown as rings), a rough price level (in €), and the type of cuisine."
   },
   comer_cat_marisco: { es: "Marisco", en: "Seafood" },
   comer_cat_tradicional: { es: "Tradicional", en: "Traditional" },
   comer_cat_tapas: { es: "Tapas", en: "Tapas" },
   comer_cat_cafeteria: { es: "Cafetería / postre", en: "Café / dessert" },
+  comer_cat_altacocina: { es: "Alta cocina", en: "Fine dining" },
+  comer_cat_vegano: { es: "Vegano / vegetariano", en: "Vegan / vegetarian" },
+  comer_breakfast: { es: "Desayunos", en: "Breakfast" },
 
   page_fiestas_title: { es: "Fiestas del Apóstol 2026", en: "Fiestas del Apóstol 2026" },
   page_fiestas_sub: {

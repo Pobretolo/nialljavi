@@ -30,6 +30,7 @@ function renderTengoCoche() {
       <div class="rings-rating" title="${UI_TEXT.coche_rating_label[lang]}: ${rating}/5">${ringsHtml}</div>
       <span class="tag" style="color:var(--rust);border-color:var(--rust)">${item.distance[lang]}</span>
       <p style="margin-top:12px;">${item.description[lang]}</p>
+      ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
     </div>
   `;
   }).join("");
@@ -44,25 +45,47 @@ function renderComer() {
     tradicional: UI_TEXT.comer_cat_tradicional,
     tapas: UI_TEXT.comer_cat_tapas,
     cafeteria: UI_TEXT.comer_cat_cafeteria,
+    altacocina: UI_TEXT.comer_cat_altacocina,
+    vegano: UI_TEXT.comer_cat_vegano,
   };
   const catIcon = {
     marisco: ICONS.fish,
     tradicional: ICONS.pot,
     tapas: ICONS.plate,
     cafeteria: ICONS.cup,
+    altacocina: ICONS.star,
+    vegano: ICONS.leaf,
   };
 
-  wrap.innerHTML = COMER_ITEMS.map((item) => `
+  wrap.innerHTML = COMER_ITEMS.map((item) => {
+    const ratingHtml = typeof item.rating === "number" ? `
+      <div class="rings-rating" style="margin-bottom:2px;" title="Google: ${item.rating}/5">
+        ${Array.from({ length: 5 }).map((_, i) => `<span class="ring-icon ${i < Math.round(item.rating) ? "filled" : ""}">${ICONS.ring()}</span>`).join("")}
+        <span style="font-family:var(--font-mono);font-size:0.72rem;color:#6b654f;margin-left:4px;">${item.ratingApprox ? "~" : ""}${item.rating} · Google</span>
+      </div>` : "";
+
+    const priceHtml = typeof item.price === "number" ? `
+      <span class="tag icon-tag" style="color:var(--moss);border-color:var(--moss);">
+        ${"€".repeat(item.price)}<span style="opacity:0.35;">${"€".repeat(5 - item.price)}</span>
+      </span>` : "";
+
+    return `
     <div class="card">
       <h3>${item.name}</h3>
-      ${item.category && catLabel[item.category] ? `
-        <span class="tag icon-tag" style="color:var(--rust);border-color:var(--rust);margin-bottom:10px;">
-          ${catIcon[item.category]()}${catLabel[item.category][lang]}
-        </span>` : ""}
+      ${ratingHtml}
+      <div style="margin-bottom:10px;display:flex;flex-wrap:wrap;gap:8px;">
+        ${item.category && catLabel[item.category] ? `
+          <span class="tag icon-tag" style="color:var(--rust);border-color:var(--rust);">
+            ${catIcon[item.category]()}${catLabel[item.category][lang]}
+          </span>` : ""}
+        ${item.breakfast ? `<span class="tag icon-tag" style="color:var(--gold);border-color:var(--gold);">${ICONS.cup()}${UI_TEXT.comer_breakfast[lang]}</span>` : ""}
+        ${priceHtml}
+      </div>
       <p style="margin-top:12px;">${item.description[lang]}</p>
       ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
     </div>
-  `).join("");
+  `;
+  }).join("");
 }
 
 function renderDatosInteres() {
