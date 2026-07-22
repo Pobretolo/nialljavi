@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Iconos SVG reutilizables para categorías
+   Cada función devuelve un <svg> como string, listo para insertar en HTML.
+   Úsalos así en JS: ICONS.triskele()
+   ========================================================================== */
+
+const ICONS = {
+  // Celta / Folk — trísquel estilizado
+  triskele: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+      <path d="M12 12c0-3-2.3-5.3-5.3-5.3" transform="rotate(0 12 12)"/>
+      <path d="M12 12c0-3-2.3-5.3-5.3-5.3" transform="rotate(120 12 12)"/>
+      <path d="M12 12c0-3-2.3-5.3-5.3-5.3" transform="rotate(240 12 12)"/>
+      <circle cx="6.7" cy="6.7" r="1.1" fill="currentColor" stroke="none" transform="rotate(0 12 12)"/>
+      <circle cx="6.7" cy="6.7" r="1.1" fill="currentColor" stroke="none" transform="rotate(120 12 12)"/>
+      <circle cx="6.7" cy="6.7" r="1.1" fill="currentColor" stroke="none" transform="rotate(240 12 12)"/>
+    </svg>`,
+
+  // Moderna — nota musical
+  musicNote: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 18V5l10-2v13"/>
+      <circle cx="7" cy="18" r="2.2"/>
+      <circle cx="17" cy="16" r="2.2"/>
+    </svg>`,
+
+  // Tranquila — luna
+  moon: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 14.5A8 8 0 119.5 4a6.5 6.5 0 0010.5 10.5z"/>
+    </svg>`,
+
+  // Tapa con la bebida — tenedor y cuchillo
+  fork: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 3v7a2 2 0 004 0V3"/>
+      <path d="M8 10v11"/>
+      <path d="M18 3c-1.6 0-3 1.6-3 4.5S16.4 12 18 12v9"/>
+    </svg>`,
+
+  // Gay friendly — arcoíris
+  rainbow: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round">
+      <path d="M3 18a9 9 0 0118 0" stroke="#c9524a" stroke-width="1.8"/>
+      <path d="M5.3 18a6.7 6.7 0 0113.4 0" stroke="#dba23c" stroke-width="1.8"/>
+      <path d="M7.6 18a4.4 4.4 0 018.8 0" stroke="#7f9d5a" stroke-width="1.8"/>
+      <path d="M9.9 18a2.1 2.1 0 014.2 0" stroke="#4d7a9e" stroke-width="1.8"/>
+    </svg>`,
+
+  // Marisco — pez
+  fish: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2.5 12c4-4.6 12-4.6 16 0-4 4.6-12 4.6-16 0z"/>
+      <circle cx="15.2" cy="11" r=".6" fill="currentColor" stroke="none"/>
+      <path d="M18.5 12l3-2.6v5.2l-3-2.6z"/>
+    </svg>`,
+
+  // Tradicional / cocido — olla
+  pot: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4.5 11h15l-1.1 7.2a2 2 0 01-2 1.8H7.6a2 2 0 01-2-1.8L4.5 11z"/>
+      <path d="M2.5 11h19M9 11V8a3 3 0 016 0v3"/>
+    </svg>`,
+
+  // Tapas — plato
+  plate: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+      <circle cx="12" cy="12" r="8.2"/>
+      <circle cx="12" cy="12" r="3.2"/>
+    </svg>`,
+
+  // Cafetería / postre — taza
+  cup: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 8h13v6a5 5 0 01-5 5H9a5 5 0 01-5-5V8z"/>
+      <path d="M17 9.5h1.3a2.3 2.3 0 010 4.6H17"/>
+      <path d="M6 5.5c0-1 .8-1 .8-2M10 5.5c0-1 .8-1 .8-2"/>
+    </svg>`,
+
+  // Fiestas del Apóstol — fuegos artificiales / estrella festiva
+  fireworks: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M12 3v4M6.5 6.5l2 2M17.5 6.5l-2 2M4 14l3.2-.6M20 14l-3.2-.6"/>
+      <path d="M12 10v4M9.5 12.3l1.5 1.7 1.5-1.7"/>
+      <path d="M6 20c1.7-1.3 3.7-1.3 6 0s4.3 1.3 6 0"/>
+    </svg>`,
+
+  // Dónde comer — cubiertos (nav)
+  cutlery: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 3v7a2 2 0 004 0V3M8 10v11"/>
+      <path d="M18 3c-1.6 0-3 1.6-3 4.5S16.4 12 18 12v9"/>
+    </svg>`,
+
+  // Ubicación / Google Maps
+  // Pasaporte del París-Dakar — cunca de viño
+  wineCup: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 4h14l-1.3 8.5a5.7 5.7 0 01-11.4 0L5 4z"/>
+      <path d="M12 17v4M8.5 21h7"/>
+    </svg>`,
+
+  pin: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s7-6.5 7-11a7 7 0 10-14 0c0 4.5 7 11 7 11z"/>
+      <circle cx="12" cy="10" r="2.4"/>
+    </svg>`,
+};
