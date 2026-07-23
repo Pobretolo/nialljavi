@@ -644,6 +644,8 @@ const TENGO_COCHE_ITEMS = [
     title: { es: "Praia das Catedrais", en: "Praia das Catedrais" },
     distance: { es: "1h 50min en coche", en: "1h 50min by car" },
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Praia+das+Catedrais+Ribadeo",
+    extraUrl: "https://turismoribadeo.gal/playa-de-as-catedrais/mareas/",
+    extraLabel: { es: "Tabla de mareas", en: "Tide table" },
     description: {
       es: "La más lejana de esta lista, pero espectacular: arcos y cuevas de roca solo visibles con marea baja, cerca de Ribadeo. Importante: en verano (julio-septiembre) hace falta reserva gratuita previa en la web de la Xunta, y conviene consultar la tabla de mareas antes de ir.",
       en: "The furthest one on this list, but spectacular: rock arches and caves only visible at low tide, near Ribadeo. Important: in summer (July-September) a free advance booking is required on the Xunta's website, and it's worth checking the tide table before heading out."

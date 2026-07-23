@@ -34,7 +34,10 @@ function renderTengoCoche() {
       <div class="rings-rating" title="${UI_TEXT.coche_rating_label[lang]}: ${rating}/5">${ringsHtml}</div>
       <span class="tag" style="color:var(--rust);border-color:var(--rust)">${item.distance[lang]}</span>
       <p style="margin-top:12px;">${item.description[lang]}</p>
-      ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
+        ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
+        ${item.extraUrl ? `<a class="btn btn-solid" target="_blank" rel="noopener" href="${item.extraUrl}">${item.extraLabel ? item.extraLabel[lang] : ""}</a>` : ""}
+      </div>
     </div>
   `;
   }).join("");
