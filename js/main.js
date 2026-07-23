@@ -8,7 +8,7 @@ function renderQueVer() {
     <div class="card">
       ${item.image ? `<img src="${item.image}" alt="${item.title[lang]}" style="border-radius:4px;margin-bottom:16px;aspect-ratio:4/3;object-fit:cover;">` : ""}
       ${item.time ? `<span class="eyebrow" style="color:var(--rust)">${item.time[lang]}</span>` : ""}
-      <h3>${i + 1}. ${item.title[lang]}</h3>
+      <h3>${item.title[lang]}</h3>
       <p>${item.description[lang]}</p>
       <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
         ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}

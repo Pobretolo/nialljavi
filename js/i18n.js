@@ -87,8 +87,8 @@ const UI_TEXT = {
 
   page_ver_title: { es: "Qué ver en un día", en: "One-day guide" },
   page_ver_sub: {
-    es: "Si solo tienes un día en Santiago, esta es la ruta que te recomendamos, en orden.",
-    en: "If you only have one day in Santiago, here's the route we recommend, in order."
+    es: "Algunos de los puntos más interesantes a los que puedes acercarte caminando si solo tienes un día en Santiago.",
+    en: "Some of the most interesting spots you can walk to if you only have one day in Santiago."
   },
 
   page_coche_title: { es: "¡Tengo coche!", en: "I have a car!" },
