@@ -578,9 +578,11 @@ const TENGO_COCHE_ITEMS = [
     title: { es: "Torres do Oeste", en: "Torres do Oeste" },
     distance: { es: "35 min en coche", en: "35 min by car" },
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Torres+do+Oeste+Catoira",
+    extraUrl: "https://catoira.gal/wp-content/uploads/2026/07/2026_Programa_Vikinga_Comprimido.pdf",
+    extraLabel: { es: "Programa de la Romería Vikinga", en: "Romería Vikinga program" },
     description: {
-      es: "En Catoira, las ruinas de las defensas que el obispo Cresconio mandó construir en el siglo XI para proteger Compostela de los ataques vikingos por el río Ulla.",
-      en: "In Catoira, the ruins of the defenses that bishop Cresconio ordered built in the 11th century to protect Compostela from Viking raids coming up the Ulla river."
+      es: "En Catoira, las ruinas de las defensas que el obispo Cresconio mandó construir en el siglo XI para proteger Compostela de los ataques vikingos por el río Ulla. Si os quedáis un día más después de la boda, la Romería Vikinga (recreación del desembarco, declarada Fiesta de Interés Turístico Internacional) se celebra aquí mismo el 2 de agosto de 2026.",
+      en: "In Catoira, the ruins of the defenses that bishop Cresconio ordered built in the 11th century to protect Compostela from Viking raids coming up the Ulla river. If you're staying one more day after the wedding, the Romería Vikinga (a reenactment of the Viking landing, declared a Festival of International Tourist Interest) takes place right here on 2 August 2026."
     }
   },
   {
