@@ -977,6 +977,30 @@ const SALIR_ITEMS = [
       es: "Cervecería artesanal en la Rúa de Xelmírez, muy cerca de la Catedral, desde 2013. Buena selección de cervezas gallegas, con tapa a elegir (tostas, arepas, panpizza...) incluida en cada consumición. Terraza agradable en la calle.",
       en: "A craft beer bar on Rúa de Xelmírez, very close to the Cathedral, open since 2013. A good selection of Galician craft beers, with a choice of tapa (tostas, arepas, mini pizza...) included with every drink. A pleasant street-side terrace."
     }
+  },
+  {
+    name: "Garoa",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Garoa+Avenida+de+Figueroa+3+Santiago+de+Compostela",
+    description: {
+      es: "Coctelería en una de las entradas al casco histórico. Especializado en \"la copa buena\": gin-tonics y mojitos muy bien valorados, con una de las bartenders más reconocidas de España tras la barra. Terraza amplia y agradable.",
+      en: "A cocktail bar at one of the entrances to the old town. Known for serious drinks: highly rated gin & tonics and mojitos, with one of Spain\'s most recognized bartenders behind the bar. A spacious, pleasant terrace."
+    }
+  },
+  {
+    name: "Blaster",
+    music: "moderna",
+    tapa: false,
+    gay: false,
+    image: "",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Discoteca+Blaster+R%C3%BAa+da+Rep%C3%BAblica+Arxentina+6+Santiago+de+Compostela",
+    description: {
+      es: "Discoteca abierta hasta las 6 de la mañana, uno de los sitios más frecuentados cuando cierran los bares de la zona vieja. Música variada (EDM, hip hop, clásicos), pista de baile animada.",
+      en: "A nightclub open until 6am, one of the most popular spots once the old town bars close. A mix of music (EDM, hip hop, classics), lively dance floor."
+    }
   }
   // Añade más sitios copiando un bloque como los de arriba.
   // "mapsUrl" -> en Google Maps, busca el sitio, pulsa "Compartir" y copia el enlace aquí.
