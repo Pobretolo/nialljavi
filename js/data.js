@@ -1073,7 +1073,7 @@ const COMER_ITEMS = [
     ratingApprox: false,
     price: 1,
     website: "https://dezaseis.com",
-    menuUrlEs: "https://solo.revointouch.works/app/order?category=",
+    menuUrlEs: "https://dezaseis.com/wp-content/uploads/2026/01/menus26-1.pdf",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Dezaseis+R%C3%BAa+de+San+Pedro+16+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de cocina tradicional gallega en la R\u00faa de San Pedro, con encanto de casa de comidas. Buena opci\u00f3n para el men\u00fa del d\u00eda.",
