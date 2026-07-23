@@ -26,7 +26,7 @@ const UI_TEXT = {
   eyebrow_datos:      { es: "Información práctica", en: "Practical information" },
 
   hero_eyebrow:    { es: "Nos casamos", en: "We're getting married" },
-  hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "August 1, 2026 · Santiago de Compostela" },
+  hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "1 August 2026 · Santiago de Compostela" },
   hero_sub:        { es: "Todo lo que necesitas para el gran día y para descubrir la ciudad mientras estás por aquí.", en: "Everything you need for the big day, and for discovering the city while you're here." },
 
   home_photo_title: { es: "Foto Explorer", en: "Photo Explorer" },
@@ -45,7 +45,7 @@ const UI_TEXT = {
   home_comer_desc:  { es: "Nuestros sitios de confianza para comer bien en Santiago.", en: "Our trusted spots to eat well in Santiago." },
 
   home_fiestas_title: { es: "Fiestas del Apóstol", en: "Fiestas del Apóstol" },
-  home_fiestas_desc:  { es: "El programa oficial del 22 al 31 de julio, justo antes de la boda.", en: "The official program from July 22 to 31, right before the wedding." },
+  home_fiestas_desc:  { es: "El programa oficial del 22 al 31 de julio, justo antes de la boda.", en: "The official program from 22 to 31 July, right before the wedding." },
 
   home_parisdakar_title: { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   home_parisdakar_desc:  { es: "La mítica ruta de bares de los estudiantes compostelanos, convertida en pasaporte de sellos.", en: "Santiago students' legendary bar route, turned into a stamp passport." },

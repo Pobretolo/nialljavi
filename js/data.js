@@ -367,7 +367,7 @@ const PHOTO_CHALLENGES = [
     video: "https://www.youtube.com/shorts/glsBldxPGEI",
     reward: {
       es: "La Porta Santa es uno de los lugares más importantes de Santiago, pero su interés va mucho más allá de abrirse en Año Santo.\n\nLa puerta que ves en la Quintana permanece tapiada o cerrada la mayor parte del tiempo. Solo se abre durante los Años Santos Jacobeos, cuando el 25 de julio cae en domingo.\n\nLo curioso es que la ceremonia de apertura consiste literalmente en derribar simbólicamente el muro que la sella desde el interior.\n\nLa Porta Santa se abre hacia la Quintana dos Mortos, que durante siglos fue el cementerio de la Catedral. Por eso la experiencia medieval de cruzarla tenía una enorme carga simbólica: se pasaba del espacio asociado a la muerte al interior del templo del Apóstol.\n\nMuchos peregrinos cruzan la puerta sin fijarse en las figuras que la rodean. Las esculturas proceden del antiguo coro pétreo románico realizado por el Maestro Mateo para el interior de la Catedral. Cuando el coro fue desmontado en el siglo XVII, varias piezas acabaron reutilizadas aquí. Es decir, algunas de las esculturas que ves estuvieron originalmente dentro de la Catedral románica.\n\nEs una de las pocas Puertas Santas del mundo; Roma tiene las suyas en las basílicas mayores, pero fuera de ese contexto la de Santiago es una de las más relevantes de la cristiandad. Atravesarla durante un Año Santo permite obtener la indulgencia jubilar, siempre que se cumplan las condiciones establecidas por la Iglesia.\n\nSi quieres hacer una \"parada técnica\", te recomiendo el café Literarios, en lo alto de las escaleras, en la Quintana de Vivos.\n\nPara seguir nuestra búsqueda, vuelve sobre tus pasos a la plaza de Praterías (la de la fuente de caballos) y continúa bajando la calle, pegado a la Catedral, si la cola interminable de peregrinos te lo permite.",
-      en: "The Porta Santa is one of Santiago's most important spots, but its interest goes well beyond simply opening in a Holy Year.\n\nThe door you see in the Quintana stays bricked up or closed most of the time. It only opens during Jacobean Holy Years, when July 25 falls on a Sunday.\n\nThe curious thing is that the opening ceremony literally consists of symbolically knocking down the wall that seals it from the inside.\n\nThe Porta Santa opens onto the Quintana dos Mortos, which for centuries was the Cathedral's cemetery. That's why, in medieval experience, crossing it carried enormous symbolic weight: you passed from a space associated with death into the interior of the Apostle's temple.\n\nMany pilgrims cross the door without noticing the figures around it. The sculptures come from the old Romanesque stone choir made by Master Mateo for the Cathedral's interior. When the choir was dismantled in the 17th century, several pieces ended up reused here. In other words, some of the sculptures you see were originally inside the Romanesque Cathedral.\n\nIt's one of the few Holy Doors in the world — Rome has its own in the major basilicas, but outside that context, Santiago's is one of the most significant in Christianity. Crossing it during a Holy Year grants the jubilee indulgence, provided the conditions set by the Church are met.\n\nIf you'd like a \"technical stop,\" I'd recommend Café Literarios, at the top of the stairs, in the Quintana de Vivos.\n\nTo continue our search, retrace your steps to Praterías square (the one with the horse fountain) and keep heading down the street, hugging the Cathedral, if the endless line of pilgrims lets you."
+      en: "The Porta Santa is one of Santiago's most important spots, but its interest goes well beyond simply opening in a Holy Year.\n\nThe door you see in the Quintana stays bricked up or closed most of the time. It only opens during Jacobean Holy Years, when 25 July falls on a Sunday.\n\nThe curious thing is that the opening ceremony literally consists of symbolically knocking down the wall that seals it from the inside.\n\nThe Porta Santa opens onto the Quintana dos Mortos, which for centuries was the Cathedral's cemetery. That's why, in medieval experience, crossing it carried enormous symbolic weight: you passed from a space associated with death into the interior of the Apostle's temple.\n\nMany pilgrims cross the door without noticing the figures around it. The sculptures come from the old Romanesque stone choir made by Master Mateo for the Cathedral's interior. When the choir was dismantled in the 17th century, several pieces ended up reused here. In other words, some of the sculptures you see were originally inside the Romanesque Cathedral.\n\nIt's one of the few Holy Doors in the world — Rome has its own in the major basilicas, but outside that context, Santiago's is one of the most significant in Christianity. Crossing it during a Holy Year grants the jubilee indulgence, provided the conditions set by the Church are met.\n\nIf you'd like a \"technical stop,\" I'd recommend Café Literarios, at the top of the stairs, in the Quintana de Vivos.\n\nTo continue our search, retrace your steps to Praterías square (the one with the horse fountain) and keep heading down the street, hugging the Cathedral, if the endless line of pilgrims lets you."
     },
     rewardImage: "https://i.imgur.com/crusHQq.jpeg"
   },
@@ -681,7 +681,7 @@ const TENGO_COCHE_ITEMS = [
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Fervenza+do+%C3%89zaro+Dumbr%C3%ADa",
     description: {
       es: "La única cascada de Europa que desemboca directamente en el mar, con una caída de 40 metros en plena Costa da Morte. En verano (del 21 de junio al 21 de septiembre), las noches de sábado se ilumina de 23:00 a 00:00h con un espectáculo de luces — merece la pena planificar la visita para coincidir con eso si podéis.",
-      en: "The only waterfall in Europe that flows directly into the sea, with a 40-meter drop right on the Costa da Morte. In summer (June 21 to September 21), on Saturday nights it's lit up from 11 pm to midnight with a light show — worth timing your visit to catch it if you can."
+      en: "The only waterfall in Europe that flows directly into the sea, with a 40-meter drop right on the Costa da Morte. In summer (21 June to 21 September), on Saturday nights it's lit up from 11 pm to midnight with a light show — worth timing your visit to catch it if you can."
     }
   }
   // Añade más destinos copiando un bloque como los de arriba.
@@ -1423,7 +1423,7 @@ const COMER_ITEMS = [
 const FIESTAS_ITEMS = [
   {
     isoDate: "2026-07-22",
-    date: { es: "Miércoles 22 de julio", en: "Wednesday, July 22" },
+    date: { es: "Miércoles 22 de julio", en: "Wednesday 22 July" },
     title: { es: "Pregón de apertura", en: "Opening ceremony" },
     description: {
       es: "21:30 h, pregón inaugural desde el balcón del Pazo de Raxoi (Praza do Obradoiro). A continuación, concierto de la Real Filharmonía de Galicia en la Praza da Quintana.",
@@ -1432,7 +1432,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-23",
-    date: { es: "Jueves 23 de julio", en: "Thursday, July 23" },
+    date: { es: "Jueves 23 de julio", en: "Thursday 23 July" },
     title: { es: "Alborada y Julian Marley", en: "Alborada and Julian Marley" },
     description: {
       es: "Alborada matinal por el barrio a las 10:00 h, actividades infantiles en el Parque de Galeras desde las 17:30 h, concierto de Julian Marley a las 21:00 h en la Quintana y verbena con la Orquesta Finisterre en la Alameda a las 22:00 h.",
@@ -1441,7 +1441,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-24",
-    date: { es: "Viernes 24 de julio", en: "Friday, July 24" },
+    date: { es: "Viernes 24 de julio", en: "Friday 24 July" },
     title: { es: "Fuegos del Apóstol", en: "Fireworks of the Apóstol" },
     description: {
       es: "Uno de los días grandes: desfile de Cabezudos e Xigantes al mediodía, conciertos de Belém Tajes y Lila Downs en la Quintana a las 21:00 h, y a las 23:30 h el gran espectáculo pirotécnico lanzado desde la Alameda, la Cidade da Cultura y el Parque Carlomagno. Después, videomapping sobre la fachada del Pazo de Raxoi hasta las 2:00 h.",
@@ -1450,7 +1450,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-25",
-    date: { es: "Sábado 25 de julio", en: "Saturday, July 25" },
+    date: { es: "Sábado 25 de julio", en: "Saturday 25 July" },
     title: { es: "Día de Galicia y Festival do Folclore", en: "Galicia Day and Folk Festival" },
     description: {
       es: "Festividad del Apóstol y Día Nacional de Galicia. Comparsa de Cabezudos por el casco histórico a las 11:30 h y Jornada de Folclore Gallego desde las 21:00 h en la Quintana, con grupos tradicionales locales.",
@@ -1459,7 +1459,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-26",
-    date: { es: "Domingo 26 de julio", en: "Sunday, July 26" },
+    date: { es: "Domingo 26 de julio", en: "Sunday 26 July" },
     title: { es: "Día do Traxe (traje tradicional)", en: "Día do Traxe (traditional dress day)" },
     description: {
       es: "Jornada dedicada al folclore y al traje tradicional gallego: desfiles por el casco histórico desde las 11:45 h, y música tradicional todo el día en distintas plazas, con Felisa Segade y Budiño cerrando la noche en la Quintana.",
@@ -1468,7 +1468,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-27",
-    date: { es: "Lunes 27 de julio", en: "Monday, July 27" },
+    date: { es: "Lunes 27 de julio", en: "Monday 27 July" },
     title: { es: "Arranca Compostela Cinema", en: "Compostela Cinema begins" },
     description: {
       es: "Comienza el ciclo de cine al aire libre por distintos barrios de la ciudad. Por la noche, concierto de La Perra Blanco en la Quintana desde las 21:00 h.",
@@ -1477,7 +1477,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-28",
-    date: { es: "Martes 28 de julio", en: "Tuesday, July 28" },
+    date: { es: "Martes 28 de julio", en: "Tuesday 28 July" },
     title: { es: "Ajedrez al aire libre y Festa Xitana", en: "Outdoor chess and Festa Xitana" },
     description: {
       es: "Ajedrez al aire libre en la Alameda de 17:00 a 20:00 h, cine al aire libre desde las 20:00 h, y por la noche Festa Xitana Galega en la Quintana desde las 21:00 h.",
@@ -1486,7 +1486,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-29",
-    date: { es: "Miércoles 29 de julio", en: "Wednesday, July 29" },
+    date: { es: "Miércoles 29 de julio", en: "Wednesday 29 July" },
     title: { es: "Música emergente en la Quintana", en: "Emerging music in Praza da Quintana" },
     description: {
       es: "Alborada matinal, ajedrez al aire libre en la Alameda, y por la noche uno de los conciertos más esperados: Bewis de la Rosa y Eris Mackenzie en la Quintana desde las 21:00 h.",
@@ -1495,7 +1495,7 @@ const FIESTAS_ITEMS = [
   },
   {
     isoDate: "2026-07-30",
-    date: { es: "Jueves 30 de julio", en: "Thursday, July 30" },
+    date: { es: "Jueves 30 de julio", en: "Thursday 30 July" },
     title: { es: "Concierto de Shego", en: "Shego concert" },
     description: {
       es: "Cine al aire libre desde las 20:00 h y concierto de Shego en la Quintana a partir de las 21:00 h, seguido de verbena con la Orquestra Costa Dorada en la Alameda.",
@@ -1505,7 +1505,7 @@ const FIESTAS_ITEMS = [
   {
     isoDate: "2026-07-31",
     isWeddingEve: true,
-    date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday, July 31 · the night before the wedding" },
+    date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday 31 July · the night before the wedding" },
     title: { es: "Cierre de fiestas: The Rapants y fuegos finales", en: "Closing night: The Rapants and final fireworks" },
     description: {
       es: "Último día de las fiestas, justo la noche antes de la boda. Cantos de Taberna por San Lázaro y rúa de San Pedro desde las 21:00 h, concierto de cierre de The Rapants en la Quintana a las 22:00 h, verbena con la Orquestra Suavecito en la Alameda, y a las 23:30 h el espectáculo pirotécnico de fin de fiestas, lanzado desde la Alameda. Buenos puntos para verlos: el Paseo da Ferradura, en la propia Alameda, o la Praza do Obradoiro.",
@@ -1521,7 +1521,7 @@ const FIESTAS_ITEMS = [
   {
     isoDate: "2026-07-23",
     isGaias: true,
-    date: { es: "Jueves 23 de julio", en: "Thursday, July 23" },
+    date: { es: "Jueves 23 de julio", en: "Thursday 23 July" },
     title: { es: "Atardecer no Gaiás: Bala", en: "Atardecer no Gaiás: Bala" },
     description: {
       es: "21:00 h, Praza Central da Cidade da Cultura, entrada libre. Concierto de Bala, dúo de stoner rock gallego, dentro del ciclo gratuito de conciertos al atardecer en el Gaiás.",
@@ -1531,7 +1531,7 @@ const FIESTAS_ITEMS = [
   {
     isoDate: "2026-07-30",
     isGaias: true,
-    date: { es: "Jueves 30 de julio", en: "Thursday, July 30" },
+    date: { es: "Jueves 30 de julio", en: "Thursday 30 July" },
     title: { es: "Atardecer no Gaiás: Sheila Patricia", en: "Atardecer no Gaiás: Sheila Patricia" },
     description: {
       es: "21:00 h, Praza Central da Cidade da Cultura, entrada libre. Concierto de Sheila Patricia dentro del ciclo gratuito de conciertos al atardecer en el Gaiás.",
@@ -1541,7 +1541,7 @@ const FIESTAS_ITEMS = [
   {
     isoDate: "2026-07-31",
     isGaias: true,
-    date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday, July 31 · the night before the wedding" },
+    date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday 31 July · the night before the wedding" },
     title: { es: "Atardecer no Gaiás: Lisdexia", en: "Atardecer no Gaiás: Lisdexia" },
     description: {
       es: "21:00 h, Praza Central da Cidade da Cultura, entrada libre. Concierto de Lisdexia, la misma noche del cierre de las fiestas — para quien prefiera un plan más tranquilo antes de la boda del día siguiente.",
