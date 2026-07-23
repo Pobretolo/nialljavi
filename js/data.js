@@ -1024,6 +1024,7 @@ const COMER_ITEMS = [
     ratingApprox: true,
     price: 1,
     website: "https://latitacompostela.com",
+    menuUrlEs: "https://qr.mi-nube.es/latita/carta",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+La+Tita+R%C3%BAa+Nova+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de la R\u00faa Nova: con cada ca\u00f1a te ponen una tapa de tortilla poco hecha, sea la hora que sea. Suele llenarse, as\u00ed que llegad con hambre y paciencia.",
@@ -1039,6 +1040,7 @@ const COMER_ITEMS = [
     price: 2,
     website: "https://atabernadobispo.es",
     instagram: "https://www.instagram.com/atabernadobispo/",
+    menuUrlEs: "https://atabernadobispo.es/es-es/comamos",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Taberna+do+Bispo+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     description: {
       es: "En la R\u00faa do Franco, tapas gallegas con mucho marisco desde 2003. Ambiente animado y elegante a la vez.",
@@ -1066,6 +1068,7 @@ const COMER_ITEMS = [
     ratingApprox: false,
     price: 1,
     website: "https://dezaseis.com",
+    menuUrlEs: "https://solo.revointouch.works/app/order?category=",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Dezaseis+R%C3%BAa+de+San+Pedro+16+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de cocina tradicional gallega en la R\u00faa de San Pedro, con encanto de casa de comidas. Buena opci\u00f3n para el men\u00fa del d\u00eda.",
@@ -1080,6 +1083,8 @@ const COMER_ITEMS = [
     ratingApprox: false,
     price: 4,
     website: "https://osendeiro.com",
+    menuUrlEs: "https://osendeiro.com/carta-sendeiro/",
+    menuUrlEn: "https://osendeiro.com/english-menu/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Sendeiro+Rua+Olvido+Santiago+de+Compostela",
     description: {
       es: "Cocina gallega moderna en el patio de piedra de una antigua curtidur\u00eda del siglo XIX. Men\u00fa degustaci\u00f3n muy cuidado, algo alejado del centro pero merece la pena.",
@@ -1094,6 +1099,7 @@ const COMER_ITEMS = [
     ratingApprox: true,
     price: 5,
     website: "https://casamarcelo.net/es",
+    menuUrlEs: "https://casamarcelo.net/es/menu",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Marcelo+R%C3%BAa+das+Hortas+Santiago+de+Compostela",
     description: {
       es: "Una estrella Michelin, del chef Marcelo Tejedor. Men\u00fa degustaci\u00f3n sorpresa que mezcla cocina gallega con toques asi\u00e1ticos y latinoamericanos, con la cocina integrada en la sala. Reservar con tiempo.",
@@ -1123,7 +1129,8 @@ const COMER_ITEMS = [
     rating: 4.6,
     ratingApprox: true,
     price: 5,
-    website: "https://restauranteatafona.com",
+    website: "https://www.luciafreitas.es/a-tafona",
+    menuUrlEs: "https://www.luciafreitas.es/wp-content/uploads/2025/04/menu-tafona-espanol-2-2025-04-30-menu-tafona-espanol-2.pdf",
     instagram: "https://www.instagram.com/atafonarestaurante/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Tafona+by+Lucia+Freitas+Santiago+de+Compostela",
     description: {
@@ -1139,6 +1146,7 @@ const COMER_ITEMS = [
     ratingApprox: true,
     price: 3,
     website: "https://mrchu.es",
+    instagram: "https://www.instagram.com/mrchusantiago/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mr+Chu+R%C3%BAa+das+Hortas+Santiago+de+Compostela",
     description: {
       es: "En la misma calle que Casa Marcelo (mismo grupo). Cocina de fusi\u00f3n asi\u00e1tica detr\u00e1s de una puerta discreta, ambiente informal y desenfadado.",
@@ -1167,6 +1175,7 @@ const COMER_ITEMS = [
     ratingApprox: true,
     price: 3,
     instagram: "https://www.instagram.com/abastosdouspuntocero/",
+    website: "https://www.abastosdouspuntocero.com/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Abastos+2.0+Mercado+de+Abastos+Santiago+de+Compostela",
     description: {
       es: "Dentro del propio Mercado de Abastos, ocupando varias casetas con una gran mesa compartida. Pescado y producto de temporada del propio mercado. Conviene reservar.",
@@ -1181,6 +1190,7 @@ const COMER_ITEMS = [
     ratingApprox: false,
     price: 3,
     website: "https://ogatonegro.com",
+    menuUrlEs: "https://ogatonegro.com/carta/#o-gato-negro",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Taberna+O+Gato+Negro+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     description: {
       es: "Taberna centenaria (desde 1922) en pleno casco hist\u00f3rico. Empanadas del d\u00eda, marisco y vino de Ribeiro, sin lujos y sin reservas: hay que apuntarse en lista.",
@@ -1195,6 +1205,7 @@ const COMER_ITEMS = [
     ratingApprox: true,
     price: 2,
     website: "https://petiscosdocardeal.es",
+    menuUrlEs: "https://petiscosdocardeal.es/es-es/comemos",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Petiscos+do+Cardeal+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     description: {
       es: "En plena R\u00faa do Franco. Buena variedad de pinchos y tapas para tapeo r\u00e1pido en barra, con terraza. Precios razonables aunque muy orientado al turismo.",
@@ -1234,6 +1245,7 @@ const COMER_ITEMS = [
     rating: 4.6,
     ratingApprox: true,
     price: 1,
+    website: "https://www.facebook.com/ecoflex.online",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=The+Greenhouse+Santiago+de+Compostela+vegano",
     description: {
       es: "Restaurante vegano peque\u00f1o y acogedor. Curry, noodles japonesas y unos brownies muy recomendados, precios muy asequibles.",
@@ -1262,6 +1274,7 @@ const COMER_ITEMS = [
     ratingApprox: true,
     price: 3,
     website: "https://ahortadoobradoiro.com",
+    menuUrlEs: "https://ahortadoobradoiro.com/menu/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Horta+d%27Obradoiro+R%C3%BAa+das+Hortas+Santiago+de+Compostela",
     description: {
       es: "Bib Gourmand de la Gu\u00eda Michelin, en un edificio del siglo XVII con jard\u00edn interior. Cocina de producto sincera, terraza preciosa con vistas al Obradoiro.",
@@ -1318,7 +1331,7 @@ const COMER_ITEMS = [
     rating: 4.3,
     ratingApprox: true,
     price: 1,
-    instagram: "https://www.instagram.com/cafetertuliasantiago/",
+    instagram: "https://www.instagram.com/cafetertuliasc/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+Tertulia+Santiago+de+Compostela",
     description: {
       es: "Un cl\u00e1sico para desayunar con calma y leer un libro. Ambiente sencillo, ideal para empezar el d\u00eda sin prisas.",
@@ -1332,6 +1345,9 @@ const COMER_ITEMS = [
     rating: 4.7,
     ratingApprox: true,
     price: 2,
+    website: "https://www.costavella.com",
+    menuUrlEs: "https://www.costavella.com/carta-digital/",
+    menuUrlEn: "https://www.costavella.com/en/carta-digital",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+Costa+Vella+Porta+da+Pena+Santiago+de+Compostela",
     description: {
       es: "El jardín interior del Hotel Costa Vella (Porta da Pena, 17), hoy a cargo de la chef Lucía Freitas (A Tafona) bajo el nombre O Xardín das Delicias. Manzanos, limoneros y una fuente de piedra entre las mesas. Ideal para desayunar o para una pausa con té a media tarde.",
