@@ -1073,7 +1073,6 @@ const COMER_ITEMS = [
     ratingApprox: false,
     price: 1,
     website: "https://dezaseis.com",
-    menuUrlEs: "https://dezaseis.com/wp-content/uploads/2026/01/menus26-1.pdf",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Dezaseis+R%C3%BAa+de+San+Pedro+16+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de cocina tradicional gallega en la R\u00faa de San Pedro, con encanto de casa de comidas. Buena opci\u00f3n para el men\u00fa del d\u00eda.",
@@ -1132,7 +1131,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Tafona",
-    image: "",
+    image: "https://i.imgur.com/GyjpRo4.jpeg",
     category: "altacocina",
     breakfast: false,
     rating: 4.6,
@@ -1149,7 +1148,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Mr. Chu",
-    image: "",
+    image: "https://i.imgur.com/4UybT93.jpeg",
     category: "altacocina",
     breakfast: false,
     rating: 4.3,
@@ -1165,7 +1164,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Ind\u00f3mito",
-    image: "",
+    image: "https://i.imgur.com/t3QWUyC.jpeg",
     category: "altacocina",
     breakfast: false,
     rating: 4.5,
@@ -1180,7 +1179,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Abastos 2.0",
-    image: "",
+    image: "https://i.imgur.com/JxXrWA4.jpeg",
     category: "marisco",
     breakfast: false,
     rating: 4.5,
@@ -1196,7 +1195,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Gato Negro",
-    image: "",
+    image: "https://i.imgur.com/9yHEUUf.jpeg",
     category: "marisco",
     breakfast: false,
     rating: 4.4,
@@ -1212,7 +1211,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Petiscos do Cardeal",
-    image: "",
+    image: "https://i.imgur.com/eYJhkF2.jpeg",
     category: "tapas",
     breakfast: false,
     rating: 4.3,
@@ -1228,7 +1227,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Cabalo Branco",
-    image: "",
+    image: "https://i.imgur.com/laUWSh4.jpeg",
     category: "tapas",
     breakfast: false,
     rating: 4.3,
@@ -1324,7 +1323,7 @@ const COMER_ITEMS = [
     ratingApprox: false,
     price: 1,
     website: "https://www.adeliacafe.es",
-    instagram: "https://www.instagram.com/adelia.cafe/",
+    instagram: "https://www.instagram.com/grupoadelia/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ad%C3%A8lia+Caf%C3%A9+Praza+de+San+Miguel+dos+Agros+Santiago+de+Compostela",
     description: {
       es: "Cafeter\u00eda de especialidad en la Praza de San Miguel dos Agros, junto a San Marti\u00f1o Pinario. Tostadas y tartas caseras muy buenas, ambiente tranquilo y pet friendly.",
