@@ -670,6 +670,17 @@ const TENGO_COCHE_ITEMS = [
       es: "Capital del Albariño, en las Rías Baixas. Casco histórico de piedra alrededor de la Praza de Fefiñáns, y buena oportunidad para probar vino albariño en alguna bodega.",
       en: "The capital of Albariño wine, in the Rías Baixas. A stone old town around Praza de Fefiñáns, and a good chance to try Albariño wine at a local winery."
     }
+  },
+  {
+    image: "",
+    rating: 4,
+    title: { es: "Fervenza do Ézaro", en: "Fervenza do Ézaro" },
+    distance: { es: "1h 15min en coche", en: "1h 15min by car" },
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Fervenza+do+%C3%89zaro+Dumbr%C3%ADa",
+    description: {
+      es: "La única cascada de Europa que desemboca directamente en el mar, con una caída de 40 metros en plena Costa da Morte. En verano (del 21 de junio al 21 de septiembre), las noches de sábado se ilumina de 23:00 a 00:00h con un espectáculo de luces — merece la pena planificar la visita para coincidir con eso si podéis.",
+      en: "The only waterfall in Europe that flows directly into the sea, with a 40-meter drop right on the Costa da Morte. In summer (June 21 to September 21), on Saturday nights it's lit up from 11 pm to midnight with a light show — worth timing your visit to catch it if you can."
+    }
   }
   // Añade más destinos copiando un bloque como los de arriba.
 ];
