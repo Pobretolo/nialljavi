@@ -710,7 +710,7 @@ const SALIR_ITEMS = [
     music: "celta",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/3IMl92K.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Modus+Vivendi+Santiago+de+Compostela",
     description: {
       es: "Uno de los pubs con más solera de Santiago, ambiente de música celta y folk en un antiguo pajar de piedra.",
@@ -723,7 +723,7 @@ const SALIR_ITEMS = [
     music: "celta",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/sj1mq2W.jpeg",
     liveMusic: true,
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+das+Crechas+Santiago+de+Compostela",
     description: {
@@ -736,7 +736,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/aXBlMvN.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Atl%C3%A1ntico+Santiago+de+Compostela",
     description: {
       es: "Favorito entre estudiantes, con buena selección de cervezas y cócteles y ambiente animado.",
@@ -748,7 +748,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/mz8NuOJ.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Gramola+Santiago+de+Compostela",
     description: {
       es: "Bar de temática retro con buen rollo nostálgico, cerca de Praza de Cervantes.",
@@ -760,7 +760,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: true,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/m9YtUy9.jpeg",
     irish: true,
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Novena+Porta+Cardeal+Pay%C3%A1+Santiago+de+Compostela",
     description: {
@@ -773,7 +773,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/HAMWUG4.jpeg",
     liveMusic: true,
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Momo+Santiago+de+Compostela",
     description: {
@@ -786,7 +786,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/CskOuQw.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Way+Club+R%C3%BAa+Nova+13+Santiago+de+Compostela",
     description: {
       es: "Discoteca universitaria en pleno casco histórico, en la Rúa Nova. Dos plantas, iluminación integrada en la estructura del local y ambiente muy joven.",
@@ -798,7 +798,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/GBS5Gfb.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Gabanna+Discoteca+R%C3%BAa+da+Rep%C3%BAblica+Arxentina+Santiago+de+Compostela",
     description: {
       es: "Discoteca de referencia para universitarios, sobre todo música urbana. Entrada gratuita, en la zona de República de Arxentina.",
@@ -810,7 +810,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/1rLvTmw.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Discoteca+Maycar+R%C3%BAa+do+Doutor+Teixeiro+Santiago+de+Compostela",
     description: {
       es: "Discoteca mítica de Santiago abierta desde 1969, con identidad muy marcada: rock, reggae, metal y música de los 90. Atrae a un público algo mayor que otras discotecas.",
@@ -822,7 +822,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/FlFTNMo.jpeg",
     liveMusic: true,
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Chocolate+Santiago+de+Compostela",
     description: {
@@ -835,7 +835,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/ng316dy.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Quintana+Pub+Praza+da+Quintana+Santiago+de+Compostela",
     description: {
       es: "Justo frente a la Catedral, en la Praza da Quintana. Tiene la terraza más grande de la ciudad, con vistas impresionantes. Ambiente moderno y juvenil.",
@@ -847,7 +847,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/TIZvHp9.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Albaroque+R%C3%BAa+da+Acibecher%C3%ADa+12+Santiago+de+Compostela",
     description: {
       es: "Pub del casco histórico con música actual y ambiente de baile. Buen sitio para empezar la noche.",
@@ -859,7 +859,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/LBcRwmJ.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Marte+Avenida+Rodrigo+del+Padr%C3%B3n+Santiago+de+Compostela",
     description: {
       es: "Bar mítico en la Avenida de Rodrigo del Padrón, muy conocido por sus tapas de tortilla. Buena terraza para cenar tranquilo antes de salir.",
@@ -871,7 +871,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/enagKOa.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Casino+Santiago+de+Compostela",
     description: {
       es: "Café histórico de finales del siglo XIX, con ambiente literario y tranquilo. Ideal si buscáis algo con menos ruido.",
@@ -883,7 +883,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/3Y9xTvM.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Vinoteca+O+Filand%C3%B3n+R%C3%BAa+da+Acibecher%C3%ADa+Santiago+de+Compostela",
     description: {
       es: "Vinoteca de piedra en la esquina de Rúa da Acibechería con Rúa da Troia, con chimenea y carta de vinos muy amplia. Ambiente familiar y tranquilo.",
@@ -895,7 +895,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: true,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/Ggj9nnO.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Bandullo+do+Lamb%C3%B3n+R%C3%BAa+da+Ra%C3%AD%C3%B1a+Santiago+de+Compostela",
     description: {
       es: "Bar de cervezas artesanas gallegas e internacionales en la Rúa da Raíña, con tapa gratis (aceitunas, quesos) con cada bebida. Ambiente relajado.",
@@ -907,7 +907,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: true,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/cWFDkRH.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Damajuana+R%C3%BAa+da+Acibecher%C3%ADa+5+Santiago+de+Compostela",
     description: {
       es: "Mezcla de vida nocturna y gastronomía en la Rúa da Acibechería, con terraza y ambiente acogedor. Buenas tapas y raciones gallegas.",
@@ -919,7 +919,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/hZ5Sf0G.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Tarasca+V%C3%ADa+Sacra+3+Santiago+de+Compostela",
     description: {
       es: "Música variada (de los 80 a la actualidad) y muy buen ambiente, con público diverso.",
@@ -931,7 +931,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: true,
-    image: "",
+    image: "https://i.imgur.com/RFJ2MWg.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Curruncho+R%C3%BAa+da+Algalia+de+Abaixo+Santiago+de+Compostela",
     description: {
       es: "Frente a Tarasca; cuando ambos se juntan por la noche se conoce como \"Tarruncho\". Ambiente LGTBI+ acogedor que atrae también a público diverso.",
@@ -943,7 +943,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: true,
-    image: "",
+    image: "https://i.imgur.com/E115JHG.jpeg",
     mapsUrl: "https://www.google.es/maps/place/Bloom+(Santiago+de+Compostela)/@42.8821522,-8.5418256,17z",
     description: {
       es: "Club LGBT con espectáculos de drag, dos plantas con ambientes musicales distintos. Se anima especialmente a partir de la 1am.",
@@ -955,7 +955,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: false,
     gay: true,
-    image: "",
+    image: "https://i.imgur.com/UABvCVr.jpeg",
     mapsUrl: "https://www.google.es/maps/place/TS+-+A+Casa+(Santiago+de+Compostela)/@42.8817913,-8.5356725,17z",
     description: {
       es: "Bar vegetariano en el barrio de San Pedro (considerado el barrio gay friendly de la ciudad), ambiente colorido e inclusivo.",
@@ -967,7 +967,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: false,
     gay: true,
-    image: "",
+    image: "https://i.imgur.com/W5PkQW8.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Medusa+Pub+Praza+de+Salvador+Parga+Santiago+de+Compostela",
     description: {
       es: "Pub de ambiente bohemio y muy LGTBI+ friendly, con juegos de mesa, opciones veganas, y conciertos ocasionales en el sótano.",
@@ -980,7 +980,7 @@ const SALIR_ITEMS = [
     tapa: false,
     gay: false,
     liveMusic: true,
-    image: "",
+    image: "https://i.imgur.com/MvyIOdZ.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Embora+R%C3%BAa+de+Tras+San+Fiz+de+Solovio+Santiago+de+Compostela",
     description: {
       es: "Bar musical cerca del Mercado de Abastos, ambiente acogedor y decoración moderna, con música en directo algunos días. Público muy variado: estudiantes, vecinos y visitantes por igual.",
@@ -992,7 +992,7 @@ const SALIR_ITEMS = [
     music: "tranquila",
     tapa: true,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/29jlhpA.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cervexer%C3%ADa+Xuntanza+R%C3%BAa+de+Xelm%C3%ADrez+28+Santiago+de+Compostela",
     description: {
       es: "Cervecería artesanal en la Rúa de Xelmírez, muy cerca de la Catedral, desde 2013. Buena selección de cervezas gallegas, con tapa a elegir (tostas, arepas, panpizza...) incluida en cada consumición. Terraza agradable en la calle.",
@@ -1004,7 +1004,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/Qjw5La7.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Pub+Garoa+Avenida+de+Figueroa+3+Santiago+de+Compostela",
     description: {
       es: "Coctelería en una de las entradas al casco histórico. Especializado en \"la copa buena\": gin-tonics y mojitos muy bien valorados, con una de las bartenders más reconocidas de España tras la barra. Terraza amplia y agradable.",
@@ -1016,7 +1016,7 @@ const SALIR_ITEMS = [
     music: "moderna",
     tapa: false,
     gay: false,
-    image: "",
+    image: "https://i.imgur.com/T3IBFdl.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Discoteca+Blaster+R%C3%BAa+da+Rep%C3%BAblica+Arxentina+6+Santiago+de+Compostela",
     description: {
       es: "Discoteca abierta hasta las 6 de la mañana, uno de los sitios más frecuentados cuando cierran los bares de la zona vieja. Música variada (EDM, hip hop, clásicos), pista de baile animada.",
