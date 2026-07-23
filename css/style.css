@@ -537,6 +537,79 @@ html[lang="es"] [data-i18n-lang="en"] { display: none; }
 
 .stamp-mini svg { width: 15px; height: 15px; }
 
+/* ---------- Guía de proximidad ---------- */
+#fe-proximity-widget {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  z-index: 90;
+  background: rgba(38, 46, 39, 0.94);
+  border: 1px solid var(--gold);
+  border-radius: 30px;
+  padding: 10px 20px 10px 14px;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+  max-width: calc(100vw - 32px);
+}
+
+.fe-proximity-arrow {
+  display: inline-flex;
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: transform 0.3s ease-out;
+}
+
+.fe-proximity-arrow svg { width: 26px; height: 26px; }
+
+.fe-proximity-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--parchment-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fe-proximity-info strong {
+  font-family: var(--font-body);
+  color: var(--parchment);
+  font-size: 0.92rem;
+  max-width: 55vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#fe-arrival-banner {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  z-index: 100;
+  background: var(--gold);
+  color: var(--stone-dark);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 12px 22px;
+  border-radius: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  max-width: calc(100vw - 32px);
+  text-align: center;
+}
+
+#fe-arrival-banner.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 .progress-bar-row {
   display: flex;
   align-items: center;

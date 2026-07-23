@@ -140,6 +140,158 @@ function feInitLocation() {
   );
 }
 
+/* ---------- Guía de proximidad (vibración + brújula) ----------
+   Todo esto se activa solo si la persona lo pide explícitamente (botón),
+   y cada capacidad se comprueba por separado: si el móvil no soporta
+   vibración, o no da permiso de brújula, simplemente esa parte no se
+   activa — el resto sigue funcionando con normalidad. */
+
+let feProximityActive = false;
+let feWatchId = null;
+let feCurrentPos = null;
+let feDeviceHeading = null; // grados 0-360, o null si no hay brújula
+let feNotifiedArrival = new Set(); // ids de retos ya notificados esta sesión
+const FE_ARRIVAL_RADIUS_M = 40;
+
+/* Rumbo inicial (bearing) en grados de un punto A a un punto B */
+function getBearing(lat1, lng1, lat2, lng2) {
+  const toRad = (d) => (d * Math.PI) / 180;
+  const toDeg = (r) => (r * 180) / Math.PI;
+  const dLng = toRad(lng2 - lng1);
+  const y = Math.sin(dLng) * Math.cos(toRad(lat2));
+  const x =
+    Math.cos(toRad(lat1)) * Math.sin(toRad(lat2)) -
+    Math.sin(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.cos(dLng);
+  return (toDeg(Math.atan2(y, x)) + 360) % 360;
+}
+
+/* El reto "activo" es el que está abierto en el modal en este momento;
+   si no hay ninguno abierto, el más cercano aún no encontrado. */
+function feGetActiveChallenge() {
+  if (feOpenChallengeId) {
+    const open = PHOTO_CHALLENGES.find((c) => c.id === feOpenChallengeId);
+    if (open) return open;
+  }
+  const progress = getProgress();
+  const ordered = getSortedChallenges();
+  return ordered.find((c) => !progress[c.id]) || null;
+}
+
+function feRenderProximityWidget() {
+  const widget = document.getElementById("fe-proximity-widget");
+  if (!widget) return;
+  const lang = getLang();
+
+  if (!feProximityActive) {
+    widget.style.display = "none";
+    return;
+  }
+
+  const target = feGetActiveChallenge();
+  if (!target || !feCurrentPos || typeof target.lat !== "number" || typeof target.lng !== "number") {
+    widget.style.display = "none";
+    return;
+  }
+
+  const dist = distanceMeters(feCurrentPos.lat, feCurrentPos.lng, target.lat, target.lng);
+  const bearing = getBearing(feCurrentPos.lat, feCurrentPos.lng, target.lat, target.lng);
+  const arrowRotation = feDeviceHeading !== null ? bearing - feDeviceHeading : bearing;
+
+  widget.style.display = "flex";
+  widget.innerHTML = `
+    <span class="fe-proximity-arrow" style="transform:rotate(${arrowRotation}deg);">${ICONS_FE_ARROW}</span>
+    <span class="fe-proximity-info">
+      <strong>${target.title[lang]}</strong>
+      <span>${Math.round(dist)} m</span>
+    </span>
+  `;
+}
+
+const ICONS_FE_ARROW = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v16M12 3l-5 5M12 3l5 5"/></svg>`;
+
+function feShowArrivalBanner(target) {
+  const lang = getLang();
+  const banner = document.getElementById("fe-arrival-banner");
+  if (!banner) return;
+  banner.querySelector("span").textContent = `${UI_TEXT.fe_arrived[lang]} ${target.title[lang]}`;
+  banner.classList.add("show");
+  setTimeout(() => banner.classList.remove("show"), 5000);
+}
+
+function feCheckArrival() {
+  if (!feCurrentPos) return;
+  const target = feGetActiveChallenge();
+  if (!target || typeof target.lat !== "number" || typeof target.lng !== "number") return;
+  if (feNotifiedArrival.has(target.id)) return;
+
+  const dist = distanceMeters(feCurrentPos.lat, feCurrentPos.lng, target.lat, target.lng);
+  if (dist <= FE_ARRIVAL_RADIUS_M) {
+    feNotifiedArrival.add(target.id);
+    if ("vibrate" in navigator) {
+      navigator.vibrate([200, 100, 200, 100, 200]);
+    }
+    feShowArrivalBanner(target);
+  }
+}
+
+function feHandleOrientation(event) {
+  // iOS expone webkitCompassHeading (ya es rumbo real); el resto usamos
+  // una aproximación a partir de alpha (funciona razonablemente al aire libre)
+  if (typeof event.webkitCompassHeading === "number") {
+    feDeviceHeading = event.webkitCompassHeading;
+  } else if (typeof event.alpha === "number") {
+    feDeviceHeading = 360 - event.alpha;
+  } else {
+    return;
+  }
+  feRenderProximityWidget();
+}
+
+function feStartProximityGuide() {
+  if (!("geolocation" in navigator)) return; // sin soporte: no se activa nada, sin error visible
+
+  feProximityActive = true;
+
+  const startBtn = document.getElementById("fe-proximity-btn");
+  if (startBtn) startBtn.style.display = "none";
+
+  // Vigilancia continua de la posición
+  feWatchId = navigator.geolocation.watchPosition(
+    (pos) => {
+      feCurrentPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      feRenderProximityWidget();
+      feCheckArrival();
+    },
+    () => { /* si falla a mitad de partida, simplemente dejamos de actualizar */ },
+    { enableHighAccuracy: true, maximumAge: 5000, timeout: 15000 }
+  );
+
+  // Brújula: en iOS hace falta permiso explícito tras un gesto del usuario
+  const DOE = window.DeviceOrientationEvent;
+  if (DOE && typeof DOE.requestPermission === "function") {
+    DOE.requestPermission().then((result) => {
+      if (result === "granted") {
+        window.addEventListener("deviceorientation", feHandleOrientation);
+      }
+      // si deniega, seguimos sin brújula — la flecha usará rumbo fijo hacia el norte-arriba
+    }).catch(() => {});
+  } else if ("DeviceOrientationEvent" in window) {
+    window.addEventListener("deviceorientation", feHandleOrientation);
+  }
+
+  feRenderProximityWidget();
+}
+
+function feStopProximityGuide() {
+  feProximityActive = false;
+  if (feWatchId !== null) navigator.geolocation.clearWatch(feWatchId);
+  feWatchId = null;
+  window.removeEventListener("deviceorientation", feHandleOrientation);
+  feRenderProximityWidget();
+  const startBtn = document.getElementById("fe-proximity-btn");
+  if (startBtn) startBtn.style.display = "inline-flex";
+}
+
 /* ---------- Rejilla de retos ---------- */
 
 function renderPhotoGrid() {
@@ -186,11 +338,14 @@ function updateProgressCount() {
 }
 
 let feModalStage = 0; // 0: solo miniatura | 1: + pista | 2: + ubicación
+let feOpenChallengeId = null;
 
 function openChallenge(id) {
   feModalStage = 0;
+  feOpenChallengeId = id;
   renderModal(id);
   document.getElementById("photo-modal").classList.add("open");
+  feRenderProximityWidget();
 }
 
 function renderModal(id) {
@@ -302,6 +457,8 @@ function rewardHtml(ch, lang) {
 
 function closeModal() {
   document.getElementById("photo-modal").classList.remove("open");
+  feOpenChallengeId = null;
+  feRenderProximityWidget();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -319,9 +476,17 @@ document.addEventListener("DOMContentLoaded", () => {
     resetProgress();
     renderPhotoGrid();
   });
+
+  const proximityBtn = document.getElementById("fe-proximity-btn");
+  if (proximityBtn && !("geolocation" in navigator)) {
+    proximityBtn.style.display = "none"; // sin soporte de geolocalización: ni se ofrece
+  } else if (proximityBtn) {
+    proximityBtn.addEventListener("click", feStartProximityGuide);
+  }
 });
 
 document.addEventListener("langchange", () => {
   feRenderLocationPanel();
   renderPhotoGrid();
+  feRenderProximityWidget();
 });

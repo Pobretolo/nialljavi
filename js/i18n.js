@@ -84,6 +84,8 @@ const UI_TEXT = {
     es: "(Aún no se ha añadido la foto de esta pista)",
     en: "(No photo has been added for this clue yet)"
   },
+  fe_enable_proximity: { es: "🧭 Activar guía de proximidad", en: "🧭 Enable proximity guide" },
+  fe_arrived: { es: "¡Estás cerca de", en: "You're near" },
 
   page_ver_title: { es: "Qué ver en un día", en: "One-day guide" },
   page_ver_sub: {
