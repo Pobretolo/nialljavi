@@ -288,9 +288,20 @@ p { margin: 0 0 1em; }
 .card p { color: #4b4536; }
 
 .grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 22px;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.grid > .card {
+  flex: 1 1 280px;
+  max-width: 340px;
+}
+
+.grid > .photo-tile {
+  flex: 1 1 140px;
+  max-width: 170px;
 }
 
 /* ---------- Buttons ---------- */
