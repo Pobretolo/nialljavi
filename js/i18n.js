@@ -121,9 +121,9 @@ const UI_TEXT = {
   que_ver_fototour_title: { es: "Empieza con un mini free tour", en: "Start with a mini free tour" },
   que_ver_fototour_text: {
     es: "Antes de seguir con esta guía, os proponemos el Foto Explorer: un juego de pistas por la zona vieja que funciona como un pequeño \"free tour\" de la ciudad, con historias y curiosidades en cada parada.",
-    en: "Before going through this guide, give the Foto Explorer a try: a clue-hunting game around the old town that works like a mini \"free tour\" of the city, with stories and fun facts at every stop."
+    en: "Before going through this guide, give the Photo Explorer a try: a clue-hunting game around the old town that works like a mini \"free tour\" of the city, with stories and fun facts at every stop."
   },
-  que_ver_fototour_btn: { es: "Ir al Foto Explorer", en: "Go to the Foto Explorer" },
+  que_ver_fototour_btn: { es: "Ir al Foto Explorer", en: "Go to the Photo Explorer" },
 
   page_comer_title: { es: "Dónde comer", en: "Where to eat" },
   page_comer_sub: {

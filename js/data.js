@@ -504,7 +504,7 @@ const QUE_VER_ITEMS = [
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+Abastos+Santiago+de+Compostela",
     description: {
       es: "Aunque también tiene su propia parada en el Foto Explorer, merece la pena reservarle un rato del día: paseo entre puestos de marisco, verdura y las paisanas vendiendo directamente su producto, con la opción de comprar y comer en alguno de los puestos-restaurante.",
-      en: "Even though it also has its own stop in the Foto Explorer, it's worth setting aside some time for it during the day: a wander among seafood and vegetable stalls and the paisanas selling their own produce directly, with the option to buy and eat right there at one of the stall-restaurants."
+      en: "Even though it also has its own stop in the Photo Explorer, it's worth setting aside some time for it during the day: a wander among seafood and vegetable stalls and the paisanas selling their own produce directly, with the option to buy and eat right there at one of the stall-restaurants."
     }
   },
   {
