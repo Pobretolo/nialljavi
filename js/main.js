@@ -75,6 +75,7 @@ function renderComer() {
 
     return `
     <div class="card">
+      ${item.image ? `<img src="${item.image}" alt="${item.name}" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px;margin-bottom:14px;">` : ""}
       <h3>${item.name}</h3>
       ${ratingHtml}
       <div style="margin-bottom:10px;display:flex;flex-wrap:wrap;gap:8px;">

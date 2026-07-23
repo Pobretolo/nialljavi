@@ -1018,6 +1018,7 @@ const SALIR_ITEMS = [
 const COMER_ITEMS = [
   {
     name: "Bar La Tita",
+    image: "",
     category: "tapas",
     breakfast: false,
     rating: 4.4,
@@ -1034,6 +1035,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Taberna do Bispo",
+    image: "",
     category: "tapas",
     breakfast: false,
     rating: 4.4,
@@ -1050,6 +1052,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Mercado de Abastos \u2014 puestos de marisco",
+    image: "",
     category: "marisco",
     breakfast: false,
     rating: null,
@@ -1063,6 +1066,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Dezaseis",
+    image: "",
     category: "tradicional",
     breakfast: false,
     rating: 4.5,
@@ -1078,6 +1082,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Sendeiro",
+    image: "",
     category: "altacocina",
     breakfast: false,
     rating: 4.8,
@@ -1094,6 +1099,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Casa Marcelo",
+    image: "",
     category: "altacocina",
     breakfast: false,
     rating: 4.3,
@@ -1109,6 +1115,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Curro da Parra",
+    image: "",
     category: "tapas",
     breakfast: false,
     rating: 4.6,
@@ -1125,6 +1132,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Tafona",
+    image: "",
     category: "altacocina",
     breakfast: false,
     rating: 4.6,
@@ -1141,6 +1149,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Mr. Chu",
+    image: "",
     category: "altacocina",
     breakfast: false,
     rating: 4.3,
@@ -1156,6 +1165,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Ind\u00f3mito",
+    image: "",
     category: "altacocina",
     breakfast: false,
     rating: 4.5,
@@ -1170,6 +1180,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Abastos 2.0",
+    image: "",
     category: "marisco",
     breakfast: false,
     rating: 4.5,
@@ -1185,6 +1196,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Gato Negro",
+    image: "",
     category: "marisco",
     breakfast: false,
     rating: 4.4,
@@ -1200,6 +1212,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Petiscos do Cardeal",
+    image: "",
     category: "tapas",
     breakfast: false,
     rating: 4.3,
@@ -1215,6 +1228,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Cabalo Branco",
+    image: "",
     category: "tapas",
     breakfast: false,
     rating: 4.3,
@@ -1228,6 +1242,7 @@ const COMER_ITEMS = [
   },
   {
     name: "La Casa de las Tortillas (Armando Blanco)",
+    image: "",
     category: "tradicional",
     breakfast: false,
     rating: 4,
@@ -1241,6 +1256,7 @@ const COMER_ITEMS = [
   },
   {
     name: "The Greenhouse",
+    image: "",
     category: "vegano",
     breakfast: false,
     rating: 4.6,
@@ -1255,6 +1271,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Corre Vexeta",
+    image: "",
     category: "vegano",
     breakfast: false,
     rating: 4.9,
@@ -1269,6 +1286,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Horta d'Obradoiro",
+    image: "",
     category: "tradicional",
     breakfast: false,
     rating: 4.5,
@@ -1284,6 +1302,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Pu\u00f1al",
+    image: "",
     category: "tradicional",
     breakfast: false,
     rating: 4.3,
@@ -1298,6 +1317,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Adelia",
+    image: "",
     category: "cafeteria",
     breakfast: true,
     rating: 4.8,
@@ -1313,6 +1333,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Caf\u00e9 Mori",
+    image: "",
     category: "cafeteria",
     breakfast: true,
     rating: 4.7,
@@ -1327,6 +1348,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Tertulia",
+    image: "",
     category: "cafeteria",
     breakfast: true,
     rating: 4.3,
@@ -1341,6 +1363,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Café Costa Vella (O Xardín das Delicias)",
+    image: "",
     category: "cafeteria",
     breakfast: true,
     rating: 4.7,
