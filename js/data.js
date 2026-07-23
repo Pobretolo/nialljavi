@@ -1025,6 +1025,7 @@ const COMER_ITEMS = [
     price: 1,
     website: "https://latitacompostela.com",
     menuUrlEs: "https://qr.mi-nube.es/latita/carta",
+    instagram: "https://www.instagram.com/latitacompostela/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+La+Tita+R%C3%BAa+Nova+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de la R\u00faa Nova: con cada ca\u00f1a te ponen una tapa de tortilla poco hecha, sea la hora que sea. Suele llenarse, as\u00ed que llegad con hambre y paciencia.",
