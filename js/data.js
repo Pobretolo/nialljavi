@@ -1023,6 +1023,7 @@ const COMER_ITEMS = [
     rating: 4.4,
     ratingApprox: true,
     price: 1,
+    website: "https://latitacompostela.com",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+La+Tita+R%C3%BAa+Nova+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de la R\u00faa Nova: con cada ca\u00f1a te ponen una tapa de tortilla poco hecha, sea la hora que sea. Suele llenarse, as\u00ed que llegad con hambre y paciencia.",
@@ -1036,6 +1037,8 @@ const COMER_ITEMS = [
     rating: 4.4,
     ratingApprox: true,
     price: 2,
+    website: "https://atabernadobispo.es",
+    instagram: "https://www.instagram.com/atabernadobispo/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Taberna+do+Bispo+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     description: {
       es: "En la R\u00faa do Franco, tapas gallegas con mucho marisco desde 2003. Ambiente animado y elegante a la vez.",
@@ -1062,6 +1065,7 @@ const COMER_ITEMS = [
     rating: 4.5,
     ratingApprox: false,
     price: 1,
+    website: "https://dezaseis.com",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Dezaseis+R%C3%BAa+de+San+Pedro+16+Santiago+de+Compostela",
     description: {
       es: "Cl\u00e1sico de cocina tradicional gallega en la R\u00faa de San Pedro, con encanto de casa de comidas. Buena opci\u00f3n para el men\u00fa del d\u00eda.",
@@ -1075,6 +1079,7 @@ const COMER_ITEMS = [
     rating: 4.8,
     ratingApprox: false,
     price: 4,
+    website: "https://osendeiro.com",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Sendeiro+Rua+Olvido+Santiago+de+Compostela",
     description: {
       es: "Cocina gallega moderna en el patio de piedra de una antigua curtidur\u00eda del siglo XIX. Men\u00fa degustaci\u00f3n muy cuidado, algo alejado del centro pero merece la pena.",
@@ -1088,6 +1093,7 @@ const COMER_ITEMS = [
     rating: 4.3,
     ratingApprox: true,
     price: 5,
+    website: "https://casamarcelo.net/es",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Casa+Marcelo+R%C3%BAa+das+Hortas+Santiago+de+Compostela",
     description: {
       es: "Una estrella Michelin, del chef Marcelo Tejedor. Men\u00fa degustaci\u00f3n sorpresa que mezcla cocina gallega con toques asi\u00e1ticos y latinoamericanos, con la cocina integrada en la sala. Reservar con tiempo.",
@@ -1101,6 +1107,9 @@ const COMER_ITEMS = [
     rating: 4.6,
     ratingApprox: false,
     price: 3,
+    website: "https://www.ocurrodaparra.com",
+    menuUrlEs: "https://www.ocurrodaparra.com/es/carta",
+    menuUrlEn: "https://www.ocurrodaparra.com/en/carta",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+Curro+da+Parra+Rua+Travesa+Santiago+de+Compostela",
     description: {
       es: "Cocina de mercado moderna pero con ra\u00edces gallegas, cerca del Mercado de Abastos. Terraza agradable arriba, tapeo abajo.",
@@ -1114,6 +1123,8 @@ const COMER_ITEMS = [
     rating: 4.6,
     ratingApprox: true,
     price: 5,
+    website: "https://restauranteatafona.com",
+    instagram: "https://www.instagram.com/atafonarestaurante/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Tafona+by+Lucia+Freitas+Santiago+de+Compostela",
     description: {
       es: "Una estrella Michelin, de la chef Luc\u00eda Freitas. Cocina gallega con alma, producto de proximidad comprado a diario en el Mercado de Abastos. Solo men\u00fa degustaci\u00f3n.",
@@ -1127,6 +1138,7 @@ const COMER_ITEMS = [
     rating: 4.3,
     ratingApprox: true,
     price: 3,
+    website: "https://mrchu.es",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mr+Chu+R%C3%BAa+das+Hortas+Santiago+de+Compostela",
     description: {
       es: "En la misma calle que Casa Marcelo (mismo grupo). Cocina de fusi\u00f3n asi\u00e1tica detr\u00e1s de una puerta discreta, ambiente informal y desenfadado.",
@@ -1140,6 +1152,7 @@ const COMER_ITEMS = [
     rating: 4.5,
     ratingApprox: true,
     price: 3,
+    website: "https://indomitobistro.es",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Indomito+R%C3%BAa+do+Doutor+Teixeiro+Santiago+de+Compostela",
     description: {
       es: "Del chef Mart\u00edn V\u00e1zquez (ex Casa Marcelo). Carta corta y cambiante seg\u00fan temporada, cocina a la vista tras la barra, seleccionado por la Gu\u00eda Michelin.",
@@ -1153,6 +1166,7 @@ const COMER_ITEMS = [
     rating: 4.5,
     ratingApprox: true,
     price: 3,
+    instagram: "https://www.instagram.com/abastosdouspuntocero/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Abastos+2.0+Mercado+de+Abastos+Santiago+de+Compostela",
     description: {
       es: "Dentro del propio Mercado de Abastos, ocupando varias casetas con una gran mesa compartida. Pescado y producto de temporada del propio mercado. Conviene reservar.",
@@ -1166,6 +1180,7 @@ const COMER_ITEMS = [
     rating: 4.4,
     ratingApprox: false,
     price: 3,
+    website: "https://ogatonegro.com",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Taberna+O+Gato+Negro+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     description: {
       es: "Taberna centenaria (desde 1922) en pleno casco hist\u00f3rico. Empanadas del d\u00eda, marisco y vino de Ribeiro, sin lujos y sin reservas: hay que apuntarse en lista.",
@@ -1179,6 +1194,7 @@ const COMER_ITEMS = [
     rating: 4.3,
     ratingApprox: true,
     price: 2,
+    website: "https://petiscosdocardeal.es",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Petiscos+do+Cardeal+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     description: {
       es: "En plena R\u00faa do Franco. Buena variedad de pinchos y tapas para tapeo r\u00e1pido en barra, con terraza. Precios razonables aunque muy orientado al turismo.",
@@ -1231,6 +1247,7 @@ const COMER_ITEMS = [
     rating: 4.9,
     ratingApprox: false,
     price: 2,
+    instagram: "https://www.instagram.com/acorrevexeta/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Corre+Vexeta+R%C3%BAa+das+Rodas+Santiago+de+Compostela",
     description: {
       es: "Vegetariano y vegano, una de las mejores valoraciones de Santiago en general (no solo entre vegetarianos). Local peque\u00f1o, colorido y muy acogedor.",
@@ -1244,6 +1261,7 @@ const COMER_ITEMS = [
     rating: 4.5,
     ratingApprox: true,
     price: 3,
+    website: "https://ahortadoobradoiro.com",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Horta+d%27Obradoiro+R%C3%BAa+das+Hortas+Santiago+de+Compostela",
     description: {
       es: "Bib Gourmand de la Gu\u00eda Michelin, en un edificio del siglo XVII con jard\u00edn interior. Cocina de producto sincera, terraza preciosa con vistas al Obradoiro.",
@@ -1257,6 +1275,7 @@ const COMER_ITEMS = [
     rating: 4.3,
     ratingApprox: false,
     price: 1,
+    instagram: "https://www.instagram.com/barpunal/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+Restaurante+Punal+Santiago+de+Compostela",
     description: {
       es: "Comida casera cerca del Hostal dos Reis Cat\u00f3licos, con men\u00fa del d\u00eda muy econ\u00f3mico (9-20\u20ac). Callos, tortilla y tarta de Santiago muy recomendados.",
@@ -1270,6 +1289,8 @@ const COMER_ITEMS = [
     rating: 4.8,
     ratingApprox: false,
     price: 1,
+    website: "https://www.adeliacafe.es",
+    instagram: "https://www.instagram.com/adelia.cafe/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Ad%C3%A8lia+Caf%C3%A9+Praza+de+San+Miguel+dos+Agros+Santiago+de+Compostela",
     description: {
       es: "Cafeter\u00eda de especialidad en la Praza de San Miguel dos Agros, junto a San Marti\u00f1o Pinario. Tostadas y tartas caseras muy buenas, ambiente tranquilo y pet friendly.",
@@ -1283,6 +1304,7 @@ const COMER_ITEMS = [
     rating: 4.7,
     ratingApprox: false,
     price: 2,
+    instagram: "https://www.instagram.com/ilovemoricoffee/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9+Mori+Rua+da+Troia+Santiago+de+Compostela",
     description: {
       es: "Frente a la Igrexa de Santa Mar\u00eda Salom\u00e9, en una puerta que a\u00fan conserva el antiguo cartel del Rhin. Caf\u00e9 de especialidad y ambiente tranquilo.",
@@ -1296,6 +1318,7 @@ const COMER_ITEMS = [
     rating: 4.3,
     ratingApprox: true,
     price: 1,
+    instagram: "https://www.instagram.com/cafetertuliasantiago/",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Cafe+Tertulia+Santiago+de+Compostela",
     description: {
       es: "Un cl\u00e1sico para desayunar con calma y leer un libro. Ambiente sencillo, ideal para empezar el d\u00eda sin prisas.",

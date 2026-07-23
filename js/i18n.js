@@ -115,6 +115,8 @@ const UI_TEXT = {
   salir_music_tranquila: { es: "Tranquila", en: "Chill" },
   salir_no_results: { es: "No hay planes con esos filtros. Prueba a quitar alguno.", en: "No spots match those filters. Try removing one." },
   maps_link: { es: "Ver en Google Maps", en: "View on Google Maps" },
+  comer_website: { es: "Web", en: "Website" },
+  comer_menu: { es: "Ver carta", en: "View menu" },
   que_ver_book: { es: "Reservar", en: "Book" },
   que_ver_fototour_title: { es: "Empieza con un mini free tour", en: "Start with a mini free tour" },
   que_ver_fototour_text: {
