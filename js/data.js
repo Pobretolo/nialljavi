@@ -897,12 +897,12 @@ const SALIR_ITEMS = [
     name: "Tarasca",
     music: "moderna",
     tapa: false,
-    gay: true,
+    gay: false,
     image: "",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Tarasca+V%C3%ADa+Sacra+3+Santiago+de+Compostela",
     description: {
-      es: "Uno de los locales de referencia del ambiente LGTBI+ en Santiago, música variada (de los 80 a la actualidad) y muy buen ambiente.",
-      en: "One of the go-to LGBTQI+ venues in Santiago, with varied music (80s to today) and a great atmosphere."
+      es: "Música variada (de los 80 a la actualidad) y muy buen ambiente, con público diverso.",
+      en: "Varied music (80s to today) and a great atmosphere, with a diverse crowd."
     }
   },
   {
