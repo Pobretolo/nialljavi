@@ -1018,7 +1018,7 @@ const SALIR_ITEMS = [
 const COMER_ITEMS = [
   {
     name: "Bar La Tita",
-    image: "",
+    image: "https://i.imgur.com/3GDkjVE.jpeg",
     category: "tapas",
     breakfast: false,
     rating: 4.4,
@@ -1035,7 +1035,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Taberna do Bispo",
-    image: "",
+    image: "https://i.imgur.com/tJOsMVM.jpeg",
     category: "tapas",
     breakfast: false,
     rating: 4.4,
@@ -1052,7 +1052,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Mercado de Abastos \u2014 puestos de marisco",
-    image: "",
+    image: "https://i.imgur.com/CEyH1Ta.jpeg",
     category: "marisco",
     breakfast: false,
     rating: null,
@@ -1066,7 +1066,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Dezaseis",
-    image: "",
+    image: "https://i.imgur.com/I6bR2TR.jpeg",
     category: "tradicional",
     breakfast: false,
     rating: 4.5,
@@ -1082,7 +1082,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Sendeiro",
-    image: "",
+    image: "https://i.imgur.com/myKg5DD.jpeg",
     category: "altacocina",
     breakfast: false,
     rating: 4.8,
@@ -1099,7 +1099,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Casa Marcelo",
-    image: "",
+    image: "https://i.imgur.com/SUKNquK.jpeg",
     category: "altacocina",
     breakfast: false,
     rating: 4.3,
@@ -1115,7 +1115,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Curro da Parra",
-    image: "",
+    image: "https://i.imgur.com/CR5dB0F.jpeg",
     category: "tapas",
     breakfast: false,
     rating: 4.6,
