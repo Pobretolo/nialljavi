@@ -137,6 +137,11 @@ const UI_TEXT = {
   comer_cat_altacocina: { es: "Alta cocina", en: "Fine dining" },
   comer_cat_vegano: { es: "Vegano / vegetariano", en: "Vegan / vegetarian" },
   comer_breakfast: { es: "Desayunos", en: "Breakfast" },
+  comer_filter_all: { es: "Todos", en: "All" },
+  comer_filter_breakfast: { es: "Desayunos", en: "Breakfast" },
+  comer_filter_terrace: { es: "Terraza / jardín", en: "Terrace / garden" },
+  comer_filter_michelin: { es: "Guía Michelin", en: "Michelin Guide" },
+  comer_no_results: { es: "No hay locales con esos filtros. Prueba a quitar alguno.", en: "No spots match those filters. Try removing one." },
 
   page_fiestas_title: { es: "Fiestas del Apóstol 2026", en: "Fiestas del Apóstol 2026" },
   page_fiestas_sub: {

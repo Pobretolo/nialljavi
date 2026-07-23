@@ -1018,6 +1018,7 @@ const SALIR_ITEMS = [
 const COMER_ITEMS = [
   {
     name: "Bar La Tita",
+    terrace: true,
     image: "https://i.imgur.com/3GDkjVE.jpeg",
     category: "tapas",
     breakfast: false,
@@ -1098,6 +1099,8 @@ const COMER_ITEMS = [
   },
   {
     name: "Casa Marcelo",
+    terrace: true,
+    michelin: true,
     image: "https://i.imgur.com/SUKNquK.jpeg",
     category: "altacocina",
     breakfast: false,
@@ -1114,6 +1117,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Curro da Parra",
+    terrace: true,
     image: "https://i.imgur.com/CR5dB0F.jpeg",
     category: "tapas",
     breakfast: false,
@@ -1131,6 +1135,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Tafona",
+    michelin: true,
     image: "https://i.imgur.com/GyjpRo4.jpeg",
     category: "altacocina",
     breakfast: false,
@@ -1164,6 +1169,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Ind\u00f3mito",
+    michelin: true,
     image: "https://i.imgur.com/t3QWUyC.jpeg",
     category: "altacocina",
     breakfast: false,
@@ -1211,6 +1217,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Petiscos do Cardeal",
+    terrace: true,
     image: "https://i.imgur.com/eYJhkF2.jpeg",
     category: "tapas",
     breakfast: false,
@@ -1227,6 +1234,7 @@ const COMER_ITEMS = [
   },
   {
     name: "O Cabalo Branco",
+    terrace: true,
     image: "https://i.imgur.com/laUWSh4.jpeg",
     category: "tapas",
     breakfast: false,
@@ -1285,6 +1293,8 @@ const COMER_ITEMS = [
   },
   {
     name: "A Horta d'Obradoiro",
+    terrace: true,
+    michelin: true,
     image: "https://i.imgur.com/q1VMcI2.jpeg",
     category: "tradicional",
     breakfast: false,
@@ -1362,6 +1372,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Café Costa Vella (O Xardín das Delicias)",
+    terrace: true,
     image: "https://i.imgur.com/G8fSy9T.jpeg",
     category: "cafeteria",
     breakfast: true,

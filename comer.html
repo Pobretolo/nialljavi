@@ -58,7 +58,23 @@
   </div>
 
   <div class="container">
-    <div class="grid" id="comer-list"></div>
+    <div class="filter-row">
+      <button class="filter-pill active" data-cat-filter="all" data-i18n="comer_filter_all">Todos</button>
+      <button class="filter-pill" data-cat-filter="marisco"><span class="pill-icon" data-icon="fish"></span><span data-i18n="comer_cat_marisco">Marisco</span></button>
+      <button class="filter-pill" data-cat-filter="tradicional"><span class="pill-icon" data-icon="pot"></span><span data-i18n="comer_cat_tradicional">Tradicional</span></button>
+      <button class="filter-pill" data-cat-filter="tapas"><span class="pill-icon" data-icon="plate"></span><span data-i18n="comer_cat_tapas">Tapas</span></button>
+      <button class="filter-pill" data-cat-filter="cafeteria"><span class="pill-icon" data-icon="cup"></span><span data-i18n="comer_cat_cafeteria">Cafetería / postre</span></button>
+      <button class="filter-pill" data-cat-filter="altacocina"><span class="pill-icon" data-icon="star"></span><span data-i18n="comer_cat_altacocina">Alta cocina</span></button>
+      <button class="filter-pill" data-cat-filter="vegano"><span class="pill-icon" data-icon="leaf"></span><span data-i18n="comer_cat_vegano">Vegano / vegetariano</span></button>
+    </div>
+
+    <div class="filter-row">
+      <button class="filter-pill" id="filter-breakfast"><span class="pill-icon" data-icon="cup"></span><span data-i18n="comer_filter_breakfast">Desayunos</span></button>
+      <button class="filter-pill" id="filter-terrace"><span class="pill-icon" data-icon="terrace"></span><span data-i18n="comer_filter_terrace">Terraza / jardín</span></button>
+      <button class="filter-pill" id="filter-michelin"><span class="pill-icon" data-icon="michelin"></span><span data-i18n="comer_filter_michelin">Guía Michelin</span></button>
+    </div>
+
+    <div class="grid" id="comer-list" style="margin-top:36px;"></div>
   </div>
 </section>
 

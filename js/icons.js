@@ -152,6 +152,20 @@ const ICONS = {
       <path d="M5 19c2-4 5-7 9-9"/>
     </svg>`,
 
+  // Terraza / jardín — sombrilla
+  terrace: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3a8 8 0 018 8H4a8 8 0 018-8z"/>
+      <path d="M12 3v2M12 11v10M9.5 21h5"/>
+    </svg>`,
+
+  // Reconocimiento Michelin — roseta
+  michelin: () => `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5.5"/>
+      <path d="M12 2v3M12 19v3M22 12h-3M5 12H2M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1M18.4 18.4l-2.1-2.1M7.7 7.7L5.6 5.6"/>
+    </svg>`,
+
   // Instagram
   instagram: () => `
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">

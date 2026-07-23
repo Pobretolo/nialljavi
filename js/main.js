@@ -40,6 +40,8 @@ function renderTengoCoche() {
   }).join("");
 }
 
+let comerFilters = { category: "all", breakfast: false, terrace: false, michelin: false };
+
 function renderComer() {
   const wrap = document.getElementById("comer-list");
   if (!wrap) return;
@@ -61,7 +63,20 @@ function renderComer() {
     vegano: ICONS.leaf,
   };
 
-  wrap.innerHTML = COMER_ITEMS.map((item) => {
+  const filtered = COMER_ITEMS.filter((item) => {
+    if (comerFilters.category !== "all" && item.category !== comerFilters.category) return false;
+    if (comerFilters.breakfast && !item.breakfast) return false;
+    if (comerFilters.terrace && !item.terrace) return false;
+    if (comerFilters.michelin && !item.michelin) return false;
+    return true;
+  });
+
+  if (filtered.length === 0) {
+    wrap.innerHTML = `<p style="text-align:center;color:var(--parchment-dim);grid-column:1/-1;">${UI_TEXT.comer_no_results[lang]}</p>`;
+    return;
+  }
+
+  wrap.innerHTML = filtered.map((item) => {
     const ratingHtml = typeof item.rating === "number" ? `
       <div class="rings-rating" style="margin-bottom:2px;" title="Google: ${item.rating}/5">
         ${Array.from({ length: 5 }).map((_, i) => `<span class="ring-icon ${i < Math.round(item.rating) ? "filled" : ""}">${ICONS.ring()}</span>`).join("")}
@@ -84,6 +99,8 @@ function renderComer() {
             ${catIcon[item.category]()}${catLabel[item.category][lang]}
           </span>` : ""}
         ${item.breakfast ? `<span class="tag icon-tag" style="color:var(--gold);border-color:var(--gold);">${ICONS.cup()}${UI_TEXT.comer_breakfast[lang]}</span>` : ""}
+        ${item.terrace ? `<span class="tag icon-tag" style="color:var(--moss);border-color:var(--moss);">${ICONS.terrace()}${UI_TEXT.comer_filter_terrace[lang]}</span>` : ""}
+        ${item.michelin ? `<span class="tag icon-tag" style="color:var(--rust);border-color:var(--rust);">${ICONS.michelin()}${UI_TEXT.comer_filter_michelin[lang]}</span>` : ""}
         ${priceHtml}
       </div>
       <p style="margin-top:12px;">${item.description[lang]}</p>
@@ -99,6 +116,43 @@ function renderComer() {
     </div>
   `;
   }).join("");
+}
+
+function paintComerPillIcons() {
+  document.querySelectorAll("[data-icon]").forEach((el) => {
+    const key = el.getAttribute("data-icon");
+    if (ICONS[key] && !el.innerHTML) el.innerHTML = ICONS[key]();
+  });
+}
+
+function setupComerFilters() {
+  const catButtons = document.querySelectorAll("[data-cat-filter]");
+  if (catButtons.length === 0) return;
+
+  catButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      comerFilters.category = btn.getAttribute("data-cat-filter");
+      catButtons.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderComer();
+    });
+  });
+
+  const toggles = [
+    ["filter-breakfast", "breakfast"],
+    ["filter-terrace", "terrace"],
+    ["filter-michelin", "michelin"],
+  ];
+
+  toggles.forEach(([id, key]) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener("click", () => {
+      comerFilters[key] = !comerFilters[key];
+      el.classList.toggle("active", comerFilters[key]);
+      renderComer();
+    });
+  });
 }
 
 function renderDatosInteres() {
@@ -120,6 +174,8 @@ function renderDatosInteres() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  paintComerPillIcons();
+  setupComerFilters();
   renderQueVer();
   renderTengoCoche();
   renderComer();
