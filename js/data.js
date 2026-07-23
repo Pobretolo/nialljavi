@@ -463,8 +463,8 @@ const QUE_VER_ITEMS = [
     image: "https://i.imgur.com/UYBYGcg.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Praza+do+Obradoiro+Santiago+de+Compostela",
     description: {
-      es: "La visita general al interior es gratuita. Recomendamos ir a primera hora de la mañana para evitar las colas más largas, que se forman sobre todo a media mañana y con la llegada de los grupos organizados.",
-      en: "General entry to the inside is free. We recommend going first thing in the morning to avoid the longest queues, which build up mostly by mid-morning once organized tour groups start arriving."
+      es: "La visita general al interior es gratuita, y se entra por la Praza de Praterías. Recomendamos ir a primera hora de la mañana para evitar las colas más largas, que se forman sobre todo a media mañana y con la llegada de los grupos organizados. Si solo queréis ver el interior (y no asistir a misa), evitad los horarios de la Misa del Peregrino: 7:30 h, 9:30 h, 12:00 h y 19:30 h.",
+      en: "General entry to the inside is free, and you go in through Praza de Praterías. We recommend going first thing in the morning to avoid the longest queues, which build up mostly by mid-morning once organized tour groups start arriving. If you just want to see the inside (and not attend Mass), avoid the Pilgrim's Mass times: 7:30 am, 9:30 am, 12:00 pm and 7:30 pm."
     }
   },
   {
