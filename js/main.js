@@ -86,14 +86,14 @@ function renderComer() {
         ${priceHtml}
       </div>
       <p style="margin-top:12px;">${item.description[lang]}</p>
-      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
-        ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}">${ICONS.pin()}${UI_TEXT.maps_link[lang]}</a>` : ""}
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center;">
+        ${item.mapsUrl ? `<a class="btn" target="_blank" rel="noopener" href="${item.mapsUrl}" aria-label="${UI_TEXT.maps_link[lang]}" title="${UI_TEXT.maps_link[lang]}" style="padding:11px 14px;">${ICONS.pin()}</a>` : ""}
         ${item.website ? `<a class="btn" target="_blank" rel="noopener" href="${item.website}">${UI_TEXT.comer_website[lang]}</a>` : ""}
         ${(() => {
           const menuUrl = lang === "en" ? (item.menuUrlEn || item.menuUrlEs) : (item.menuUrlEs || item.menuUrlEn);
           return menuUrl ? `<a class="btn btn-solid" target="_blank" rel="noopener" href="${menuUrl}">${UI_TEXT.comer_menu[lang]}</a>` : "";
         })()}
-        ${item.instagram ? `<a class="btn" target="_blank" rel="noopener" href="${item.instagram}" aria-label="Instagram" style="padding:11px 14px;">${ICONS.instagram()}</a>` : ""}
+        ${item.instagram ? `<a class="btn" target="_blank" rel="noopener" href="${item.instagram}" aria-label="Instagram" title="Instagram" style="padding:11px 14px;">${ICONS.instagram()}</a>` : ""}
       </div>
     </div>
   `;
