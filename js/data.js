@@ -436,6 +436,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Cubiertas", en: "Rooftops" },
     title: { es: "Subir a las cubiertas de la Catedral", en: "Climb up to the Cathedral rooftops" },
+    image: "https://i.imgur.com/oiOJryb.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+Catedral+Palacio+de+Gelm%C3%ADrez+Santiago+de+Compostela",
     bookingUrl: "https://visitas.catedraldesantiago.es/museo-catedral-cubiertas-y-torre-de-la-carraca/",
     bookingLabel: { es: "15€ · Reservar cubiertas", en: "€15 · Book rooftops" },
@@ -447,6 +448,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Interior", en: "Inside" },
     title: { es: "Ver el Pórtico de la Gloria", en: "See the Pórtico de la Gloria" },
+    image: "https://i.imgur.com/AyuBBad.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+Catedral+Palacio+de+Gelm%C3%ADrez+Santiago+de+Compostela",
     bookingUrl: "https://visitas.catedraldesantiago.es/portico-de-la-gloria/",
     bookingLabel: { es: "12€ · Reservar Pórtico", en: "€12 · Book Pórtico" },
@@ -458,6 +460,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Gratis", en: "Free" },
     title: { es: "Visitar el interior de la Catedral", en: "Visit the inside of the Cathedral" },
+    image: "https://i.imgur.com/UYBYGcg.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Praza+do+Obradoiro+Santiago+de+Compostela",
     description: {
       es: "La visita general al interior es gratuita. Recomendamos ir a primera hora de la mañana para evitar las colas más largas, que se forman sobre todo a media mañana y con la llegada de los grupos organizados.",
@@ -467,6 +470,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Parque", en: "Park" },
     title: { es: "Parque de Bonaval y Panteón de Galegos Ilustres", en: "Parque de Bonaval and the Panteón de Galegos Ilustres" },
+    image: "https://i.imgur.com/hM1xj6C.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Parque+de+Bonaval+Santiago+de+Compostela",
     description: {
       es: "Antiguo huerto del convento de San Domingos de Bonaval, hoy uno de los parques con más encanto de Santiago, en una colina justo fuera del casco histórico. En la iglesia gótica del propio convento (hoy parte del Museo do Pobo Galego) está el Panteón de Galegos Ilustres, donde descansan Rosalía de Castro, Castelao y otras figuras clave de la cultura gallega.",
@@ -476,6 +480,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Museo", en: "Museum" },
     title: { es: "Museo do Pobo Galego", en: "Museo do Pobo Galego" },
+    image: "https://i.imgur.com/X8kTs5p.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+do+Pobo+Galego+San+Domingos+de+Bonaval+Santiago+de+Compostela",
     description: {
       es: "En el mismo antiguo convento de Bonaval. Repasa la cultura tradicional gallega (oficios del mar, arquitectura popular, trajes) y tiene una llamativa escalera helicoidal de triple rampa. Entrada unos 3€, gratis los domingos. Cerrado los lunes.",
@@ -485,6 +490,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Museo", en: "Museum" },
     title: { es: "Museo das Peregrinacións", en: "Museo das Peregrinacións" },
+    image: "https://i.imgur.com/cEFVC1S.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Museo+das+Peregrinaci%C3%B3ns+e+de+Santiago",
     description: {
       es: "A pocos metros de la Catedral. Entrada gratuita, cuenta la historia del Camino de Santiago y de cómo fue creciendo la propia ciudad alrededor de la tumba del Apóstol. Cerrado los lunes.",
@@ -494,6 +500,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Mercado", en: "Market" },
     title: { es: "Mercado de Abastos", en: "Mercado de Abastos" },
+    image: "https://i.imgur.com/UT6DoHM.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mercado+de+Abastos+Santiago+de+Compostela",
     description: {
       es: "Aunque también tiene su propia parada en el Foto Explorer, merece la pena reservarle un rato del día: paseo entre puestos de marisco, verdura y las paisanas vendiendo directamente su producto, con la opción de comprar y comer en alguno de los puestos-restaurante.",
@@ -503,6 +510,7 @@ const QUE_VER_ITEMS = [
   {
     time: { es: "Descanso", en: "Break" },
     title: { es: "Costa Vella", en: "Costa Vella" },
+    image: "https://i.imgur.com/G8fSy9T.jpeg",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Hotel+Costa+Vella+Porta+da+Pena+Santiago+de+Compostela",
     description: {
       es: "El jardín interior del Hotel Costa Vella (Porta da Pena, 17) es uno de esos rincones secretos del casco histórico: manzanos, limoneros y una fuente de piedra entre mesas. Hoy funciona como O Xardín das Delicias, café a cargo de la chef Lucía Freitas (la misma de A Tafona). Ideal para un desayuno o una pausa con té a media tarde.",
