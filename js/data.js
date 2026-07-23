@@ -1484,64 +1484,64 @@ const PARIS_DAKAR_ITEMS = [
     }
   },
   {
-    name: "O'42",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=O+42+R%C3%BAa+do+Franco+Santiago+de+Compostela",
+    name: "El Patio",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Patio+R%C3%BAa+do+Franco+33+Santiago+de+Compostela",
     tip: {
-      es: "También conocido como Mesón 42, en plena Rúa do Franco. Buenas raciones para compartir, sobre todo si vais en grupo.",
-      en: "Also known as Mesón 42, right on Rúa do Franco. Good sharing plates, especially if you're in a group."
-    }
-  },
-  {
-    name: "Porto",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Porto+R%C3%BAa+do+Franco+Santiago+de+Compostela",
-    tip: {
-      es: "⚠️ No hemos podido confirmar la ubicación exacta en Google Maps — verificadla vosotros antes de publicar y sustituid este enlace por el correcto.",
-      en: "⚠️ We couldn't confirm the exact location on Google Maps — please verify it yourselves before publishing and replace this link with the right one."
+      es: "Rúa do Franco, 33. Sustituye al antiguo \"Porto\", hoy cerrado. Gastrobar de tapeo, cañita y vinos — con cada consumición ponen una tapa dulce o salada.",
+      en: "Rúa do Franco, 33. Replaces the old \"Porto\" stop, now closed. A tapas-and-wine gastro bar — every drink comes with a sweet or savory tapa."
     }
   },
   {
     name: "Bar Restaurante Orella",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Restaurante+Orella+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Restaurante+Orella+R%C3%BAa+da+Ra%C3%ADña+21+Santiago+de+Compostela",
     tip: {
       es: "En la Rúa da Raíña. Buen marisco a la plancha a precio justo — sencillo y muy recomendable.",
       en: "On Rúa da Raíña. Good grilled seafood at a fair price — simple and well worth it."
     }
   },
   {
-    name: "Nova Galicia",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Nova+Galicia+R%C3%BAa+da+Ra%C3%AD%C3%B1a+Santiago+de+Compostela",
+    name: "100 Montaditos",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=100+Montaditos+R%C3%BAa+do+Franco+56+Santiago+de+Compostela",
     tip: {
-      es: "⚠️ No hemos podido confirmar la ubicación exacta en Google Maps — verificadla vosotros antes de publicar y sustituid este enlace por el correcto.",
-      en: "⚠️ We couldn't confirm the exact location on Google Maps — please verify it yourselves before publishing and replace this link with the right one."
+      es: "Rúa do Franco, 56. En la ruta original esta parada era el bar Nova Galicia; hoy es un 100 Montaditos, la cadena de cervecería y montaditos a 1€.",
+      en: "Rúa do Franco, 56. On the original route this stop was the bar Nova Galicia; today it's a 100 Montaditos, the chain known for its €1 mini sandwiches."
     }
   },
   {
-    name: "Carpe Diem",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Carpe+Diem+bar+R%C3%BAa+do+Franco+Santiago+de+Compostela",
+    name: "Nómade",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=N%C3%B3made+bar+de+vi%C3%B1os+R%C3%BAa+do+Franco+48+Santiago+de+Compostela",
     tip: {
-      es: "En Rúa do Franco 48. Una parada más de la ruta clásica.",
-      en: "At Rúa do Franco 48. Another classic stop on the route."
+      es: "Rúa do Franco, 48. En la ruta original esta parada era el bar Carpe Diem; hoy en ese mismo local hay un bar de vinos y tapas llamado Nómade, abierto desde 2023.",
+      en: "Rúa do Franco, 48. On the original route this stop was the bar Carpe Diem; that same spot is now a wine and tapas bar called Nómade, open since 2023."
     }
   },
   {
-    name: "Catedral",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Catedral+R%C3%BAa+do+Franco+Santiago+de+Compostela",
+    name: "O'46",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+O+46+R%C3%BAa+do+Franco+46+Santiago+de+Compostela",
     tip: {
-      es: "⚠️ No hemos podido confirmar la ubicación exacta en Google Maps — verificadla vosotros antes de publicar y sustituid este enlace por el correcto.",
-      en: "⚠️ We couldn't confirm the exact location on Google Maps — please verify it yourselves before publishing and replace this link with the right one."
+      es: "Rúa do Franco, 46. Sustituye al antiguo \"Catedral\", hoy cerrado. Bar familiar y pequeño, vino de barril servido en cunca de cerámica, muy buen pulpo á feira.",
+      en: "Rúa do Franco, 46. Replaces the old \"Catedral\" stop, now closed. A small, family-run bar, barrel wine served in a ceramic cunca, very good pulpo á feira."
     }
   },
   {
     name: "El Submarino",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Submarino+bar+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Submarino+bar+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     tip: {
       es: "Producto fresco de mercado en plena Rúa do Franco, formato de barra pequeña.",
       en: "Fresh market produce right on Rúa do Franco, small bar-style spot."
     }
   },
   {
+    name: "Mesón 42",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Mes%C3%B3n+42+R%C3%BAa+do+Franco+42+Santiago+de+Compostela",
+    tip: {
+      es: "Rúa do Franco, 42. También conocido como O'42. Buenas raciones para compartir, sobre todo si vais en grupo.",
+      en: "Rúa do Franco, 42. Also known as O'42. Good sharing plates, especially if you're in a group."
+    }
+  },
+  {
     name: "Bar Trafalgar",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Trafalgar+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Trafalgar+R%C3%BAa+da+Ra%C3%ADña+Santiago+de+Compostela",
     tip: {
       es: "Uno de los clásicos de la Rúa da Raíña, famoso por sus \"tigres rabiosos\" (mejillones picantes) y la tapa gratis con cada bebida.",
       en: "One of the Rúa da Raíña classics, famous for its spicy stuffed mussels (\"tigres rabiosos\") and a free tapa with every drink."
@@ -1549,7 +1549,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "A Barrola",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Barrola+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=A+Barrola+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     tip: {
       es: "Marisquería de las de mantel, un punto más elegante de la ruta — ideal si os apetece darse un capricho con marisco.",
       en: "A proper white-tablecloth seafood restaurant, a slightly more upscale point on the route — great if you fancy splurging on shellfish."
@@ -1557,7 +1557,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "San Jaime",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+San+Jaime+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurante+San+Jaime+R%C3%BAa+da+Ra%C3%ADña+4+Santiago+de+Compostela",
     tip: {
       es: "En la Praza de Fonseca, con terraza a la plaza. Muy frecuentado por gente local.",
       en: "On Praza de Fonseca, with terrace seating on the square. Popular with locals."
@@ -1565,7 +1565,7 @@ const PARIS_DAKAR_ITEMS = [
   },
   {
     name: "Orense",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Orense+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Bar+Orense+R%C3%BAa+da+Ra%C3%ADña+Santiago+de+Compostela",
     tip: {
       es: "Bar de barrica en la Rúa da Raíña, vino de la casa servido directo del tonel. Ambiente muy local, nada turístico.",
       en: "A barrel-wine bar on Rúa da Raíña, house wine served straight from the cask. Very local vibe, not touristy at all."
@@ -1575,16 +1575,16 @@ const PARIS_DAKAR_ITEMS = [
     name: "O Gato Negro",
     mapsUrl: "https://www.google.com/maps/search/?api=1&query=Taberna+O+Gato+Negro+R%C3%BAa+do+Franco+40+Santiago+de+Compostela",
     tip: {
-      es: "Más de 100 años de historia en la Rúa da Raíña. Está escondido en un callejón — buscad el gato negro en la fachada y la puerta verde. Suele llenarse rápido.",
-      en: "Over 100 years of history on Rúa da Raíña. It's tucked down a small alley — look for the black cat on the façade and the green door. Fills up fast."
+      es: "Rúa do Franco, 40. Más de 100 años de historia. Está escondido en un callejón — buscad el gato negro en la fachada y la puerta verde. Suele llenarse rápido.",
+      en: "Rúa do Franco, 40. Over 100 years of history. It's tucked down a small alley — look for the black cat on the façade and the green door. Fills up fast."
     }
   },
   {
     name: "El Cayado",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=El+Cayado+bar+Santiago+de+Compostela",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Asador+El+Cayado+R%C3%BAa+do+Franco+Santiago+de+Compostela",
     tip: {
-      es: "En Rúa do Franco 20. Aviso: en Google Maps este local aparece también asociado a un cambio de nombre reciente — comprobad in situ que sigue siendo el que buscáis.",
-      en: "At Rúa do Franco 20. Heads up: on Google Maps this spot also shows up linked to a recent name change — double-check on the spot that it's still the one you're after."
+      es: "Hoy conocido como Asador El Cayado. Sigue siendo una parada clásica para el pulpo á feira en la ruta.",
+      en: "Now known as Asador El Cayado. Still a classic stop for pulpo á feira on the route."
     }
   },
   {
@@ -1595,7 +1595,8 @@ const PARIS_DAKAR_ITEMS = [
       es: "La meta tradicional de la ruta, en Rúa do Franco 13, con terraza a la calle. Si llegáis hasta aquí, ¡ya sois parte de la historia del París-Dakar!",
       en: "The route's traditional finish line, at Rúa do Franco 13, with street-side terrace seating. If you make it here, you're officially part of Paris-Dakar history!"
     }
-  },
+  }
+,
 
   // ---- Paradas opcionales (fuera de la ruta clásica Franco/Raíña) ----
   {

@@ -53,7 +53,7 @@ const UI_TEXT = {
   home_datos_title: { es: "Datos de interés", en: "Practical info" },
   home_datos_desc:  { es: "Teléfonos, transporte y otra información práctica para el día a día en Santiago.", en: "Phone numbers, transport and other practical info for getting around Santiago." },
 
-  footer_text: { es: "Hecho con cariño por Niall & Javi", en: "Made with love by Niall & Javi" },
+  footer_text: { es: "Hecho con cariño para Niall & Javi", en: "Made with love for Niall & Javi" },
 
   page_photo_title: { es: "Foto Explorer", en: "Photo Explorer" },
   page_photo_sub: {
