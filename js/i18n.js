@@ -127,8 +127,8 @@ const UI_TEXT = {
 
   page_comer_title: { es: "Dónde comer", en: "Where to eat" },
   page_comer_sub: {
-    es: "Nuestros sitios de confianza en Santiago, con ubicación en Google Maps, su nota real en Google (en anillos), el precio orientativo (en €) y el tipo de cocina.",
-    en: "Our trusted spots in Santiago, with a Google Maps location, their real Google rating (shown as rings), a rough price level (in €), and the type of cuisine."
+    es: "Nuestros sitios de confianza en Santiago, con ubicación en Google Maps, su nota real en Google (en anillos), el precio orientativo (en €) y el tipo de cocina. Prácticamente todos tienen alguna alternativa vegetariana o vegana en la carta (aunque sea una ensalada, tortilla o pimientos de Padrón) — los marcados como \"Vegano / vegetariano\" son los únicos exclusivamente vegetarianos o veganos, sin carne ni pescado en la carta.",
+    en: "Our trusted spots in Santiago, with a Google Maps location, their real Google rating (shown as rings), a rough price level (in €), and the type of cuisine. Practically all of them have some vegetarian or vegan option on the menu (even if it's just a salad, tortilla, or Padrón peppers) — the ones marked \"Vegan / vegetarian\" are the only exclusively vegetarian or vegan spots, with no meat or fish on the menu at all."
   },
   comer_cat_marisco: { es: "Marisco", en: "Seafood" },
   comer_cat_tradicional: { es: "Tradicional", en: "Traditional" },
