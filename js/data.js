@@ -1241,7 +1241,7 @@ const COMER_ITEMS = [
   },
   {
     name: "La Casa de las Tortillas (Armando Blanco)",
-    image: "",
+    image: "https://i.imgur.com/nJpvF9J.jpeg",
     category: "tradicional",
     breakfast: false,
     rating: 4,
@@ -1255,7 +1255,7 @@ const COMER_ITEMS = [
   },
   {
     name: "The Greenhouse",
-    image: "",
+    image: "https://i.imgur.com/ITARCKr.jpeg",
     category: "vegano",
     breakfast: false,
     rating: 4.6,
@@ -1270,7 +1270,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Corre Vexeta",
-    image: "",
+    image: "https://i.imgur.com/64OQyvf.jpeg",
     category: "vegano",
     breakfast: false,
     rating: 4.9,
@@ -1285,7 +1285,7 @@ const COMER_ITEMS = [
   },
   {
     name: "A Horta d'Obradoiro",
-    image: "",
+    image: "https://i.imgur.com/q1VMcI2.jpeg",
     category: "tradicional",
     breakfast: false,
     rating: 4.5,
@@ -1301,7 +1301,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Pu\u00f1al",
-    image: "",
+    image: "https://i.imgur.com/KYriYj4.jpeg",
     category: "tradicional",
     breakfast: false,
     rating: 4.3,
@@ -1316,7 +1316,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Adelia",
-    image: "",
+    image: "https://i.imgur.com/xIOQRaH.jpeg",
     category: "cafeteria",
     breakfast: true,
     rating: 4.8,
@@ -1332,7 +1332,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Caf\u00e9 Mori",
-    image: "",
+    image: "https://i.imgur.com/J1SCyaN.jpeg",
     category: "cafeteria",
     breakfast: true,
     rating: 4.7,
@@ -1347,7 +1347,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Tertulia",
-    image: "",
+    image: "https://i.imgur.com/jNaT1Yf.jpeg",
     category: "cafeteria",
     breakfast: true,
     rating: 4.3,
@@ -1362,7 +1362,7 @@ const COMER_ITEMS = [
   },
   {
     name: "Café Costa Vella (O Xardín das Delicias)",
-    image: "",
+    image: "https://i.imgur.com/G8fSy9T.jpeg",
     category: "cafeteria",
     breakfast: true,
     rating: 4.7,
