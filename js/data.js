@@ -1414,8 +1414,8 @@ const FIESTAS_ITEMS = [
     date: { es: "Viernes 31 de julio · víspera de la boda", en: "Friday, July 31 · the night before the wedding" },
     title: { es: "Cierre de fiestas: The Rapants y fuegos finales", en: "Closing night: The Rapants and final fireworks" },
     description: {
-      es: "Último día de las fiestas, justo la noche antes de la boda. Cantos de Taberna por San Lázaro y rúa de San Pedro desde las 21:00 h, concierto de cierre de The Rapants en la Quintana a las 22:00 h, verbena con la Orquestra Suavecito en la Alameda, y a las 23:30 h el espectáculo pirotécnico de fin de fiestas.",
-      en: "The last day of the festivities, the night right before the wedding. Cantos de Taberna in San Lázaro and rúa de San Pedro from 9 pm, a closing concert by The Rapants in Praza da Quintana at 10 pm, a verbena with Orquestra Suavecito in the Alameda, and the closing fireworks display at 11:30 pm."
+      es: "Último día de las fiestas, justo la noche antes de la boda. Cantos de Taberna por San Lázaro y rúa de San Pedro desde las 21:00 h, concierto de cierre de The Rapants en la Quintana a las 22:00 h, verbena con la Orquestra Suavecito en la Alameda, y a las 23:30 h el espectáculo pirotécnico de fin de fiestas, lanzado desde la Alameda. Buenos puntos para verlos: el Paseo da Ferradura, en la propia Alameda, o la Praza do Obradoiro.",
+      en: "The last day of the festivities, the night right before the wedding. Cantos de Taberna in San Lázaro and rúa de San Pedro from 9 pm, a closing concert by The Rapants in Praza da Quintana at 10 pm, a verbena with Orquestra Suavecito in the Alameda, and the closing fireworks display at 11:30 pm, launched from the Alameda. Good spots to watch from: the Paseo da Ferradura, right in the Alameda, or Praza do Obradoiro."
     }
   },
 
