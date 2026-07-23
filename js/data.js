@@ -529,7 +529,7 @@ const QUE_VER_ITEMS = [
 
 const TENGO_COCHE_ITEMS = [
   {
-    image: "",
+    image: "https://i.imgur.com/7BrucUk.jpeg",
     rating: 5,
     title: { es: "Cabo Fisterra", en: "Cape Fisterra" },
     distance: { es: "1h en coche", en: "1h by car" },
@@ -540,7 +540,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/SIzzHZY.jpeg",
     rating: 4,
     title: { es: "A Coruña", en: "A Coruña" },
     distance: { es: "45 min en coche", en: "45 min by car" },
@@ -551,7 +551,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/pYTAv2g.jpeg",
     rating: 4,
     title: { es: "Costa da Morte", en: "Costa da Morte" },
     distance: { es: "45-60 min en coche", en: "45-60 min by car" },
@@ -562,7 +562,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/dyw1Fxu.jpeg",
     rating: 2,
     title: { es: "Fervenza do Toxa", en: "Fervenza do Toxa" },
     distance: { es: "40 min en coche", en: "40 min by car" },
@@ -573,7 +573,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/viYTj1R.jpeg",
     rating: 2,
     title: { es: "Torres do Oeste", en: "Torres do Oeste" },
     distance: { es: "35 min en coche", en: "35 min by car" },
@@ -584,7 +584,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/UfUTMb8.jpeg",
     rating: 4,
     title: { es: "Castro de Baroña", en: "Castro de Baroña" },
     distance: { es: "45 min en coche", en: "45 min by car" },
@@ -595,7 +595,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/YfMm14J.png",
     rating: 3,
     title: { es: "Padrón", en: "Padrón" },
     distance: { es: "20 min en coche", en: "20 min by car" },
@@ -606,7 +606,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/QzJZXtZ.jpeg",
     rating: 3,
     title: { es: "Muros", en: "Muros" },
     distance: { es: "55 min en coche", en: "55 min by car" },
@@ -617,7 +617,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/FmKkgZq.jpeg",
     rating: 3,
     title: { es: "Betanzos", en: "Betanzos" },
     distance: { es: "45 min en coche", en: "45 min by car" },
@@ -628,7 +628,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/L1Rh7OP.jpeg",
     rating: 2,
     title: { es: "Pazo de Mariñán", en: "Pazo de Mariñán" },
     distance: { es: "55 min en coche", en: "55 min by car" },
@@ -639,7 +639,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/aZ70NzG.jpeg",
     rating: 5,
     title: { es: "Praia das Catedrais", en: "Praia das Catedrais" },
     distance: { es: "1h 50min en coche", en: "1h 50min by car" },
@@ -650,7 +650,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/osh3Jzg.jpeg",
     rating: 5,
     title: { es: "Combarro", en: "Combarro" },
     distance: { es: "55 min en coche", en: "55 min by car" },
@@ -661,7 +661,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/pdA6AVd.jpeg",
     rating: 3,
     title: { es: "Cambados", en: "Cambados" },
     distance: { es: "45 min en coche", en: "45 min by car" },
@@ -672,7 +672,7 @@ const TENGO_COCHE_ITEMS = [
     }
   },
   {
-    image: "",
+    image: "https://i.imgur.com/sGImkv1.jpeg",
     rating: 4,
     title: { es: "Fervenza do Ézaro", en: "Fervenza do Ézaro" },
     distance: { es: "1h 15min en coche", en: "1h 15min by car" },
