@@ -16,8 +16,15 @@ function pdGetProgress() {
 
 function pdSetVisited(name) {
   const progress = pdGetProgress();
+  const alreadyVisited = !!progress[name];
   progress[name] = true;
   localStorage.setItem(PD_PROGRESS_KEY, JSON.stringify(progress));
+  if (!alreadyVisited) {
+    trackEvent("parisdakar-visitado", { parada: name });
+    const mainStops = pdMainStops();
+    const allVisited = mainStops.every((s) => progress[s.name]);
+    if (allVisited) trackEvent("parisdakar-completado");
+  }
 }
 
 function pdResetProgress() {

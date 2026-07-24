@@ -22,8 +22,14 @@ function getProgress() {
 
 function setFound(id) {
   const progress = getProgress();
+  const alreadyFound = !!progress[id];
   progress[id] = true;
   localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+  if (!alreadyFound) {
+    trackEvent("foto-explorer-encontrado", { reto: id });
+    const allFound = PHOTO_CHALLENGES.every((c) => progress[c.id]);
+    if (allFound) trackEvent("foto-explorer-completado");
+  }
 }
 
 function resetProgress() {

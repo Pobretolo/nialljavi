@@ -230,6 +230,21 @@ function applyLang() {
   document.dispatchEvent(new CustomEvent("langchange", { detail: { lang } }));
 }
 
+/* Envía un evento anónimo a Umami (si está configurado). Si el script de
+   analítica no está cargado, bloqueado por el navegador, o el sitio aún no
+   tiene el ID configurado, esta función simplemente no hace nada — nunca
+   rompe el resto de la web. No identifica a nadie, solo cuenta eventos
+   agregados (ej. "cuántos sellos se han marcado en total"). */
+function trackEvent(name, data) {
+  try {
+    if (window.umami && typeof window.umami.track === "function") {
+      window.umami.track(name, data || {});
+    }
+  } catch (e) {
+    // silencioso a propósito
+  }
+}
+
 function initLangToggle() {
   document.querySelectorAll("[data-lang-btn]").forEach((btn) => {
     btn.addEventListener("click", () => setLang(btn.getAttribute("data-lang-btn")));
