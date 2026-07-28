@@ -105,8 +105,8 @@ const UI_TEXT = {
 
   page_salir_title: { es: "¿Por dónde salir?", en: "Nightlife guide" },
   page_salir_sub: {
-    es: "Santiago no compite en tamaño con Madrid o Barcelona, pero sí en ambiente: al ser ciudad universitaria y de peregrinación, cada noche mezcla a estudiantes, vecinos, turistas y peregrinos en un público muy diverso. No existe un \"barrio gay\" como Chueca, pero todos los locales de esta lista son gay friendly — los marcados como \"Mayoritariamente gay\" son, además, los referentes más claros del ambiente LGTBIQ+. Filtra abajo por lo que te apetezca esta noche.",
-    en: "Santiago doesn't compete with Madrid or Barcelona in size, but it does in atmosphere: as a university and pilgrimage city, every night mixes students, locals, tourists, and pilgrims into a wonderfully varied crowd. There's no \"gay district\" like Chueca, but every venue on this list is gay friendly — the ones marked \"Predominantly gay\" are the clearest go-to spots for the LGBTQI+ scene. Filter below by whatever you're in the mood for tonight."
+    es: "Santiago no compite en tamaño con Madrid o Barcelona, pero sí en ambiente: al ser ciudad universitaria y de peregrinación, cada noche mezcla a estudiantes, vecinos, turistas y peregrinos en un público muy diverso. No existe un \"barrio gay\" como Chueca, pero toda la ciudad es gay friendly — los marcados como \"Mayoritariamente gay\" son, además, los referentes más claros del ambiente LGTBIQ+. Filtra abajo por lo que te apetezca esta noche.",
+    en: "Santiago doesn't compete with Madrid or Barcelona in size, but it does in atmosphere: as a university and pilgrimage city, every night mixes students, locals, tourists, and pilgrims into a wonderfully varied crowd. There's no \"gay district\" like Chueca, but the whole city is gay friendly — the ones marked \"Predominantly gay\" are the clearest go-to spots for the LGBTQI+ scene. Filter below by whatever you're in the mood for tonight."
   },
   salir_filter_music: { es: "Música", en: "Music" },
   salir_filter_tapa: { es: "Tapa con la bebida", en: "Tapa with your drink" },
