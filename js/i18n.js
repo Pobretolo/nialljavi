@@ -28,7 +28,7 @@ const UI_TEXT = {
   hero_eyebrow:    { es: "Nos casamos", en: "We're getting married" },
   hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "1 August 2026 · Santiago de Compostela" },
   hero_sub:        { es: "Todo lo que necesitas para el gran día y para descubrir la ciudad mientras estás por aquí.", en: "Everything you need for the big day, and for discovering the city while you're here." },
-  hero_registry_btn: { es: "Lista de boda", en: "Wedding registry" },
+  hero_registry_btn: { es: "Lista de boda", en: "Wedding gifts" },
 
   home_photo_title: { es: "Foto Explorer", en: "Photo Explorer" },
   home_photo_desc:  { es: "Un juego de pistas por la ciudad. Encuentra el lugar y consigue tu sello.", en: "A clue-hunting game around the city. Find the spot and earn your stamp." },
