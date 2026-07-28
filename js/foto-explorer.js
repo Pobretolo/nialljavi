@@ -457,19 +457,31 @@ function getYoutubeEmbedUrl(url) {
 }
 
 function rewardHtml(ch, lang) {
-  const rewardText = (ch.reward[lang] || "").replace(/\n/g, "<br><br>");
   const embedUrl = ch.video ? getYoutubeEmbedUrl(ch.video) : null;
+  const videoHtml = embedUrl ? `
+    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;margin:16px 0;">
+      <iframe src="${embedUrl}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>` : "";
+
+  let rewardText = ch.reward[lang] || "";
+  let bodyHtml;
+  if (embedUrl && rewardText.includes("[[VIDEO]]")) {
+    // El vídeo se coloca exactamente donde esté el marcador [[VIDEO]] en el texto
+    const parts = rewardText.split("[[VIDEO]]");
+    bodyHtml = parts
+      .map((part) => `<p>${part.replace(/\n/g, "<br><br>")}</p>`)
+      .join(videoHtml);
+  } else {
+    // Sin marcador: el texto va entero, y el vídeo (si lo hay) al final
+    bodyHtml = `<p>${rewardText.replace(/\n/g, "<br><br>")}</p>${videoHtml}`;
+  }
+
   return `
     <div class="card" style="border-color:var(--gold);">
       <span class="eyebrow">${UI_TEXT.photo_reward_title[lang]}</span>
       <h3>${ch.title[lang]}</h3>
       ${ch.rewardImage ? `<img src="${ch.rewardImage}" alt="" style="border-radius:4px;margin:12px 0;aspect-ratio:4/3;object-fit:cover;object-position:${ch.imagePosition || "center"};">` : ""}
-      <p>${rewardText}</p>
-      ${embedUrl ? `
-        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;margin-top:16px;">
-          <iframe src="${embedUrl}" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
-      ` : ""}
+      ${bodyHtml}
     </div>
   `;
 }
