@@ -15,6 +15,7 @@ const UI_TEXT = {
   nav_fiestas:     { es: "Fiestas del Apóstol", en: "Fiestas del Apóstol" },
   nav_parisdakar:  { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   nav_datos:       { es: "Datos de interés", en: "Practical info" },
+  nav_registry:    { es: "Lista de boda", en: "Wedding gifts" },
 
   eyebrow_photo:      { es: "Minijuego", en: "Mini-game" },
   eyebrow_ver:        { es: "Ruta recomendada", en: "Recommended route" },
