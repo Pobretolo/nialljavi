@@ -26,7 +26,7 @@ const UI_TEXT = {
   eyebrow_datos:      { es: "Información práctica", en: "Practical information" },
 
   hero_eyebrow:    { es: "Nos casamos", en: "We're getting married" },
-  hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "1 August 2026 · Santiago de Compostela" },
+  hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "1st August 2026 · Santiago de Compostela" },
   hero_sub:        { es: "Todo lo que necesitas para el gran día y para descubrir la ciudad mientras estás por aquí.", en: "Everything you need for the big day, and for discovering the city while you're here." },
   hero_registry_btn: { es: "Lista de boda", en: "Wedding gifts" },
 
