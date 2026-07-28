@@ -1596,11 +1596,11 @@ const PARIS_DAKAR_ITEMS = [
     }
   },
   {
-    name: "100 Montaditos",
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=100+Montaditos+R%C3%BAa+do+Franco+56+Santiago+de+Compostela",
+    name: "La Jefatura do Franco",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=La+Jefatura+do+Franco+R%C3%BAa+do+Franco+56+Santiago+de+Compostela",
     tip: {
-      es: "Rúa do Franco, 56. En la ruta original esta parada era el bar Nova Galicia; hoy es un 100 Montaditos, la cadena de cervecería y montaditos a 1€.",
-      en: "Rúa do Franco, 56. On the original route this stop was the bar Nova Galicia; today it's a 100 Montaditos, the chain known for its €1 mini sandwiches."
+      es: "Rúa do Franco, 56. En la ruta original esta parada era el bar Nova Galicia, y después pasó a ser un 100 Montaditos; hoy, tras su cierre, es La Jefatura do Franco, bar de vinos, tapas y raciones abierto de 8:00 a 00:00 todo el año.",
+      en: "Rúa do Franco, 56. On the original route this stop was the bar Nova Galicia, and later became a 100 Montaditos; now, after its closure, it's La Jefatura do Franco, a wine, tapas and portions bar open from 8 am to midnight all year round."
     }
   },
   {

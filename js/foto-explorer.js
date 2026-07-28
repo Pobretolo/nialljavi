@@ -51,6 +51,19 @@ function distanceMeters(lat1, lng1, lat2, lng2) {
 /* Encuentra el índice del reto más cercano al punto de referencia (solo
    entre los que ya tienen lat/lng). Ese va a ser el punto de partida. */
 function findNearestChallengeIndex(refPoint) {
+  // "Trampa" a propósito: dentro de la Praza do Obradoiro siempre empezamos
+  // por el Hostal dos Reis Católicos, para no liarlo con la Catedral, la
+  // Iglesia de San Fructuoso o el Arco de Xelmírez, que en algunos puntos
+  // de la plaza podrían salir técnicamente más cerca.
+  const obradoiroAnchor = STARTING_POINTS.find((p) => p.id === "obradoiro");
+  if (obradoiroAnchor) {
+    const distToObradoiro = distanceMeters(refPoint.lat, refPoint.lng, obradoiroAnchor.lat, obradoiroAnchor.lng);
+    if (distToObradoiro <= 80) {
+      const hostalIndex = PHOTO_CHALLENGES.findIndex((c) => c.id === "reto-01");
+      if (hostalIndex !== -1) return hostalIndex;
+    }
+  }
+
   let bestIndex = 0;
   let bestDist = Infinity;
   PHOTO_CHALLENGES.forEach((ch, index) => {
@@ -157,7 +170,7 @@ let feWatchId = null;
 let feCurrentPos = null;
 let feDeviceHeading = null; // grados 0-360, o null si no hay brújula
 let feNotifiedArrival = new Set(); // ids de retos ya notificados esta sesión
-const FE_ARRIVAL_RADIUS_M = 40;
+const FE_ARRIVAL_RADIUS_M = 15;
 
 /* Rumbo inicial (bearing) en grados de un punto A a un punto B */
 function getBearing(lat1, lng1, lat2, lng2) {
