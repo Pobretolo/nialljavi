@@ -9,7 +9,7 @@
    Progreso guardado en localStorage del navegador de cada invitado.
    ========================================================================== */
 
-const PROGRESS_KEY = "guia_foto_explorer_progress";
+const PROGRESS_KEY = "boda_foto_explorer_progress";
 let feReferencePoint = null; // {lat, lng} usado solo para elegir el punto de partida
 
 function getProgress() {

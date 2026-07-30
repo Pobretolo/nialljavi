@@ -4,7 +4,7 @@
    Las paradas "opcionales" se muestran aparte y no cuentan para el sello.
    ========================================================================== */
 
-const PD_PROGRESS_KEY = "guia_paris_dakar_progress";
+const PD_PROGRESS_KEY = "boda_paris_dakar_progress";
 
 function pdGetProgress() {
   try {

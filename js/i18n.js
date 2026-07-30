@@ -15,6 +15,7 @@ const UI_TEXT = {
   nav_fiestas:     { es: "Fiestas del Apóstol", en: "Fiestas del Apóstol" },
   nav_parisdakar:  { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   nav_datos:       { es: "Datos de interés", en: "Practical info" },
+  nav_registry:    { es: "Lista de boda", en: "Wedding gifts" },
 
   eyebrow_photo:      { es: "Minijuego", en: "Mini-game" },
   eyebrow_ver:        { es: "Ruta recomendada", en: "Recommended route" },
@@ -25,9 +26,10 @@ const UI_TEXT = {
   eyebrow_parisdakar: { es: "Tradición compostelana", en: "Compostela tradition" },
   eyebrow_datos:      { es: "Información práctica", en: "Practical information" },
 
-  hero_eyebrow:    { es: "Guía de viaje", en: "Travel guide" },
-  hero_date:       { es: "Camino, historia y buena mesa", en: "The Camino, history, and good food" },
-  hero_sub:        { es: "Todo lo que necesitas para descubrir la ciudad mientras estás por aquí.", en: "Everything you need for discovering the city while you're here." },
+  hero_eyebrow:    { es: "Nos casamos", en: "We're getting married" },
+  hero_date:       { es: "1 de agosto de 2026 · Santiago de Compostela", en: "1st August 2026 · Santiago de Compostela" },
+  hero_sub:        { es: "Todo lo que necesitas para el gran día y para descubrir la ciudad mientras estás por aquí.", en: "Everything you need for the big day, and for discovering the city while you're here." },
+  hero_registry_btn: { es: "Lista de boda", en: "Wedding gifts" },
 
   home_photo_title: { es: "Foto Explorer", en: "Photo Explorer" },
   home_photo_desc:  { es: "Un juego de pistas por la ciudad. Encuentra el lugar y consigue tu sello.", en: "A clue-hunting game around the city. Find the spot and earn your stamp." },
@@ -45,7 +47,7 @@ const UI_TEXT = {
   home_comer_desc:  { es: "Nuestros sitios de confianza para comer bien en Santiago.", en: "Our trusted spots to eat well in Santiago." },
 
   home_fiestas_title: { es: "Fiestas del Apóstol", en: "Fiestas del Apóstol" },
-  home_fiestas_desc:  { es: "El programa oficial de las fiestas patronales, del 22 al 31 de julio.", en: "The official program for the patron saint festivities, 22 to 31 July." },
+  home_fiestas_desc:  { es: "El programa oficial del 22 al 31 de julio, justo antes de la boda.", en: "The official program from 22 to 31 July, right before the wedding." },
 
   home_parisdakar_title: { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
   home_parisdakar_desc:  { es: "La mítica ruta de bares de los estudiantes compostelanos, convertida en pasaporte de sellos.", en: "Santiago students' legendary bar route, turned into a stamp passport." },
@@ -53,7 +55,7 @@ const UI_TEXT = {
   home_datos_title: { es: "Datos de interés", en: "Practical info" },
   home_datos_desc:  { es: "Teléfonos, transporte y otra información práctica para el día a día en Santiago.", en: "Phone numbers, transport and other practical info for getting around Santiago." },
 
-  footer_text: { es: "Guía no oficial de Santiago de Compostela", en: "An unofficial guide to Santiago de Compostela" },
+  footer_text: { es: "Hecho con cariño para Niall & Javi", en: "Made with love for Niall & Javi" },
 
   page_photo_title: { es: "Foto Explorer", en: "Photo Explorer" },
   page_photo_sub: {
@@ -103,8 +105,8 @@ const UI_TEXT = {
 
   page_salir_title: { es: "¿Por dónde salir?", en: "Nightlife guide" },
   page_salir_sub: {
-    es: "Santiago no compite en tamaño con Madrid o Barcelona, pero sí en ambiente: al ser ciudad universitaria y de peregrinación, cada noche mezcla a estudiantes, vecinos, turistas y peregrinos en un público muy diverso. Filtra abajo por lo que te apetezca esta noche.",
-    en: "Santiago doesn't compete with Madrid or Barcelona in size, but it does in atmosphere: as a university and pilgrimage city, every night mixes students, locals, tourists, and pilgrims into a wonderfully varied crowd. Filter below by whatever you're in the mood for tonight."
+    es: "Santiago no compite en tamaño con Madrid o Barcelona, pero sí en ambiente: al ser ciudad universitaria y de peregrinación, cada noche mezcla a estudiantes, vecinos, turistas y peregrinos en un público muy diverso. No existe un \"barrio gay\" como Chueca, pero toda la ciudad es gay friendly — los marcados como \"Mayoritariamente gay\" son, además, los referentes más claros del ambiente LGTBIQ+. Filtra abajo por lo que te apetezca esta noche.",
+    en: "Santiago doesn't compete with Madrid or Barcelona in size, but it does in atmosphere: as a university and pilgrimage city, every night mixes students, locals, tourists, and pilgrims into a wonderfully varied crowd. There's no \"gay district\" like Chueca, but the whole city is gay friendly — the ones marked \"Predominantly gay\" are the clearest go-to spots for the LGBTQI+ scene. Filter below by whatever you're in the mood for tonight."
   },
   salir_filter_music: { es: "Música", en: "Music" },
   salir_filter_tapa: { es: "Tapa con la bebida", en: "Tapa with your drink" },
@@ -147,13 +149,13 @@ const UI_TEXT = {
 
   page_fiestas_title: { es: "Fiestas del Apóstol 2026", en: "Fiestas del Apóstol 2026" },
   page_fiestas_sub: {
-    es: "El programa oficial de las fiestas patronales de Santiago.",
-    en: "The official program for Santiago's patron saint festivities."
+    es: "El programa de las fiestas patronales, justo antes de la boda.",
+    en: "The program for the patron saint festivities, right before the wedding."
   },
-  fiestas_closing_night: { es: "Cierre de fiestas", en: "Closing night" },
+  fiestas_wedding_eve: { es: "Víspera de la boda", en: "Night before the wedding" },
   fiestas_all_past: {
-    es: "Las Fiestas del Apóstol de este año ya han terminado. ¡Hasta el año que viene!",
-    en: "This year's Fiestas del Apóstol have already wrapped up. See you next year!"
+    es: "Las Fiestas del Apóstol de este año ya han terminado. ¡Nos vemos en la boda!",
+    en: "This year's Fiestas del Apóstol have already wrapped up. See you at the wedding!"
   },
 
   page_parisdakar_title: { es: "Pasaporte París-Dakar", en: "Paris-Dakar passport" },
@@ -193,7 +195,7 @@ const UI_TEXT = {
 };
 
 function getLang() {
-  const stored = localStorage.getItem("guia_lang");
+  const stored = localStorage.getItem("boda_lang");
   if (stored) return stored;
   return detectDeviceLang();
 }
@@ -207,7 +209,7 @@ function detectDeviceLang() {
 }
 
 function setLang(lang) {
-  localStorage.setItem("guia_lang", lang);
+  localStorage.setItem("boda_lang", lang);
   applyLang();
 }
 
