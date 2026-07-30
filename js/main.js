@@ -83,7 +83,7 @@ function renderComer() {
     const ratingHtml = typeof item.rating === "number" ? `
       <div class="rings-rating" style="margin-bottom:2px;" title="Google: ${item.rating}/5">
         ${Array.from({ length: 5 }).map((_, i) => `<span class="ring-icon ${i < Math.round(item.rating) ? "filled" : ""}">${ICONS.ring()}</span>`).join("")}
-        <span style="font-family:var(--font-mono);font-size:0.72rem;color:#6b654f;margin-left:4px;">${item.ratingApprox ? "~" : ""}${item.rating} · Google</span>
+        <span style="font-family:var(--font-mono);font-size:0.72rem;color:#4a5560;margin-left:4px;">${item.ratingApprox ? "~" : ""}${item.rating} · Google</span>
       </div>` : "";
 
     const priceHtml = typeof item.price === "number" ? `
